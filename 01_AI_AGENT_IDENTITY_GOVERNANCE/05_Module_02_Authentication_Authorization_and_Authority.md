@@ -604,7 +604,7 @@ The five-question model and the ORION case are original learning constructs for 
 
 Completing this module supports a claim that a learner can lead and challenge the authentication-to-consequence control discussion for enterprise agents.
 
-It does not support a claim that he personally configured SSO, OAuth, OIDC, token services, policy engines, or production authorization controls.
+It does not support a claim that the learner personally configured SSO, OAuth, OIDC, token services, policy engines, or production authorization controls.
 
 
 # Public learning package
