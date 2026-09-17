@@ -28,6 +28,9 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 10. [Module 3 — OAuth, OIDC, Tokens, and Delegation](./06_Module_03_OAuth_OIDC_Tokens_and_Delegation.md) — accepted for public learning use
 11. [Module 3 Participant Workbook](./exercises/05_Module_03_Participant_Workbook.md)
 12. [Module 3 Model Answer and Review Guide](./exercises/06_Module_03_Model_Answer_and_Review_Guide.md)
+13. [Module 4 — Credentials, Secrets, and Privileged Access](./07_Module_04_Credentials_Secrets_and_Privileged_Access.md) — accepted for public learning use
+14. [Module 4 Participant Workbook](./exercises/07_Module_04_Participant_Workbook.md)
+15. [Module 4 Model Answer and Review Guide](./exercises/08_Module_04_Model_Answer_and_Review_Guide.md)
 
 ## Suggested working folders
 
