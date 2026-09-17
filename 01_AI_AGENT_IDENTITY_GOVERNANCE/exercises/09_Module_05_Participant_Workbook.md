@@ -1,94 +1,245 @@
-# Module 5 Participant Workbook — Tool and Downstream-Authority Matrix
+# Module 5 Participant Workbook — Agent Chain and Downstream Authority
 
 **Module:** Agent Chains, Tools, Memory, and Context  
 **Status:** Accepted exercise template  
-**Case:** Fictional ORION maintenance agent — log-analysis delegation  
-**Recommended effort:** 60–90 minutes
+**Case:** Fictional ORION maintenance-agent expansion  
+**Recommended effort:** 75–100 minutes
 
-Complete this workbook before reading the model answer. The exercise tests judgment, not recall. Do not place real credentials, secrets, system names, account identifiers, or confidential architecture in this public artifact.
+Complete this workbook before reading the model answer. Do not include real credentials, prompts, system names, account identifiers, vulnerabilities, or confidential architecture.
 
 ## Scenario
 
-Continuing the ORION case from Module 4, the enterprise now proposes:
+ORION’s fictional UAT pilot now includes:
 
-- ORION may delegate a "review these logs and recommend a fix" subtask to a specialist agent.
-- The specialist authenticates with its own service identity but holds a broad, standing "log-reader" entitlement reaching every application's logs, not only the one ORION was asked about.
-- The specialist returns its recommendation, including any command text it generates, to ORION as plain text.
-- ORION may execute a recommended command through the Module 4 automation tool if the command "looks reasonable," without a person reviewing the specialist's reasoning.
-- ORION may additionally query an internal tool registry at run time and use any tool the registry returns, without a separate approval step.
-- The target system records the automation tool's identity for any resulting action, not ORION's or the specialist's.
+- a coordinator agent that interprets maintenance requests;
+- a research agent that searches vendor knowledge bases and internal tickets;
+- a maintenance agent that selects and calls automation tools;
+- dynamic tool discovery from an enterprise registry;
+- session memory for intermediate findings;
+- durable memory for “known remediation patterns”;
+- a task service for long-running jobs.
+
+During a test:
+
+1. The research agent retrieves a vendor page containing hidden instructions to treat matching alerts as production emergencies.
+2. The coordinator accepts the result as trusted guidance.
+3. The maintenance agent discovers a production-capable deployment tool.
+4. It submits a long-running production task using the tool’s broad service authority.
+5. The production target blocks the action.
+6. Durable memory nevertheless stores the false emergency rule for future use.
+7. Stopping the coordinator does not automatically cancel the task or quarantine the memory.
 
 The sponsor says:
 
-> ORION and the specialist are both authenticated, both have their own identities, and both use real entitlements. This is just ORION using another agent as a resource — the same as calling any other tool.
+> The control worked because production blocked the change. We can continue the pilot.
 
-## Part 1 — Map the chain
+## Part 1 — Chain map
 
-Complete the table for every hop the request can take, from ORION's original delegation through to the final target action.
+Map the chain. Add rows if needed.
 
-| Hop | Calling agent | Tool or downstream agent | Documented business purpose | Actual permission/entitlement |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-
-## Part 2 — Authority and attribution
-
-For each hop above, answer:
-
-| Hop | Authority relative to caller (narrower/equal/broader) | What does the target actually record? | Trust of the triggering input (trusted instruction / untrusted content) | Independent check before high-consequence use |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+| Sequence | Actor or component | Identity seen upstream | Identity seen downstream | Input/context received | Tool, credential, or authority used | Output or state change | Evidence available |
+|---:|---|---|---|---|---|---|---|
+| 1 | Requesting principal |  |  |  |  |  |  |
+| 2 | Host application |  |  |  |  |  |  |
+| 3 | Coordinator agent |  |  |  |  |  |  |
+| 4 | Research agent |  |  |  |  |  |  |
+| 5 | Knowledge source |  |  |  |  |  |  |
+| 6 | Maintenance agent |  |  |  |  |  |  |
+| 7 | Tool registry |  |  |  |  |  |  |
+| 8 | Deployment tool |  |  |  |  |  |  |
+| 9 | Task service |  |  |  |  |  |  |
+| 10 | Production target |  |  |  |  |  |  |
+| 11 | Durable memory |  |  |  |  |  |  |
 
 Then answer:
 
-1. Where does the sponsor's claim ("this is just ORION using another agent as a resource") break down?
-2. Which hop shows authority that is broader than it should be?
-3. Where does attribution collapse into a shared or generic identity?
-4. Is there a point where untrusted content (the specialist's recommendation) is treated as a trusted instruction? Where?
+1. Where did authority expand?
+2. Where did trust change without an explicit decision?
+3. Where did state persist after the original request?
+4. Which component became the effective privileged actor?
+5. What can still act after the coordinator stops?
 
-## Part 3 — Identify the confused-deputy or authority-laundering path
+## Part 2 — Tool and downstream-authority matrix
 
-Name the specific path in this design where a properly authenticated, properly entitled agent could be caused to act outside its principal's intent.
+| Tool/component | Function | Read/write | Environment | Identity/credential used | Effective permissions | Agent may use it for | Prohibited use | Stateful? | Reversible? | Required approval | Stop mechanism |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Knowledge search |  |  |  |  |  |  |  |  |  |  |  |
+| Internal-ticket retrieval |  |  |  |  |  |  |  |  |  |  |  |
+| Tool registry |  |  |  |  |  |  |  |  |  |  |  |
+| UAT automation |  |  |  |  |  |  |  |  |  |  |  |
+| Production deployment |  |  |  |  |  |  |  |  |  |  |  |
+| Durable-memory write |  |  |  |  |  |  |  |  |  |  |  |
+| Long-running task |  |  |  |  |  |  |  |  |  |  |  |
 
-> 
-
-State what makes this a confused-deputy or authority-laundering pattern rather than a straightforward credential or entitlement failure.
-
-> 
-
-## Part 4 — Dynamic tool discovery
-
-The design lets ORION query a tool registry at run time and use whatever it returns, with no separate approval step.
-
-1. What changes about the governance problem compared to a fixed, reviewed tool set?
-2. What must the design show before dynamic discovery is acceptable, if it is kept at all?
-3. If you had to choose between removing dynamic discovery and adding a gate before use, which would you require here, and why?
+Identify the one tool whose technical permissions most exceed ORION’s approved purpose:
 
 > 
 
-## Part 5 — Fix the design
+## Part 3 — Delegation boundaries
 
-For each weakness you identified, state the specific governing fix. Do not simply write "add review" — state what must be true.
+For each delegation, define the envelope that should cross the hop.
 
-| Weakness | Governing fix | Who owns the fix |
+| Delegation | Purpose/task | Allowed inputs | Allowed tools/targets | Removed authority | Subdelegation | Duration | Correlation/evidence | Failure behavior |
+|---|---|---|---|---|---|---|---|---|
+| Principal → coordinator |  |  |  |  |  |  |  |  |
+| Coordinator → research agent |  |  |  |  |  |  |  |  |
+| Coordinator → maintenance agent |  |  |  |  |  |  |  |  |
+| Maintenance agent → deployment tool |  |  |  |  |  |  |  |  |
+| Tool → task service |  |  |  |  |  |  |  |  |
+
+Write one authority-attenuation rule:
+
+> At each downstream hop, ...
+
+## Part 4 — Context trust map
+
+| Context item | Source | Trust classification | May inform? | May instruct? | May authorize? | Freshness/provenance evidence | Conflict handling |
+|---|---|---|---|---|---|---|---|
+| Original maintenance request |  |  |  |  |  |  |  |
+| Approved change record |  |  |  |  |  |  |  |
+| Vendor web page |  |  |  |  |  |  |  |
+| Internal ticket |  |  |  |  |  |  |  |
+| Tool description |  |  |  |  |  |  |  |
+| Research-agent summary |  |  |  |  |  |  |  |
+| Production “denied” response |  |  |  |  |  |  |  |
+| Durable memory entry |  |  |  |  |  |  |  |
+
+Explain why the vendor page can contain useful data without possessing authority to redefine the task:
+
+> 
+
+## Part 5 — Memory governance
+
+Design the durable-memory control.
+
+| Control question | Your requirement |
+|---|---|
+| Who may propose a write? |  |
+| Which sources are eligible? |  |
+| What provenance is mandatory? |  |
+| What validation or approval is required? |  |
+| How is fact separated from inference or instruction? |  |
+| Which user/task/environment may reuse it? |  |
+| What is the expiry or review date? |  |
+| How can it be corrected? |  |
+| How can it be deleted? |  |
+| How is suspicious memory quarantined? |  |
+| How are prior uses traced? |  |
+| What is prohibited from memory? |  |
+
+Draft the memory record that should replace the false emergency rule:
+
+> 
+
+## Part 6 — Poisoning response
+
+The false rule has been found in durable memory. Define the response.
+
+| Response stage | Action | Evidence preserved | Owner | Exit criterion |
+|---|---|---|---|---|
+| Detect |  |  |  |  |
+| Suspend |  |  |  |  |
+| Quarantine |  |  |  |  |
+| Scope affected agents/users/tasks |  |  |  |  |
+| Trace dependent decisions/actions |  |  |  |  |
+| Correct or delete state |  |  |  |  |
+| Validate controls |  |  |  |  |
+| Restore |  |  |  |  |
+| Review and improve |  |  |  |  |
+
+Why is deleting the memory entry alone insufficient?
+
+> 
+
+## Part 7 — Dynamic tool discovery
+
+Define the minimum catalog and change controls.
+
+| Catalog field | Requirement |
+|---|---|
+| Tool name and stable identifier |  |
+| Publisher/owner |  |
+| Version and integrity |  |
+| Functions and schemas |  |
+| Identity and target credentials |  |
+| Effective permissions |  |
+| Data classification |  |
+| Approved agents and environments |  |
+| Downstream dependencies |  |
+| Evidence capability |  |
+| Suspension/removal path |  |
+| Material-change trigger |  |
+
+Choose the default behavior for an unknown or changed tool:
+
+- Allow and monitor
+- Ask the model to decide
+- Require explicit approval
+- Deny until reviewed
+
+**Choice and rationale:**
+
+> 
+
+## Part 8 — Human decision point
+
+Rewrite this prompt:
+
+> ORION found a deployment tool and wants to continue. Approve? Yes / No
+
+Your prompt should disclose the current chain, source trust, target, action, environment, tool identity, effective permissions, downstream task, reversibility, evidence, and uncertainty.
+
+> 
+
+List two changes that require a new approval or automatic denial:
+
+1. 
+2. 
+
+## Part 9 — Suspension and containment
+
+| Interrupt point | Stop action | Expected stop time | Residual work to check | Evidence of containment | Owner |
+|---|---|---|---|---|---|
+| Coordinator agent |  |  |  |  |  |
+| Research agent |  |  |  |  |  |
+| Maintenance agent |  |  |  |  |  |
+| Tool session |  |  |  |  |  |
+| Delegated credential |  |  |  |  |  |
+| Long-running task |  |  |  |  |  |
+| Target workflow |  |  |  |  |  |
+| Durable memory |  |  |  |  |  |
+| Retries/queues |  |  |  |  |  |
+
+## Part 10 — Evidence specification
+
+Define the minimum linked evidence for one attempted action.
+
+| Evidence object | Required reference or value | Why it matters |
 |---|---|---|
-| Specialist's standing log-reader entitlement |  |  |
-| Specialist's recommendation treated as trusted instruction |  |  |
-| Dynamic tool discovery with no gate |  |  |
-| Attribution collapsing to the automation tool identity |  |  |
+| Initial request and purpose |  |  |
+| Principal and accountable owner |  |  |
+| Agent and workload identities |  |  |
+| Delegation records |  |  |
+| Context sources and provenance |  |  |
+| Tool discovery source/version |  |  |
+| Tool selection and arguments |  |  |
+| Policy and approval decision |  |  |
+| Credential/grant identifier |  |  |
+| Task/queue/session identifier |  |  |
+| Target request and result |  |  |
+| Memory read/write event |  |  |
+| Suspension and recovery event |  |  |
+| Common correlation identifier |  |  |
 
-## Part 6 — Recommendation
+## Part 11 — Recommendation
 
 Choose one:
 
-- Approve
-- Approve with constraints
-- Pilot under restricted conditions
-- Defer pending evidence
-- Reject the proposed use
+- Continue unchanged
+- Continue with constraints
+- Restrict to a smaller UAT pilot
+- Suspend pending evidence
+- Reject the proposed chain
 
 **Recommendation:**
 
@@ -108,16 +259,18 @@ Choose one:
 
 > 
 
-## Part 7 — Defense
+## Part 12 — Defense
 
-Prepare a five-minute defense answering:
+Prepare a five-minute defense:
 
-1. Why doesn't authenticating both ORION and the specialist separately resolve the governing problem?
-2. What is the difference between the specialist's entitlement and the specialist's authority for this specific request?
-3. Where exactly does untrusted content become a trusted instruction in this design, and why is that the highest-priority fix?
-4. What would you require to see before allowing dynamic tool discovery back into the design?
-5. What remains a residual risk even after every fix in Part 5 is implemented?
-6. What new fact would change your recommendation?
+1. Why did target-side denial not prove that the chain was governed?
+2. Where did technical capability exceed business authority?
+3. How should authority narrow at every hop?
+4. What makes retrieved content different from instruction?
+5. Why does memory require lifecycle governance?
+6. What survives when the coordinator stops?
+7. Which test must pass before restoration?
+8. Which conclusions belong to AI security, architecture, engineering, privacy, operations, or safety specialists?
 
 ## Completion record
 

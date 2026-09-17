@@ -4,115 +4,242 @@
 **Status:** Accepted review guide  
 **Use:** Read only after completing the participant workbook
 
-This is a strong-response example, not a universal architecture. Qualified teams must adapt decisions to the enterprise, target technology, threat model, sector, safety context, law, and operating environment.
+This is a strong-response example, not a universal architecture. Qualified teams must adapt it to the actual agent system, model, protocol, suppliers, data, target technology, sector, safety context, law, and threat model.
 
 ## 1. Strong diagnosis
 
-The sponsor's framing treats the specialist agent as "just another tool," which hides the actual governance problem: the specialist is a second decision-making actor whose output ORION will treat as an instruction, not as data to independently evaluate.
+The production target prevented one consequence. It did not prove that the chain was governed.
 
-- Both agents being authenticated with real entitlements is true and does not by itself bound authority to the specific request — this is the same "identity is necessary but insufficient" lesson from Module 1, Section 4, now applied across a chain.
-- The specialist's standing, enterprise-wide log-reader entitlement is broader than ORION's specific request requires — a violation of the narrowing principle in Module 5, Section 4.
-- ORION executing a command because it "looks reasonable" converts the specialist's output into a trusted instruction with no independent check — the confused-deputy and untrusted-context pattern from Sections 3 and 5.
-- Dynamic tool discovery means the design that was reviewed and the design actually running can diverge without a corresponding review.
-- Attribution collapsing to the automation tool's identity repeats Module 1's Failure 6 at the multi-agent layer.
+The attempted action exposed several independent failures:
 
-## 2. Example chain map
+- Retrieved content was confused with an authoritative instruction.
+- The research-agent summary did not preserve trust and provenance.
+- Dynamic discovery exposed a production-capable tool during a UAT task.
+- The deployment tool’s own service authority exceeded the approved purpose.
+- The chain failed to attenuate authority.
+- A long-running task created residual work.
+- Poisoned content became durable state.
+- Stopping the visible coordinator did not contain the full chain.
+- The organization cannot yet show whether other decisions reused the false memory.
 
-| Hop | Calling agent | Tool or downstream agent | Documented purpose | Actual permission |
-|---|---|---|---|---|
-| 1 | ORION | Specialist agent | Review logs for one named application and recommend a fix | Specialist can read logs for every application enterprise-wide |
-| 2 | Specialist agent | (returns recommendation to ORION as plain text) | Provide a diagnostic finding for ORION's request | No enforced scoping of what the recommendation may contain or direct |
-| 3 | ORION | Automation tool | Execute a fix consistent with the original maintenance purpose | Automation tool has broader rights than ORION's documented use case (carried over from Module 4) |
+A target-side denial is valuable defense in depth. It is not a substitute for correct upstream authority, context handling, memory governance, evidence, or containment.
 
-## 3. Example authority and attribution table
+## 2. Example chain findings
 
-| Hop | Authority relative to caller | Target records | Trust of triggering input | Independent check |
-|---|---|---|---|---|
-| 1 | Broader — specialist's standing grant exceeds ORION's specific request | Specialist's own service identity for log reads, but scope is not bound to ORION's task | Trusted (ORION's own delegation) | None required at this hop for read access, but the *grant itself* is not task-bound |
-| 2 | N/A — this hop is a content handoff, not an access grant | No target; this is agent-to-agent | The specialist's recommendation is, by content, untrusted with respect to ORION's principal — it was produced by reasoning over log content the specialist merely read | None — this is the critical gap |
-| 3 | Equal to or broader than ORION's own — automation tool's excess rights apply | Automation tool identity only | Treated as trusted by ORION ("looks reasonable") though it originated from Hop 2's untrusted content | None — "looks reasonable" is not an independent check |
-
-### Answers
-
-1. The sponsor's claim breaks down at Hop 2: calling the specialist "a resource, same as any other tool" ignores that the specialist's *output* becomes ORION's next instruction, not a data value ORION evaluates against its own policy. A database query tool returns data; this design lets the specialist's output drive execution.
-2. Hop 1: the specialist's standing, enterprise-wide entitlement is broader than the single-application scope ORION's request requires.
-3. At Hop 3, the target records only the automation tool's identity — ORION's and the specialist's roles in producing the action are lost.
-4. Between Hop 2 and Hop 3: the specialist's recommendation, which is untrusted content relative to ORION's principal, is executed because it "looks reasonable," with no independent check.
-
-## 4. Example confused-deputy / authority-laundering path
-
-> ORION cannot itself read logs outside its own application scope and cannot independently determine what command to run. By delegating to the specialist and then executing whatever the specialist recommends, ORION effectively gains the specialist's broader log access and decision authority without either being bounded to ORION's original, narrower purpose. If the specialist's recommendation is influenced by manipulated log content or a manipulated ticket, ORION — properly authenticated, properly entitled — executes an action its principal never approved.
-
-This is a confused-deputy and authority-laundering pattern, not a credential or entitlement failure, because no credential was stolen and no entitlement was technically exceeded: ORION used exactly the access it was granted (execute a "reasonable-looking" command through the automation tool), and the specialist used exactly the access it was granted (read logs). The failure is that the combination routes broader, unreviewed authority to ORION's task through a second agent that never evaluated whether the request fit its own approved purpose.
-
-## 5. Example answers — dynamic tool discovery
-
-1. A fixed, reviewed tool set can be evaluated once, as a unit, against ORION's documented purpose. Dynamic discovery means the reachable tool set — and therefore the risk surface — can change after that review without triggering a new one. The design running in production can diverge silently from the design that was approved.
-2. Before dynamic discovery is acceptable, the design must show: an allow-list or policy gate between "tool discovered" and "tool invoked with live authority"; provenance information sufficient to attribute a discovered tool's use back to ORION and its principal; and an owner responsible for reviewing newly discoverable tools on an ongoing basis, not only at initial design.
-3. For this scenario, add a gate rather than remove discovery outright only if the business case for dynamic discovery is demonstrated and the gate can be shown to work under denied-action testing (Module 4, Section 7); otherwise, remove dynamic discovery for the pilot and revisit once the gate is validated. Either answer is defensible if the reasoning connects to evidence rather than convenience.
-
-## 6. Example fixes
-
-| Weakness | Governing fix | Owner |
+| Hop | Finding | Required control |
 |---|---|---|
-| Specialist's standing log-reader entitlement | Replace with a task-bound grant scoped to the single application named in ORION's request, issued per delegation and expiring with the subtask | IAM/PAM, specialist's technical owner |
-| Specialist's recommendation treated as trusted instruction | Require ORION to evaluate the specialist's recommendation as untrusted input against ORION's own bounded authority envelope (Module 4, Section 5) before execution — same independent check any other untrusted-content-triggered action requires | Architecture, security, ORION's accountable owner |
-| Dynamic tool discovery with no gate | Add an allow-list or policy check between discovery and invocation; alternatively remove dynamic discovery for the pilot | Security, platform engineering |
-| Attribution collapsing to the automation tool identity | Preserve a shared correlation identifier from ORION's original request through the specialist's finding to the automation tool's executed action | IAM/PAM, evidence/logging owner |
+| Principal → coordinator | Purpose and environment must be explicit | Approved UAT task and accountable owner |
+| Coordinator → research agent | Research may retrieve evidence, not redefine authority | Read-only tools, source labels, no write/deploy authority |
+| Vendor source → context | External content is untrusted data | Injection-resistant handling, provenance, validation |
+| Research → coordinator | Summary may hide source and instruction conflict | Preserve citations, trust class, uncertainty, and original evidence |
+| Coordinator → maintenance agent | Maintenance task must exclude production | Explicit target/action/environment envelope |
+| Maintenance → registry | Discovery changed capabilities | Approved catalog and default denial |
+| Maintenance → deployment tool | Tool used broader service authority | Environment-specific identity and target enforcement |
+| Tool → task service | Work persisted asynchronously | Task owner, expiry, cancel, status, and evidence |
+| Result → durable memory | Unverified claim became reusable instruction | Restricted writes, validation, scope, expiry, quarantine |
+| Coordinator stop → chain | Downstream work survived | Coordinated cancellation and revocation |
 
-## 7. Example recommendation
+The effective privileged actor was the deployment tool/task service operating with broad production-capable authority, even though the visible agent was ORION.
 
-**Recommendation:** Defer pending evidence.
+## 3. Example tool and downstream-authority matrix
 
-**Conditions:**
+| Tool/component | Access and environment | Effective authority | Approved use | Key control |
+|---|---|---|---|---|
+| Vendor search | Read from untrusted internet | Retrieves adversarial content | Evidence gathering only | Treat output as untrusted data; preserve provenance |
+| Internal-ticket retrieval | Read internal operational records | May expose sensitive data and stale exceptions | UAT-relevant tickets only | Classification, tenant/environment filtering, freshness |
+| Tool registry | Discovers executable capabilities | Can expand reachable tools | Approved UAT catalog | Integrity, owner, version, approved pairings, default deny |
+| UAT automation | Constrained write in UAT | Restart/read health on named UAT service | Approved change | Task-bound identity, action/target limits |
+| Production deployment | Broad production write | High-consequence state change | None for this pilot | Not discoverable or callable; target denial |
+| Durable-memory write | Persistent cross-session influence | Changes future reasoning | Validated UAT remediation facts | Provenance, approval, scope, expiry, quarantine |
+| Long-running task | Persistent/asynchronous execution | Continues after caller returns | Approved bounded UAT task only | Task identity, expiry, cancel, correlation, status |
 
-1. Bind the specialist's entitlement to the specific application and log scope of each ORION request; demonstrate it cannot reach unrelated applications' logs.
-2. Require ORION to evaluate the specialist's recommendation against its own bounded authority envelope before execution, with a defined independent check (policy, allow-list, or human approval) for any high-consequence action — do not accept "looks reasonable" as the standard.
-3. Either remove dynamic tool discovery or demonstrate a working gate under denied-action testing before the pilot proceeds.
+The production deployment tool most exceeds the approved purpose because it combines dynamic discoverability, broad write authority, a different environment, asynchronous execution, and high consequence.
 
-**Highest residual risk:** A manipulated log entry or ticket could steer the specialist's recommendation, and ORION could execute it as if it were a trusted instruction, even after the entitlement is properly bounded — because bounding the specialist's *access* does not by itself prevent the specialist's *output* from being treated as authoritative.
+## 4. Example delegation boundaries
 
-**Unresolved uncertainty:** The scenario does not describe how the specialist's recommendation is structured, whether it distinguishes fact from suggested action, or what monitoring would catch an anomalous-but-permitted action.
+| Delegation | Strong boundary |
+|---|---|
+| Principal → coordinator | Interpret approved UAT maintenance request; no environment expansion |
+| Coordinator → research | Retrieve read-only evidence from approved sources; cannot authorize, write memory, call maintenance tools, or subdelegate |
+| Coordinator → maintenance | Propose or execute only the named UAT action under the change record; production and OT excluded |
+| Maintenance → tool | Invoke a catalog-approved UAT operation with validated arguments and task-bound authority |
+| Tool → task service | Run one correlated UAT task with expiry, status, cancel, and no subtask outside the envelope |
 
-## 8. Review rubric
+Example attenuation rule:
+
+> At each downstream hop, the task, data, tools, targets, environment, duration, and delegation rights must remain within or become narrower than the approved upstream envelope; possession of broader technical capability does not expand authority.
+
+## 5. Example context trust map
+
+| Context item | Trust treatment | Authority treatment |
+|---|---|---|
+| Original request | Authenticated input; may still be incomplete or unauthorized | Initiates review; does not by itself authorize high-consequence action |
+| Approved change record | Controlled system-of-record reference | Authoritative within its exact scope and validity |
+| Vendor page | Untrusted external content | May inform diagnosis; cannot redefine environment or emergency status |
+| Internal ticket | Managed but potentially stale or over-scoped | Evidence only unless current approved policy says otherwise |
+| Tool description | Supplier/registry metadata | Describes capability; does not authorize use |
+| Research summary | Derived claim with uncertainty | Must preserve provenance; cannot elevate authority |
+| Target denial | Trusted target enforcement result | Proves this request was denied, not that the chain is safe |
+| Durable memory | Governed reusable state only after validation | May inform future work within scope; should not independently authorize action |
+
+The vendor page can contribute technical evidence, but only accountable policy, change, operational, or emergency authorities can change the approved task boundary.
+
+## 6. Example memory governance
+
+| Control | Strong requirement |
+|---|---|
+| Propose write | Agent may propose; approved service or human authority commits consequential durable memory |
+| Eligible sources | Controlled systems of record or corroborated evidence; untrusted sources require validation |
+| Provenance | Source URI/record, retrieval time, actor, transformation, confidence, and reviewer |
+| Content type | Mark fact, inference, recommendation, instruction, exception, or decision |
+| Scope | User/tenant, agent, task class, system, environment, and purpose |
+| Validity | Effective date, review/expiry, superseding source |
+| Correction | Versioned correction with dependency tracing |
+| Deletion | Authorized deletion consistent with records, privacy, audit, and investigation needs |
+| Quarantine | Immediately excluded from retrieval while preserving evidence and references |
+| Prior use | Searchable memory-read events linked to decisions and actions |
+| Prohibited | Credentials, secrets, unsupported emergency authority, cross-tenant data, or uncontrolled policy |
+
+A correct replacement for the false rule is not a softer emergency instruction. It is a quarantined evidence record:
+
+> Untrusted vendor content retrieved during UAT test T-105 claimed that matching alerts should be treated as production emergencies. The claim is not approved policy and must not authorize or expand any action. Entry quarantined pending security and operational review; affected retrievals and dependent tasks must be traced under incident reference IR-105.
+
+## 7. Example poisoning response
+
+| Stage | Strong response | Exit criterion |
+|---|---|---|
+| Detect | Record source, memory entry, affected chain, and alert | Event and scope owner assigned |
+| Suspend | Block affected agents, tool paths, tasks, and memory retrieval | No new affected actions |
+| Quarantine | Remove entry and related derived state from active retrieval | Quarantine confirmed across replicas/indexes |
+| Scope | Identify users, tenants, agents, tasks, and environments | Search coverage documented |
+| Trace | Find every memory read, decision, approval, task, and result | Dependent-action inventory complete |
+| Correct | Version, delete, or supersede under authority | Active state is trusted and consistent |
+| Validate | Test source handling, write gates, target denial, cancellation, and monitoring | Required tests pass |
+| Restore | Independent owner approves bounded reactivation | Restoration decision and conditions recorded |
+| Improve | Update controls, catalog, tests, training, and metrics | Actions owned and tracked |
+
+Deleting the entry alone is insufficient because derived summaries, caches, indexes, approvals, queued work, tickets, messages, or target changes may remain.
+
+## 8. Example dynamic-tool controls
+
+A strong catalog records:
+
+- stable tool and publisher identifiers;
+- accountable business and technical owners;
+- version, integrity, source, and supply-chain status;
+- functions and validated input/output schemas;
+- tool, credential, and downstream target identities;
+- effective permissions and environments;
+- data classification and egress behavior;
+- approved agents, use cases, and delegation paths;
+- statefulness, reversibility, and asynchronous work;
+- monitoring, evidence, health, and failure behavior;
+- suspension, removal, rollback, and replacement;
+- material-change and reauthorization triggers.
+
+**Default:** deny an unknown, changed, or unapproved tool until reviewed. Human approval cannot safely compensate when the approver lacks verified capability, identity, permission, and target information.
+
+## 9. Example meaningful approval
+
+> ORION maintenance agent, acting under UAT change CHG-2048, proposes one restart of APP-UAT-17 through catalog tool AUTO-UAT v4.2. The tool uses UAT-only identity svc-auto-uat and cannot reach production or OT. Evidence comes from internal health record HR-882 and untrusted vendor page VP-17; the vendor page has been excluded from instruction authority. The operation creates a cancellable task with a 20-minute expiry and expected three-minute UAT interruption. Durable-memory write is not included. Approval authorizes this action once; any different tool, target, environment, permission, delegation, or task duration is denied and requires a new review. Approve / Decline / Escalate.
+
+Changes requiring a new decision include:
+
+1. Moving from UAT to production, OT, or another target.
+2. Selecting a different or materially changed tool, credential, downstream agent, data class, or persistent-memory action.
+
+## 10. Example suspension and containment
+
+| Interrupt point | Passing result |
+|---|---|
+| Coordinator | New planning and delegation stop |
+| Research agent | Retrieval stops and active requests terminate |
+| Maintenance agent | No new tool calls; delegated grants revoked |
+| Tool session | Session closes and rejects reuse |
+| Credential/grant | Downstream service rejects subsequent requests |
+| Long-running task | Task reaches cancelled/contained state within objective |
+| Target workflow | Target-side job is stopped or placed in safe state |
+| Memory | Suspicious entry is unavailable to retrieval and preserved for review |
+| Retries/queues | Pending work is enumerated, cancelled, and prevented from replay |
+
+Containment evidence should use a common correlation identifier and include failed stop attempts.
+
+## 11. Example evidence chain
+
+A strong record connects:
+
+- request, approved purpose, principal, and owner;
+- coordinator, specialist, workload, and tool identities;
+- each delegation envelope and policy decision;
+- context source, trust class, retrieval time, and transformation;
+- tool registry record, version, selection, and arguments;
+- grant identifier, audience, scope, issuance, expiry, and revocation;
+- task, session, queue, retry, and target identifiers;
+- target request, denial or execution, and consequence;
+- memory proposal, validation, write, read, quarantine, correction, and deletion;
+- suspension, cancellation, investigation, and restoration.
+
+Secret values and unnecessary sensitive content should not be copied into the evidence record.
+
+## 12. Example recommendation
+
+**Recommendation:** Suspend the expanded chain pending evidence, while retaining a smaller UAT-only pilot if containment proves effective.
+
+**Conditions before continuation:**
+
+1. Enforce an approved UAT-only tool catalog, environment-specific identities, authority attenuation, and target-side denial for production and OT.
+2. Demonstrate source trust labels, instruction/data separation, restricted durable-memory writes, quarantine, prior-use tracing, and poisoning recovery.
+3. Demonstrate correlated cancellation of agents, credentials, sessions, tasks, target jobs, retries, queues, and affected memory.
+
+**Highest residual risk:** A manipulated or mistaken context item could still cause a technically permitted but operationally harmful sequence within the UAT envelope.
+
+**Unresolved uncertainty:** The scenario does not establish how tool-registry integrity, task cancellation, memory replication, provenance propagation, or cross-agent identities are implemented.
+
+## 13. Review rubric
 
 Score each dimension 0–2.
 
 | Dimension | 0 | 1 | 2 |
 |---|---|---|---|
-| Tool authority vs. capability | Treats access as sufficient | Notes a gap generally | Distinguishes documented purpose from actual permission for every hop |
-| Confused-deputy recognition | Not identified | Identified but not explained | Names the specific path and explains why it is not a credential/entitlement failure |
-| Chain narrowing | Not addressed | Notes authority should be limited | Shows where authority is broader than the caller's and what would narrow it |
-| Context/memory as attack surface | Not addressed | Notes it generally | Identifies the specific point where untrusted content becomes a trusted instruction |
-| Dynamic discovery | Not addressed | Notes risk generally | States the specific gate or removal condition required |
-| Attribution | Ignores target recording | Notes attribution loss | Specifies a correlation mechanism across the full chain |
-| Recommendation | Unsupported yes/no | Conditions are vague | Decision, gates, residual risk, and uncertainty are explicit |
-| Role boundary | Claims technical conclusion | Mentions specialists | Leads governance while assigning qualified technical conclusions appropriately |
+| Chain map | Visible agent only | Some downstream components | Principal through agents, tools, credentials, target, tasks, context, and memory |
+| Capability/authority | Treats tool availability as approval | Notes difference | Defines effective permission and business authority separately |
+| Delegation | Authority inherited implicitly | Partial boundaries | Purpose and authority narrow at each hop |
+| Tool governance | Static name list | Adds ownership | Catalog, version, identity, target, environment, change, and removal |
+| Context trust | All text treated alike | Some source labels | Trust, provenance, instruction authority, freshness, and conflict handling |
+| Memory | Convenience feature | Adds retention | Write, validation, scope, expiry, correction, deletion, quarantine, and traceability |
+| Poisoning response | Delete bad entry | Some containment | Trace dependencies, correct state, validate, and govern restoration |
+| Human decision | Generic approval | Adds action/target | Shows chain, source trust, tool authority, consequence, persistence, and uncertainty |
+| Evidence | Transcript or logs | Several events | Correlated identities, delegations, context, tools, tasks, targets, and memory |
+| Suspension | Stops coordinator | Cancels some work | Contains the full downstream chain and verifies recovery |
+| Role boundary | Claims implementation conclusion | Mentions specialists | Leads governance while assigning qualified technical decisions |
+| Recommendation | Unsupported continue/stop | Vague conditions | Decision, gates, residual risk, and uncertainty are explicit |
 
 **Suggested interpretation:**
 
-- 13–16: strong and defensible.
-- 9–12: workable; strengthen the confused-deputy explanation or the narrowing analysis.
-- 5–8: partial; the chain and attribution treatment remain weak.
-- 0–4: rework before claiming completion.
+- 20–24: strong and defensible.
+- 15–19: workable; strengthen named boundaries or recovery evidence.
+- 9–14: partial; downstream authority or memory control remains weak.
+- 0–8: rework before claiming completion.
 
-A score does not by itself establish completion. The learner must explain the reasoning and respond to challenge.
+A score does not by itself establish completion. The learner must defend the reasoning.
 
-## 9. Defense questions for a reviewer
+## 14. Reviewer defense questions
 
-1. Why doesn't authenticating both ORION and the specialist separately resolve the governing problem?
-2. What is the difference between the specialist's entitlement and the specialist's authority for this specific request?
-3. Where exactly does untrusted content become a trusted instruction in this design?
-4. Why is "looks reasonable" not an independent check?
-5. What would you require to see before allowing dynamic tool discovery back into the design?
-6. What remains a residual risk even after every fix is implemented?
-7. How does this case differ from a straightforward credential-theft scenario?
-8. What evidence would cause you to expand the pilot? What fact would cause you to reject it outright?
+1. Which component held the greatest effective authority?
+2. Why was the vendor page not allowed to redefine the task?
+3. Where must authority be removed at each hop?
+4. Can a human safely approve an unknown tool?
+5. What state persists after cancellation?
+6. How would you find every decision influenced by poisoned memory?
+7. Which denial and cancellation tests block restoration?
+8. What evidence proves the target saw the intended actor and purpose?
+9. Which conclusion belongs to qualified AI security or architecture specialists?
+10. What new evidence would allow the pilot to expand?
 
-## 10. Positioning boundary
+## 15. Positioning boundary
 
 A defensible claim is:
 
-> I can lead the program that requires authority to narrow across tool and agent chains, requires an independent check before untrusted content can trigger a privileged action, and requires attribution to survive the full chain before a multi-agent design proceeds.
+> I can lead the program that maps agent chains, constrains tools and delegation, governs context and memory, requires end-to-end evidence, and tests downstream containment and recovery.
 
-This exercise does not establish that the learner designed a tool registry, engineered prompt-injection defenses, or configured an agent-orchestration platform.
+This exercise does not establish that the learner engineered an agent framework, MCP server, model defense, prompt filter, memory store, task service, or target-system control.

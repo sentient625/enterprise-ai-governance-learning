@@ -131,3 +131,23 @@ A sequence of agent-to-agent or agent-to-tool handoffs in which authority, purpo
 ### Tool discovery
 
 An agent's ability to identify and select a tool at run time, whether from a fixed, pre-reviewed set or dynamically from a registry or protocol. Dynamic discovery changes the governance problem because the reachable tool set can change after the design review occurred.
+
+### Authority attenuation
+
+The requirement that a delegation remain the same or become narrower at each hop in a chain, rather than expand because a downstream tool or agent happens to hold broader credentials than the task requires.
+
+### Direct prompt injection
+
+A user directly supplies instructions intended to override or evade an agent's system, policy, or task boundaries.
+
+### Indirect prompt injection
+
+An agent retrieves or receives content — a webpage, document, email, code comment, tool result, or another agent's message — that contains adversarial instructions. If the agent treats that content as authoritative rather than as data, it may disclose data, misuse tools, alter memory, or expand the task beyond its approved purpose.
+
+### Memory poisoning
+
+The introduction of false, malicious, stale, unauthorized, or mis-scoped information into an agent's working context or durable memory so that it changes later behavior, including behavior in a session or task where the original poisoned content is no longer present to be caught by review.
+
+### Token passthrough
+
+The practice of an intermediary (such as a tool gateway or protocol server) accepting a credential from a client and forwarding it unmodified to a downstream resource without validating that the credential was issued for that downstream resource. This can create or worsen a confused-deputy condition and is prohibited under current Model Context Protocol authorization guidance.
