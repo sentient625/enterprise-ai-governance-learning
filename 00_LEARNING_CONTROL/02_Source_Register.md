@@ -22,6 +22,10 @@ This register records the small primary source set used by the active learning p
 | SRC-014 | [RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens](https://datatracker.ietf.org/doc/html/rfc8705) | IETF | Standards Track RFC | Sender-constrained token category using mutual TLS and certificate binding |
 | SRC-015 | [RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession](https://datatracker.ietf.org/doc/html/rfc9449) | IETF | Standards Track RFC | Sender-constrained token category using DPoP |
 | SRC-016 | [OAuth 2.1 Authorization Framework](https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/) | IETF OAuth Working Group | Active Internet-Draft version 16, updated 2026-09-02; work in progress | Emerging-version status context only; not used as a final normative source |
+| SRC-017 | [NIST SP 800-53 Rev. 5, Update 1](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | Final Special Publication; published 2020, updated 2021 | Access control, separation of duties, least privilege, authenticator management, audit, and control vocabulary |
+| SRC-018 | [NIST SP 800-207 — Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | NIST | Final Special Publication, August 2020 | Resource-focused access; explicit authentication and authorization |
+| SRC-019 | [NIST SP 800-82 Rev. 3 — Guide to Operational Technology Security](https://csrc.nist.gov/pubs/sp/800/82/r3/final) | NIST | Final Special Publication, September 2023 | OT performance, reliability, safety, security, and environment context |
+| SRC-020 | [NIST IR 8587 — Protecting Tokens and Assertions from Forgery, Theft, and Misuse](https://csrc.nist.gov/pubs/ir/8587/final) | NIST | Final Interagency Report, September 2026 | Token and assertion protection, key management, verification, lifecycle controls, and monitoring |
 
 ## Internal conceptual sources
 
