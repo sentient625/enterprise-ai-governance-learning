@@ -15,6 +15,8 @@ This register records the small primary source set used by the active learning p
 | SRC-007 | [RFC 6749 — OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc6749) | IETF | RFC; updated by later specifications | Delegated authorization vocabulary |
 | SRC-008 | [RFC 9700 — OAuth 2.0 Security Best Current Practice](https://datatracker.ietf.org/doc/html/rfc9700) | IETF | Best Current Practice | OAuth security posture |
 | SRC-009 | [SPIFFE standards](https://spiffe.io/docs/latest/spiffe-specs/) | SPIFFE project | Living standards set | Workload identity vocabulary |
+| SRC-010 | [NIST SP 800-63-4 — Digital Identity Guidelines](https://pages.nist.gov/800-63-4/sp800-63.html) | NIST | Final publication, July 2025; supersedes SP 800-63-3 | Authentication, assurance, federation, and relying-party concepts; human-subject scope noted |
+| SRC-011 | [OpenID Connect Core 1.0 incorporating errata set 2](https://openid.net/specs/openid-connect-core-1_0.html) | OpenID Foundation | Final specification | Authentication identity layer used to distinguish OIDC from OAuth authorization |
 
 ## Internal conceptual sources
 
