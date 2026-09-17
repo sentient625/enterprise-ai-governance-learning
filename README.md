@@ -58,11 +58,26 @@ Use the package in this order:
 
 As with Module 1, publication of the content does not establish any learner’s completion.
 
+### Module 3 — OAuth, OIDC, Tokens, and Delegation
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 3 teaches learners to distinguish OAuth from OpenID Connect; separate access, ID, and refresh tokens; trace agents, workloads, clients, token exchanges, tools, and targets; and identify where audience, scope, lifetime, or delegation can expand authority.
+
+Use the package in this order:
+
+1. [Read the Module 3 lesson](./01_AI_AGENT_IDENTITY_GOVERNANCE/06_Module_03_OAuth_OIDC_Tokens_and_Delegation.md).
+2. [Complete the Module 3 participant workbook](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/05_Module_03_Participant_Workbook.md).
+3. [Review the Module 3 model answer and review guide](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/06_Module_03_Model_Answer_and_Review_Guide.md).
+4. [Read the Module 3 public-release record](./00_LEARNING_CONTROL/08_Module_03_Public_Release_Record.md).
+
+The module develops program-lead recognition and challenge skills. It does not teach protocol configuration.
+
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
-| 1 | AI-agent identity, security, and governance | Active; Modules 1 and 2 accepted |
+| 1 | AI-agent identity, security, and governance | Active; Modules 1–3 accepted |
 | 2 | Operationalizing AI governance | Planned |
 | 3 | Financial decision fluency | Planned |
 
