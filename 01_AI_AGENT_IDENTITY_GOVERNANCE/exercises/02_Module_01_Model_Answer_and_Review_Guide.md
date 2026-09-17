@@ -1,25 +1,20 @@
-# Identity Classification and Accountability Map — Module 1
+# Module 1 — Model Answer and Review Guide
 
-**Artifact ID:** P1-A01  \
+**Package ID:** P1-M01-MODEL  \
 **Related module:** P1-M01 — Acting Agents and Identity Types  \
-**Version:** 0.1  \
-**Status:** Working draft for learner review  \
+**Version:** 1.0  \
+**Status:** Accepted for public learning use  \
 **Case type:** Fictional and illustrative  \
-**Prepared:** 2026-09-17
+**Published:** 2026-09-17  \
+**License:** CC BY 4.0
 
-## Use and completion boundary
+## Use boundary
 
-This document completes the analytical structure required by Module 1, but it does not by itself establish Michael Kaplan’s demonstrated competence.
+Complete the Module 1 Participant Workbook before consulting this guide.
 
-Before this artifact can move to `completed_work/`, Michael must:
+This document illustrates strong executive and program-level reasoning. It is not the only defensible answer, and reading it does not establish a learner’s competence. Learners should compare their analysis, revise judgments they cannot defend, and preserve remaining uncertainty.
 
-1. Review each classification and revise any conclusion he cannot defend.
-2. Answer the challenge questions without relying on the answer guide.
-3. Explain one selected transaction from origin through consequence.
-4. Distinguish program-leadership requirements from engineering decisions.
-5. Complete the learner attestation at the end of the document.
-
-This is executive and program-level learning material. It is not production architecture, technical implementation guidance, or a regulatory conclusion.
+This is educational material—not production architecture, technical implementation guidance, or a regulatory conclusion.
 
 # 1. Analytical model
 
@@ -305,7 +300,7 @@ These questions are intentionally unresolved. Program leadership requires the ri
 
 # 11. Learner defense
 
-Michael should answer these questions without reading the scenario conclusions.
+A learner should answer these questions without reading the scenario conclusions.
 
 1. Why is the calendar assistant an identity-governance concern even if it is not a traditional administrator?
 2. In Scenario B, who delegates the restart, and why is the ticket alone insufficient?
@@ -318,42 +313,25 @@ Michael should answer these questions without reading the scenario conclusions.
 9. What would cause you to prohibit the OT use case?
 10. Which decisions belong to the program leader, and which require qualified technical or control owners?
 
-## Review record
+## Self-review checklist
 
-| Review item | Status | Learner notes |
-|---|---|---|
-| Four scenario classifications reviewed | Pending | |
-| Selected transaction trace defended | Pending | |
-| Ownership and delegation distinctions defended | Pending | |
-| Privilege determinations defended | Pending | |
-| Five qualified-owner questions accepted or revised | Pending | |
-| Two-minute explanation delivered without script | Pending | |
-| Unsupported claims removed | Pending | |
-| Ready to move to `completed_work/` | No | |
+- [ ] I completed the participant workbook before reading this guide.
+- [ ] I can explain where my analysis differs and why.
+- [ ] I can defend the selected transaction trace.
+- [ ] I can distinguish accountable ownership from transaction-specific delegation.
+- [ ] I classified privilege by consequence rather than account label.
+- [ ] I identified where the agent can disappear behind another identity.
+- [ ] I routed unresolved decisions to qualified owners.
+- [ ] I can deliver the two-minute explanation without reading it.
+- [ ] I have not represented this exercise as production architecture or implementation experience.
 
-## Learner attestation
+## Completion boundary
 
-Complete only after review and defense:
-
-> I reviewed and revised this analysis, can explain the governing judgments in my own words, and can distinguish my program-leadership role from the responsibilities of qualified architects, engineers, security specialists, OT authorities, auditors, and legal or regulatory professionals.
-
-**Learner:** Michael Kaplan  \
-**Date:**  \
-**Remaining uncertainty:**  
-
-## Promotion rule
-
-After the learner defense:
-
-1. Resolve all pending review items.
-2. Change the artifact status from **Working draft** to **Completed learning artifact**.
-3. Move the file to `01_AI_AGENT_IDENTITY_GOVERNANCE/completed_work/`.
-4. Update P1-A01 learning status and the Priority 1 Week 1 milestone.
-5. Do not promote it to a portfolio artifact until the separate accuracy, positioning, confidentiality, and unsupported-claims review is complete.
+A learner may preserve a revised workbook as completion evidence only after being able to defend the reasoning. This model answer must not be submitted unchanged as the learner’s work.
 
 # 12. Source basis
 
-This working artifact applies the concepts and source set already governed in P1-M01:
+This model answer applies the concepts and source set governed in P1-M01:
 
 - NIST AI Agent Standards Initiative.
 - NCCoE Software and AI Agent Identity and Authorization project.
@@ -364,4 +342,6 @@ Source status and links remain controlled in the repository Source Register and 
 
 ---
 
-**Positioning boundary:** This artifact demonstrates program-level control reasoning only after learner review and defense. It does not demonstrate hands-on design or implementation of agent identity, OAuth, SPIFFE, PAM, OT, or production security controls.
+**Positioning boundary:** Use of this model answer does not demonstrate hands-on design or implementation of agent identity, OAuth, SPIFFE, PAM, OT, or production security controls.
+
+Created by Michael A. Kaplan. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

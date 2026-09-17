@@ -5,6 +5,10 @@
 **Estimated time:** 75–90 minutes  
 **Required output:** Identity-classification and accountability analysis  
 **Professional level:** Executive and program leadership
+**Version:** 1.0  
+**Status:** Accepted for public learning use  
+**Source status checked:** 2026-09-17  
+**License:** CC BY 4.0
 
 ## Why this module matters
 
@@ -35,7 +39,7 @@ NIST’s AI Agent Standards Initiative describes agents as capable of autonomous
 
 ## Learning outcomes
 
-After completing this module, Michael should be able to:
+After completing this module, a learner should be able to:
 
 1. Explain when an AI capability becomes an identity-governance concern.
 2. Distinguish human, service, workload, and agent identities.
@@ -642,7 +646,7 @@ Use this as a model, not a script to memorize:
 
 ## Credible answer
 
-> My experience is at the program-leadership level rather than as the identity engineer. I led a multi-year privileged-access transformation across corporate IT, protected OT, and test environments involving more than 7,000 privileged accounts. The connection to AI agents is direct: once an agent can act through enterprise systems, it becomes a non-human identity and potentially a privileged one. The enterprise has to distinguish the agent from the human owner, constrain its authority by purpose and environment, preserve the delegation and evidence chain, and revoke it independently. I can lead the program that connects IAM/PAM, architecture, cybersecurity, operations, audit, vendors, and accountable executives around those decisions.
+> My experience is at the program-leadership level rather than as the identity engineer. The connection to AI agents is direct: once an agent can act through enterprise systems, it becomes a non-human identity and potentially a privileged one. The enterprise has to distinguish the agent from the human owner, constrain authority by purpose and environment, preserve the delegation and evidence chain, and revoke the agent independently. I can lead the program that connects IAM/PAM, architecture, cybersecurity, operations, audit, vendors, and accountable executives around those decisions. I would add only verified examples from my own experience.
 
 ## Positioning boundary
 
@@ -666,6 +670,7 @@ The demonstrated claim is:
 
 ---
 
-**Prepared:** 2026-09-17  
-**Content status:** Ready for review  
-**Scope:** Executive and program-level learning. This is not an implementation standard or production architecture.
+**Published:** 2026-09-17  
+**Content status:** Accepted for public learning use  
+**Scope:** Executive and program-level learning. This is not an implementation standard or production architecture.  
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
