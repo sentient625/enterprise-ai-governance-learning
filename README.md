@@ -103,11 +103,26 @@ Use the package in this order:
 
 The module builds program-lead governance and challenge fluency across tool and agent chains. It does not teach agent-framework, tool-registry, or security-testing implementation.
 
+### Module 6 — Human Authority and Separation of Duties
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 6 teaches learners to classify agent actions as autonomous, monitored, prior approval, or prohibited; assign real human decision authority; separate incompatible roles; detect consent fatigue and automation bias; and establish timeout, escalation, intervention, and restoration controls.
+
+Use the package in this order:
+
+1. [Read the Module 6 lesson](./01_AI_AGENT_IDENTITY_GOVERNANCE/09_Module_06_Human_Authority_and_Separation_of_Duties.md).
+2. [Complete the Module 6 participant workbook](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/11_Module_06_Participant_Workbook.md).
+3. [Review the Module 6 model answer and review guide](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/12_Module_06_Model_Answer_and_Review_Guide.md).
+4. [Read the Module 6 public-release record](./00_LEARNING_CONTROL/11_Module_06_Public_Release_Record.md).
+
+The module develops decision-rights and operating-control judgment. It does not confer legal, safety, audit, architecture, or engineering authority.
+
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
-| 1 | AI-agent identity, security, and governance | Active; Modules 1–5 accepted |
+| 1 | AI-agent identity, security, and governance | Active; Modules 1–6 accepted |
 | 2 | Operationalizing AI governance | Planned |
 | 3 | Financial decision fluency | Planned |
 
