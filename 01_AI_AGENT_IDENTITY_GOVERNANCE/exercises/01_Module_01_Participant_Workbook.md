@@ -329,5 +329,5 @@ After completing this workbook:
 
 ---
 
-Created by Michael A. Kaplan. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Created by Michael Kaplan. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
