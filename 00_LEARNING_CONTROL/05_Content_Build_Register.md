@@ -199,7 +199,6 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 2 | P1-A02B | Complete the Module 2 participant workbook and defense | Create and defend the authentication-to-consequence boundary analysis |
 | 3 | P1-A02C | Complete the Module 3 participant workbook and defense | Create and defend the agent token-and-delegation chain |
 | 4 | P1-A02D | Complete the Module 4 participant workbook and defense | Create and defend the bounded privileged-authority analysis; do not submit the model answer as completed work |
-| 5 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 5 | P1-M05 | Build “Agent Chains, Tools, Memory, and Context” | Complete lesson, participant workbook, model answer, source review, and release record |
 | 6 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 7 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
