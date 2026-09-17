@@ -21,6 +21,7 @@ This register records the small primary source set used by the active learning p
 | SRC-013 | [RFC 8693 — OAuth 2.0 Token Exchange](https://datatracker.ietf.org/doc/html/rfc8693) | IETF | Standards Track RFC | Token exchange, delegation, impersonation, subject, and actor relationships |
 | SRC-014 | [RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens](https://datatracker.ietf.org/doc/html/rfc8705) | IETF | Standards Track RFC | Sender-constrained token category using mutual TLS and certificate binding |
 | SRC-015 | [RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession](https://datatracker.ietf.org/doc/html/rfc9449) | IETF | Standards Track RFC | Sender-constrained token category using DPoP |
+| SRC-016 | [OAuth 2.1 Authorization Framework](https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/) | IETF OAuth Working Group | Active Internet-Draft version 16, updated 2026-09-02; work in progress | Emerging-version status context only; not used as a final normative source |
 
 ## Internal conceptual sources
 
