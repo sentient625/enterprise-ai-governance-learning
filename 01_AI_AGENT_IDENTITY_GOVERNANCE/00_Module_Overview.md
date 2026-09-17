@@ -22,7 +22,9 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 4. [Module 1 — Acting Agents and Identity Types](./04_Module_01_Acting_Agents_and_Identity_Types.md) — accepted for public learning use
 5. [Module 1 Participant Workbook](./exercises/01_Module_01_Participant_Workbook.md)
 6. [Module 1 Model Answer and Review Guide](./exercises/02_Module_01_Model_Answer_and_Review_Guide.md)
-7. [Module 2 — Authentication, Authorization, and Authority](./05_Module_02_Authentication_Authorization_and_Authority.md) — ready for review
+7. [Module 2 — Authentication, Authorization, and Authority](./05_Module_02_Authentication_Authorization_and_Authority.md) — accepted for public learning use
+8. [Module 2 Participant Workbook](./exercises/03_Module_02_Participant_Workbook.md)
+9. [Module 2 Model Answer and Review Guide](./exercises/04_Module_02_Model_Answer_and_Review_Guide.md)
 
 ## Suggested working folders
 

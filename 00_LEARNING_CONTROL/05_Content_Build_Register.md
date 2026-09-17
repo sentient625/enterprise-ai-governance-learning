@@ -58,7 +58,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 | ID | Module | Guide coverage | Core material required | Required exercise | Status | Next action |
 |---|---|---|---|---|---|---|
 | P1-M01 | Acting agents and identity types | Days 1–2 | Agent versus chatbot; human, service, workload, and agent identities; when an agent becomes privileged | Classify four regulated-enterprise identities and identify impersonation risk | Accepted | Maintain source status and incorporate substantiated reader feedback |
-| P1-M02 | Authentication, authorization, and authority | Day 3 | Identity proof, permissions, business authority, transaction consequence; why identity is not authority | Challenge the statement: “The agent uses SSO, so access is controlled” | Ready for review | Review the completed lesson and perform the boundary-analysis exercise |
+| P1-M02 | Authentication, authorization, and authority | Day 3 | Identity proof, permissions, business authority, transaction consequence; why identity is not authority | Challenge the statement: “The agent uses SSO, so access is controlled” | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M03 | OAuth, OIDC, tokens, and delegation | Days 4–5 | OAuth/OIDC recognition; clients, scopes, audiences, token lifetime, proof of possession, workload identity, delegation chains | Trace human/system → agent → tool → target | Backlog | Create a plain-language protocol map without configuration instruction |
 | P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Backlog | Draft lesson using PAM-program leadership as the credible bridge |
 | P1-M05 | Agent chains, tools, memory, and context | Days 8–10 | Tool authority, agent-to-agent delegation, confused authority, context and memory poisoning, unauthorized tool discovery | Build a tool and downstream-authority matrix | Backlog | Draft tool-chain case and review observations |
@@ -78,12 +78,22 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-PUB04 | Public-release record | [Module 1 Public-Release Record](./06_Module_01_Public_Release_Record.md) | Accepted |
 | P1-PUB05 | Content license | [CC BY 4.0](../LICENSE.md) | Accepted |
 
+## Module 2 public-release package
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P1-PUB06 | Module 2 lesson | [Authentication, Authorization, and Authority](../01_AI_AGENT_IDENTITY_GOVERNANCE/05_Module_02_Authentication_Authorization_and_Authority.md) | Accepted |
+| P1-PUB07 | Module 2 participant workbook | [Authentication-to-Consequence Workbook](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/03_Module_02_Participant_Workbook.md) | Accepted |
+| P1-PUB08 | Module 2 model answer and review guide | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/04_Module_02_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB09 | Module 2 public-release record | [Module 2 Public-Release Record](./07_Module_02_Public_Release_Record.md) | Accepted |
+
 ## Priority 1 exercises and completed-work artifacts
 
 | ID | Artifact | Purpose | Content status | Learning status |
 |---|---|---|---|---|
 | P1-A01 | [Identity Classification and Accountability Map — participant workbook](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/01_Module_01_Participant_Workbook.md) | Show every acting identity and authority transfer | Template accepted | Not started |
 | P1-A02 | Completed privileged-access lifecycle | Demonstrate lifecycle control reasoning | Template accepted | Not started |
+| P1-A02B | Module 2 authentication-to-consequence analysis | Separate identity, authentication, authorization, delegated authority, and consequence | Workbook accepted | Not started |
 | P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Backlog | Not started |
 | P1-A04 | Human-authority decision matrix | Separate autonomous, monitored, approval, and prohibited actions | Backlog | Not started |
 | P1-A05 | Evidence-record specification | Define decision-grade transaction evidence | Backlog | Not started |

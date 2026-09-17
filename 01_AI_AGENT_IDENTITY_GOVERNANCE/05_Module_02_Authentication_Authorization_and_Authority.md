@@ -5,7 +5,7 @@
 **Estimated time:** 90–120 minutes  
 **Required output:** Authentication-to-consequence boundary analysis  
 **Professional level:** Executive and program leadership  
-**Content status:** Ready for review  
+**Content status:** Accepted for public learning use  
 
 ## Why this module matters
 
@@ -33,7 +33,7 @@ The program leader’s task is to prevent identity assurance, technical permissi
 
 ## Learning outcomes
 
-After completing this module, Michael should be able to:
+After completing this module, a learner should be able to:
 
 1. Explain authentication, authorization, delegation, and authority in plain executive language.
 2. Distinguish permission to reach a resource from authority to create a business consequence.
@@ -602,6 +602,24 @@ The five-question model and the ORION case are original learning constructs for 
 
 ## Positioning boundary
 
-Completing this module supports a claim that Michael can lead and challenge the authentication-to-consequence control discussion for enterprise agents.
+Completing this module supports a claim that a learner can lead and challenge the authentication-to-consequence control discussion for enterprise agents.
 
-It does not support a claim that he personally configured SSO, OAuth, OIDC, token services, policy engines, or production authorization controls.
+It does not support a claim that the learner personally configured SSO, OAuth, OIDC, token services, policy engines, or production authorization controls.
+
+
+# Public learning package
+
+Use the materials in this order:
+
+1. Complete the [Module 2 Participant Workbook](./exercises/03_Module_02_Participant_Workbook.md) without consulting the model answer.
+2. Review the [Module 2 Model Answer and Review Guide](./exercises/04_Module_02_Model_Answer_and_Review_Guide.md).
+3. Revise and defend the analysis before claiming completion.
+4. Consult the [Module 2 Public-Release Record](../00_LEARNING_CONTROL/07_Module_02_Public_Release_Record.md) for scope, source status, and limitations.
+
+---
+
+**Published:** 2026-09-17  
+**Version:** 1.0  
+**Content status:** Accepted for public learning use  
+**Scope:** Executive and program-level learning. This is not implementation guidance or production architecture.  
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
