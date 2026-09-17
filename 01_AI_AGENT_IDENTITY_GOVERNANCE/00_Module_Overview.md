@@ -20,7 +20,8 @@ This module does not attempt to make Michael an AI engineer, IAM architect, or C
 2. [AI Agent Privileged-Access Lifecycle](./02_AI_Agent_Privileged_Access_Lifecycle.md)
 3. [Regulated-Enterprise Case Workbook](./03_Regulated_Enterprise_Case_Workbook.md)
 4. [Module 1 — Acting Agents and Identity Types](./04_Module_01_Acting_Agents_and_Identity_Types.md)
-5. [Module 2 — Authentication, Authorization, and Authority](./05_Module_02_Authentication_Authorization_and_Authority.md)
+5. [Module 1 — Identity Classification Working Draft](./exercises/01_Module_01_Identity_Classification_Working_Draft.md)
+6. [Module 2 — Authentication, Authorization, and Authority](./05_Module_02_Authentication_Authorization_and_Authority.md)
 
 ## Suggested working folders
 

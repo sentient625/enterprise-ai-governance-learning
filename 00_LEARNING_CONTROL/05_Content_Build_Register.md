@@ -57,7 +57,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 
 | ID | Module | Guide coverage | Core material required | Required exercise | Status | Next action |
 |---|---|---|---|---|---|---|
-| P1-M01 | Acting agents and identity types | Days 1–2 | Agent versus chatbot; human, service, workload, and agent identities; when an agent becomes privileged | Classify four regulated-enterprise identities and identify impersonation risk | Ready for review | Review the completed lesson and perform the exercise |
+| P1-M01 | Acting agents and identity types | Days 1–2 | Agent versus chatbot; human, service, workload, and agent identities; when an agent becomes privileged | Classify four regulated-enterprise identities and identify impersonation risk | Ready for review | Review the lesson and working artifact; revise and complete the learner defense |
 | P1-M02 | Authentication, authorization, and authority | Day 3 | Identity proof, permissions, business authority, transaction consequence; why identity is not authority | Challenge the statement: “The agent uses SSO, so access is controlled” | Ready for review | Review the completed lesson and perform the boundary-analysis exercise |
 | P1-M03 | OAuth, OIDC, tokens, and delegation | Days 4–5 | OAuth/OIDC recognition; clients, scopes, audiences, token lifetime, proof of possession, workload identity, delegation chains | Trace human/system → agent → tool → target | Backlog | Create a plain-language protocol map without configuration instruction |
 | P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Backlog | Draft lesson using PAM-program leadership as the credible bridge |
@@ -72,7 +72,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 
 | ID | Artifact | Purpose | Content status | Learning status |
 |---|---|---|---|---|
-| P1-A01 | Identity and delegation map | Show every acting identity and authority transfer | Backlog | Not started |
+| P1-A01 | [Identity Classification and Accountability Map — working draft](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/01_Module_01_Identity_Classification_Working_Draft.md) | Show every acting identity and authority transfer | Ready for review | Not started |
 | P1-A02 | Completed privileged-access lifecycle | Demonstrate lifecycle control reasoning | Template accepted | Not started |
 | P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Backlog | Not started |
 | P1-A04 | Human-authority decision matrix | Separate autonomous, monitored, approval, and prohibited actions | Backlog | Not started |
@@ -155,10 +155,10 @@ Only one item should be actively drafted at a time unless there is a clear indep
 
 | Order | ID | Action | Definition of done |
 |---:|---|---|---|
-| 1 | P1-M01 | Review “Acting Agents and Identity Types” and perform its exercise | Resolve review findings and create the identity-classification artifact |
+| 1 | P1-M01 / P1-A01 | Review the Module 1 lesson and working artifact | Revise the analysis, complete the defense, and resolve review findings |
 | 2 | P1-M02 | Review “Authentication, Authorization, and Authority” and perform its exercise | Resolve review findings and create the authentication-to-consequence boundary analysis |
 | 3 | P1-M03 | Build “OAuth, OIDC, Tokens, and Delegation” | Complete plain-language map and authority-chain exercise |
-| 4 | P1-A01 | Create the first completed identity and delegation map | Reviewed artifact stored under Priority 1 completed work |
+| 4 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 5 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 
 ## Update rule
