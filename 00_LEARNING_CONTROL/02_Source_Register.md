@@ -30,6 +30,7 @@ This register records the small primary source set used by the active learning p
 | SRC-022 | [NIST AI 600-1 — AI RMF: Generative AI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) | NIST | Final publication, July 2024 | Generative-AI risk categories, information integrity, provenance, testing, and monitoring context |
 | SRC-023 | [Model Context Protocol specification, 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28) | Model Context Protocol (community/industry spec) | Current published protocol revision at review | Tool/resource connectivity context; not treated as a universal enterprise control framework |
 | SRC-024 | [MCP Authorization Security Considerations, 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/security-considerations) | Model Context Protocol | Normative security requirements within the current MCP specification | Audience validation, confused-deputy risk, privilege restriction, and token-passthrough prohibition |
+| SRC-025 | [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | NIST | Final framework, January 2023; revision work noted by NIST at review | Governance, roles, accountability, human oversight, measurement, and risk-management outcomes |
 
 ## Independent verification log
 
