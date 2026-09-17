@@ -4,7 +4,7 @@
 
 Develop the executive and program-level fluency required to lead the governed adoption of AI agents that can use enterprise identities, tools, data, and privileged access.
 
-This module does not attempt to make Michael an AI engineer, IAM architect, or CyberArk administrator. It develops the ability to:
+This priority does not attempt to make a learner an AI engineer, IAM architect, or product administrator. It develops the ability to:
 
 - Frame the business proposition.
 - Identify the acting identities and authority chain.
@@ -19,9 +19,10 @@ This module does not attempt to make Michael an AI engineer, IAM architect, or C
 1. [Thirty-Day Learning Guide](./01_Thirty_Day_Learning_Guide.md)
 2. [AI Agent Privileged-Access Lifecycle](./02_AI_Agent_Privileged_Access_Lifecycle.md)
 3. [Regulated-Enterprise Case Workbook](./03_Regulated_Enterprise_Case_Workbook.md)
-4. [Module 1 — Acting Agents and Identity Types](./04_Module_01_Acting_Agents_and_Identity_Types.md)
-5. [Module 1 — Identity Classification Working Draft](./exercises/01_Module_01_Identity_Classification_Working_Draft.md)
-6. [Module 2 — Authentication, Authorization, and Authority](./05_Module_02_Authentication_Authorization_and_Authority.md)
+4. [Module 1 — Acting Agents and Identity Types](./04_Module_01_Acting_Agents_and_Identity_Types.md) — accepted for public learning use
+5. [Module 1 Participant Workbook](./exercises/01_Module_01_Participant_Workbook.md)
+6. [Module 1 Model Answer and Review Guide](./exercises/02_Module_01_Model_Answer_and_Review_Guide.md)
+7. [Module 2 — Authentication, Authorization, and Authority](./05_Module_02_Authentication_Authorization_and_Authority.md) — ready for review
 
 ## Suggested working folders
 
@@ -43,7 +44,7 @@ Git does not preserve empty folders, so they will appear with the first complete
 
 ## First action
 
-Open the Thirty-Day Learning Guide and complete Day 1. Record the result in `00_LEARNING_CONTROL/03_Progress_Record.md`.
+For Module 1, read the lesson, complete the participant workbook without the model answer, and then compare and defend the analysis. Record demonstrated learning only after the artifact and defense exist.
 
 ## Positioning boundary
 
@@ -51,4 +52,4 @@ A completed module supports this statement:
 
 > I can lead the program that establishes how enterprise AI agents are identified, authorized, constrained, monitored, audited, suspended, and retired.
 
-It does not support a claim that Michael personally engineered the underlying identity, token, agent, or PAM platform.
+It does not support a claim that a learner personally engineered the underlying identity, token, agent, or PAM platform.
