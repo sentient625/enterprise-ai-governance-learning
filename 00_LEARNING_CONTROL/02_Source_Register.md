@@ -17,6 +17,10 @@ This register records the small primary source set used by the active learning p
 | SRC-009 | [SPIFFE standards](https://spiffe.io/docs/latest/spiffe-specs/) | SPIFFE project | Living standards set | Workload identity vocabulary |
 | SRC-010 | [NIST SP 800-63-4 — Digital Identity Guidelines](https://pages.nist.gov/800-63-4/sp800-63.html) | NIST | Final publication, July 2025; supersedes SP 800-63-3 | Authentication, assurance, federation, and relying-party concepts; human-subject scope noted |
 | SRC-011 | [OpenID Connect Core 1.0 incorporating errata set 2](https://openid.net/specs/openid-connect-core-1_0.html) | OpenID Foundation | Final specification | Authentication identity layer used to distinguish OIDC from OAuth authorization |
+| SRC-012 | [RFC 8707 — Resource Indicators for OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc8707) | IETF | Standards Track RFC | Target-resource and audience restriction concepts |
+| SRC-013 | [RFC 8693 — OAuth 2.0 Token Exchange](https://datatracker.ietf.org/doc/html/rfc8693) | IETF | Standards Track RFC | Token exchange, delegation, impersonation, subject, and actor relationships |
+| SRC-014 | [RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens](https://datatracker.ietf.org/doc/html/rfc8705) | IETF | Standards Track RFC | Sender-constrained token category using mutual TLS and certificate binding |
+| SRC-015 | [RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession](https://datatracker.ietf.org/doc/html/rfc9449) | IETF | Standards Track RFC | Sender-constrained token category using DPoP |
 
 ## Internal conceptual sources
 
