@@ -49,7 +49,7 @@ Traditional privileged-access programs already address powerful accounts, creden
 - They may select and sequence actions at machine speed.
 - They may reach credentials through tools rather than sign in directly.
 - Their runtime, service identity, OAuth client, tool identity, and target account may be different actors.
-- Context, memory, or instructions may influence credential use.
+- Context, memory, or instructions may influence credential use — see the dedicated failure pattern in Section 3.
 - A successful technical action may exceed the delegating human’s business authority.
 - Queued or downstream work may continue after the visible agent is stopped.
 - Shared credentials can collapse attribution at exactly the point evidence matters most.
@@ -86,6 +86,29 @@ Secrets should not be placed in prompts, durable memory, logs, or ordinary work 
 ### Credential multiplication
 
 An agent workflow can accumulate several usable artifacts: workload credentials, access tokens, refresh tokens, target-system passwords, API keys, session cookies, and delegated grants. Inventory and revocation must cover the chain, not only the first credential.
+
+### Context and instruction manipulation as a credential-misuse path
+
+Traditional privileged-access programs assume the actor requesting or using a credential is following its own fixed logic. An agent's next action can instead be shaped by content it reads: retrieved documents, tool output, a web page, an email, a ticket comment, or prior conversation history. If that content contains instructions the agent was not meant to follow, it can steer a properly authenticated, properly entitled agent into using a legitimate credential for an illegitimate purpose — retrieving a secret it should not disclose, calling a tool outside the approved purpose, or exfiltrating data through an otherwise permitted channel.
+
+This is not a hypothetical edge case. It is why OWASP's Agentic Applications guidance and NIST's agentic-identity commentary both treat untrusted context as an attack surface rather than an implementation detail (see SRC-005, SRC-006, SRC-003). It also means two claims that sound protective are not sufficient by themselves:
+
+> "The agent only has the entitlements it was granted."
+
+True, and still insufficient — the risk is not new entitlement, it is the agent choosing to exercise an existing entitlement because a hostile instruction told it to.
+
+> "The credential is short-lived and mediated."
+
+True, and still insufficient — a short-lived, mediated credential can be misused within its own valid window exactly as easily as a long-lived one, if the instruction reaches the agent before the window closes.
+
+Governing questions specific to this pattern:
+
+- Can content the agent merely reads (not content a trusted operator authored) change which tool it calls, which target it reaches, or whether it discloses a secret?
+- Is untrusted retrieved content structurally separated from trusted instructions, or does the agent treat both as equally authoritative?
+- Would a single poisoned document, ticket, or tool response be sufficient to trigger a privileged action, or does the design require an independent trusted signal (human approval, policy check, allow-listed target) before privileged use?
+- Is there a monitoring signal that would catch an agent calling a tool or reaching a target that is technically permitted but contextually anomalous for the stated task?
+
+The bounded authority envelope in Section 5 is the primary control here: an agent that is confined to one named target, one bounded action set, and a short validity window is much harder to steer into a materially different consequence than one holding broad standing privilege, even if both are technically "authenticated and entitled." Section 5's envelope and Section 9's evidence and interruption controls should therefore be read as the direct answer to this failure pattern, not a separate concern.
 
 ## 4. From standing privilege to bounded access
 
@@ -300,7 +323,42 @@ A credible program-lead statement is:
 
 Leadership of a multi-year PAM program can provide a strong bridge to this work: inventory, ownership, onboarding, entitlement decisions, exceptions, dependencies, rotation, testing, operational readiness, audit evidence, and lifecycle governance remain central. That experience does not by itself establish AI engineering or PAM-platform administration expertise.
 
-## 15. Primary sources
+## 15. Illustrative compliance crosswalk (context only, not a compliance determination)
+
+This module builds program-level fluency in identity, credential, and privileged-access governance. It does not certify compliance with any framework. The table below shows, at a glance, where the concepts already taught in Modules 1–4 tend to land in four frameworks a program leader is likely to be asked about. Use it to recognize the conversation when it starts, not to complete an assessment.
+
+| This curriculum's concept | SOC 2 (Trust Services Criteria) | EU AI Act | NIST AI RMF 1.0 | ISO/IEC 42001 |
+|---|---|---|---|---|
+| Distinct agent identity, ownership, and delegation chain (Module 1) | CC6.1 logical access controls tied to identified users | Art. 12 record-keeping; Art. 14 human oversight | GOVERN 1, 2; MAP 1 (context and actors) | Clause 5 leadership and roles; Annex A control on AI system accountability |
+| Authentication vs. authorization vs. authority (Module 2) | CC6.1, CC6.2 access provisioning and authentication | Art. 9 risk management system; Art. 14 human oversight | GOVERN 4; MANAGE 2 (response to identified risk) | Clause 8.2 operational planning and control |
+| Token scope, audience restriction, delegation vs. impersonation (Module 3) | CC6.1, CC6.3 access restriction and review | Art. 12 logging; Art. 15 accuracy, robustness, cybersecurity | MEASURE 2 (evaluate for trustworthy characteristics) | Annex A control on secure system operation |
+| Bounded privileged-access envelope, evidence, suspension (Module 4) | CC6.1–CC6.3 access; CC7.2 monitoring and detection | Art. 12 record-keeping; Art. 14 human oversight; Art. 61 incident reporting (high-risk systems) | MANAGE 1, 4 (risk treatment and incident response) | Clause 8.2; Annex A controls on incident management and continuous improvement |
+
+Reading notes:
+
+- This is a starting orientation, not a control mapping a compliance or audit function should rely on without its own review. Framework language, clause numbering, and applicability change; a qualified compliance, legal, or audit professional must confirm current text and applicability to the actual entity, sector, and jurisdiction.
+- The EU AI Act's specific obligations depend heavily on how a given agent is classified (e.g., whether it qualifies as a high-risk AI system under Annex III or as a general-purpose AI component); this row assumes an agent performing consequential enterprise actions, not every possible classification.
+- NIST AI RMF 1.0 and its Generative AI Profile (NIST AI 600-1) are voluntary risk-management guidance, not certification frameworks; ISO/IEC 42001 is a certifiable management-system standard. They are not equivalent instruments even where the concepts overlap.
+- The absence of a framework from this table (for example, sector-specific rules such as OT/critical-infrastructure regulation, or regional AI legislation outside the EU) does not mean it is inapplicable to a given enterprise.
+
+## 16. Illustrative platform-concept mapping (examples only, not an endorsement)
+
+Modules 1–4 deliberately avoid naming vendor platforms so the program-leadership concepts do not read as marketing for one product. That has a cost: it can be hard to recognize the concept when a vendor uses different language. The table below names current, real examples of each concept as of this module's source-check date, strictly to aid recognition — it is not a recommendation, comparison, or endorsement, and it is not a substitute for the enterprise's own architecture and procurement review.
+
+| Concept from this curriculum | Illustrative example(s) | What the example actually provides |
+|---|---|---|
+| Workload identity (Module 1, Section 2.3) | SPIFFE/SPIRE (open standard); AWS IAM Roles Anywhere; Azure/Entra workload identity federation | A way for running software to present a verifiable identity tied to its runtime rather than a stored reusable secret |
+| Registered agent identity, distinguishable from its human owner (Module 1, Sections 2.4, 8) | Microsoft Entra Agent ID (agent identity as a distinct object type in the identity directory); Okta for AI Agents (agent discovery, lifecycle, and governance) | A directory-level object and lifecycle process for the agent itself, separate from the human account that commissioned it |
+| Delegated authorization and token exchange (Module 3) | OAuth 2.0 / OpenID Connect implementations offered by major identity providers; RFC 8693 token-exchange support in agent-identity platforms | Standards-based mechanisms for expressing "acting on behalf of," bounding scope, and restricting audience |
+| Mediated, short-lived privileged access and secrets brokering (Module 4, Sections 4, 5) | Privileged-access and secrets-management platforms offering vaulting, session brokering, and just-in-time issuance (for example, CyberArk, HashiCorp Vault, and cloud-native secrets managers) | Delivery and recording of a credential at use time, without the actor holding a standing, reusable secret |
+
+Reading notes:
+
+- Product names, scopes, and general availability dates change quickly in this space; verify current capability and status directly with the vendor or a qualified architect before relying on any example.
+- Naming a product here is not a claim that it satisfies the governance requirements described in this curriculum. A platform can implement the mechanism (for example, a distinct agent identity object) without the enterprise having designed the bounded authority envelope, ownership, or evidence chain this curriculum requires around it.
+- No product was evaluated, tested, or compared for this table. Selection among products is an enterprise architecture and procurement decision outside this curriculum's scope.
+
+## 17. Primary sources
 
 - [NIST SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) — access control, separation of duties, least privilege, authenticator management, and audit/control vocabulary.
 - [NIST SP 800-207 — Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) — resource-focused access and explicit authentication and authorization principles.

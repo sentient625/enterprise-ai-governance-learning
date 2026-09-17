@@ -88,11 +88,26 @@ Use the package in this order:
 
 The module builds program-lead governance and challenge fluency. It does not teach PAM-platform, secret-management, or credential-engineering configuration.
 
+### Module 5 — Agent Chains, Tools, Memory, and Context
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 5 teaches learners to distinguish a tool's technical capability from its governed authority; recognize the confused-deputy and authority-laundering patterns in agent-and-tool and agent-and-agent relationships; treat retrieved content and memory as a distinct attack surface; evaluate dynamic tool discovery; and require a tool-and-downstream-authority matrix before a multi-tool or multi-agent design proceeds.
+
+Use the package in this order:
+
+1. [Read the Module 5 lesson](./01_AI_AGENT_IDENTITY_GOVERNANCE/08_Module_05_Agent_Chains_Tools_Memory_and_Context.md).
+2. [Complete the Module 5 participant workbook](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/09_Module_05_Participant_Workbook.md).
+3. [Review the Module 5 model answer and review guide](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/10_Module_05_Model_Answer_and_Review_Guide.md).
+4. [Read the Module 5 public-release record](./00_LEARNING_CONTROL/10_Module_05_Public_Release_Record.md).
+
+The module builds program-lead governance and challenge fluency across tool and agent chains. It does not teach agent-framework, tool-registry, or security-testing implementation.
+
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
-| 1 | AI-agent identity, security, and governance | Active; Modules 1–4 accepted |
+| 1 | AI-agent identity, security, and governance | Active; Modules 1–5 accepted |
 | 2 | Operationalizing AI governance | Planned |
 | 3 | Financial decision fluency | Planned |
 

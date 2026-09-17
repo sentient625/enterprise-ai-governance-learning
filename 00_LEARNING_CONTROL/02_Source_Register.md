@@ -27,6 +27,18 @@ This register records the small primary source set used by the active learning p
 | SRC-019 | [NIST SP 800-82 Rev. 3 — Guide to Operational Technology Security](https://csrc.nist.gov/pubs/sp/800/82/r3/final) | NIST | Final Special Publication, September 2023 | OT performance, reliability, safety, security, and environment context |
 | SRC-020 | [NIST IR 8587 — Protecting Tokens and Assertions from Forgery, Theft, and Misuse](https://csrc.nist.gov/pubs/ir/8587/final) | NIST | Final Interagency Report, September 2026 | Token and assertion protection, key management, verification, lifecycle controls, and monitoring |
 
+## Independent verification log
+
+Source status is normally recorded once, at module preparation time, from the publisher's page. That is a citation record, not independent verification. The entries below are re-checks performed on a later date, against a separate search rather than the original page view, specifically for SRC-001, SRC-002, and SRC-003, which describe initiatives active enough to change between preparation and publication.
+
+| Source | Re-check date | Method | Result |
+|---|---|---|---|
+| SRC-001 | 2026-09-17 | Independent web search against NIST and third-party coverage (ANSI, CSA, law-firm and industry summaries) | Confirmed: CAISI launched the initiative 2026-02-17; three-pillar structure (industry-led standards and international leadership, open-source protocol development, agent security and identity research) confirmed by multiple independent sources. No status change found. |
+| SRC-002 | 2026-09-17 | Independent web search against NCCoE and third-party coverage | Confirmed: concept paper "Accelerating the Adoption of Software and AI Agent Identity and Authorization" published 2026-02-05; public comment period closed 2026-04-02; NCCoE stated intent to synthesize submissions into a draft project description. No source found showing the project has moved past "reviewing comments" into a published project description as of the re-check date. This module's "reviewing comments" status label is current as far as this re-check can confirm, but the underlying project page was not directly reachable during this re-check (network egress restriction) — reconfirm directly against the project page before next publication or reuse. |
+| SRC-003 | 2026-09-17 | Independent web search | Confirmed: NIST Cybersecurity Insights blog post exists at the cited URL, addressing agentic identity and authorization risk. Direct page fetch was not available during this re-check; date and content description are taken from third-party citation of the same post, not from a second direct read. Reconfirm directly before next publication or reuse. |
+
+This log does not replace the Maintenance rule below. It documents that SRC-001–003 were checked from a second, independent source on a date after original preparation, rather than relying solely on the original same-day citation.
+
 ## Internal conceptual sources
 
 The active module applies the Funded Belief, Evidence Locker, and accountable-authority concepts from *Forensic Capital Governance*. The accepted books remain separately governed. This repository may apply those concepts but must not silently revise their controlled meanings.

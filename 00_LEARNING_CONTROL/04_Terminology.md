@@ -108,3 +108,26 @@ A separately governed, time-bounded access path activated under defined urgent c
 ### Break-glass
 
 A common term for emergency access that bypasses or alters ordinary access steps under controlled conditions. It is not a permanent exception to governance.
+
+
+## Module 5 additions
+
+### Confused deputy
+
+An access-control pattern in which a program or agent holding legitimate, properly scoped authority is induced — by another agent's request, by a tool's output, or by retrieved content — to exercise that authority for a purpose its principal did not intend. No credential is necessarily stolen and no entitlement is necessarily exceeded; the failure is that the deputy cannot distinguish "authority available to be used" from "authority granted for this purpose."
+
+### Authority laundering
+
+A multi-agent variant of the confused-deputy pattern in which one agent uses a second agent's broader, unrelated access to accomplish something the first agent could not do directly, because the second agent did not independently evaluate whether the request fit its own approved purpose.
+
+### Tool authority
+
+What an enterprise has approved a tool to do, for which agents, purposes, and conditions — distinct from the tool's technical capability, which is what it is able to do regardless of approval.
+
+### Delegation chain
+
+A sequence of agent-to-agent or agent-to-tool handoffs in which authority, purpose, and attribution must be preserved at each hop rather than assumed to survive automatically.
+
+### Tool discovery
+
+An agent's ability to identify and select a tool at run time, whether from a fixed, pre-reviewed set or dynamically from a registry or protocol. Dynamic discovery changes the governance problem because the reachable tool set can change after the design review occurred.
