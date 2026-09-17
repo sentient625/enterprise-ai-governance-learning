@@ -54,6 +54,7 @@ It does not teach protocol configuration.
 | RFC 8705 | Standards Track | Used as one sender-constrained-token mechanism through mutual TLS and certificate binding |
 | RFC 9449 | Standards Track | Used as one sender-constrained-token mechanism through DPoP |
 | SPIFFE ID specification | Current SPIFFE specification | Used for workload-identity vocabulary; not treated as agent or business authority |
+| OAuth 2.1 Authorization Framework | Active Internet-Draft version 16, updated 2026-09-02 | Recorded as emerging status context only; not treated as a final RFC |
 
 ## Publication review
 
@@ -79,7 +80,7 @@ It does not teach protocol configuration.
 
 ## Known limitations
 
-- OAuth and OpenID ecosystems continue to evolve through additional RFCs, profiles, drafts, and product implementations.
+- OAuth and OpenID ecosystems continue to evolve through additional RFCs, profiles, drafts, and product implementations. OAuth 2.1 remained an active Internet-Draft, not a final RFC, at this review.
 - The module intentionally omits flow-selection and configuration guidance.
 - A token may be opaque or structured; the module does not assume one format.
 - Scope and claim meanings are local to trust relationships and implementations.
