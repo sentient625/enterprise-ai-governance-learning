@@ -69,3 +69,42 @@ A token whose use requires the presenter to demonstrate possession of associated
 ### Token exchange
 
 A process in which a client obtains one security token using another security token. Governance must verify subject, actor, audience, scope, lifetime, delegation semantics, and whether authority narrows or expands.
+
+
+## Module 4 additions
+
+### Credential
+
+Evidence or a mechanism presented to establish or obtain access under defined technical conditions. A credential can carry capability but is not a complete record of business authority.
+
+### Secret
+
+Sensitive data or key material whose unauthorized disclosure or use could enable impersonation, access, decryption, signing, or another protected operation.
+
+### Privileged access
+
+Access capable of materially changing systems, controls, identities, data, security posture, or operations. Classification depends on consequence, not merely on an “admin” label.
+
+### Standing privilege
+
+Privilege that remains continuously available rather than being activated for a bounded approved need.
+
+### Task-bound access
+
+Access constrained to a specific approved purpose, actor, action, target, environment, duration, and related conditions.
+
+### Mediated access
+
+Access in which a vault, broker, proxy, privileged-session service, or similar control delivers or exercises a credential without necessarily exposing the target secret to the actor.
+
+### Credential rotation
+
+Replacement of credential or secret material according to defined time, event, risk, or lifecycle triggers. Rotation reduces some exposure but does not correct excessive privilege, weak attribution, or missing authority.
+
+### Emergency access
+
+A separately governed, time-bounded access path activated under defined urgent conditions, with strong authentication, alerting, evidence, independent review, and post-use revocation or reset.
+
+### Break-glass
+
+A common term for emergency access that bypasses or alters ordinary access steps under controlled conditions. It is not a permanent exception to governance.
