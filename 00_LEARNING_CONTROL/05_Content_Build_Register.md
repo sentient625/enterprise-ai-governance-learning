@@ -60,7 +60,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-M01 | Acting agents and identity types | Days 1–2 | Agent versus chatbot; human, service, workload, and agent identities; when an agent becomes privileged | Classify four regulated-enterprise identities and identify impersonation risk | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M02 | Authentication, authorization, and authority | Day 3 | Identity proof, permissions, business authority, transaction consequence; why identity is not authority | Challenge the statement: “The agent uses SSO, so access is controlled” | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M03 | OAuth, OIDC, tokens, and delegation | Days 4–5 | OAuth/OIDC recognition; clients, scopes, audiences, token lifetime, proof of possession, workload identity, delegation chains | Trace human/system → agent → tool → target | Accepted | Maintain source status and incorporate substantiated reader feedback |
-| P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Backlog | Draft lesson using PAM-program leadership as the credible bridge |
+| P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M05 | Agent chains, tools, memory, and context | Days 8–10 | Tool authority, agent-to-agent delegation, confused authority, context and memory poisoning, unauthorized tool discovery | Build a tool and downstream-authority matrix | Backlog | Draft tool-chain case and review observations |
 | P1-M06 | Human authority and separation of duties | Day 11 | Human-in-the-loop, human-on-the-loop, consent fatigue, meaningful approval, prohibited activity, separation of duties | Classify actions as autonomous, monitored, prior approval, or prohibited | Backlog | Build action-classification exercise and approval-quality rubric |
 | P1-M07 | Evidence, provenance, and monitoring | Days 12–13 | Transaction correlation, identity and policy evidence, context references, log integrity, privacy/records limits, leading and incident indicators | Specify an agent transaction evidence record | Backlog | Draft evidence-chain lesson and monitoring worksheet |
@@ -96,6 +96,15 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-PUB12 | Module 3 model answer and review guide | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/06_Module_03_Model_Answer_and_Review_Guide.md) | Accepted |
 | P1-PUB13 | Module 3 public-release record | [Module 3 Public-Release Record](./08_Module_03_Public_Release_Record.md) | Accepted |
 
+## Module 4 public-release package
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P1-PUB14 | Module 4 lesson | [Credentials, Secrets, and Privileged Access](../01_AI_AGENT_IDENTITY_GOVERNANCE/07_Module_04_Credentials_Secrets_and_Privileged_Access.md) | Accepted |
+| P1-PUB15 | Module 4 participant workbook | [Bounded Privileged Authority](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/07_Module_04_Participant_Workbook.md) | Accepted |
+| P1-PUB16 | Module 4 model answer and review guide | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/08_Module_04_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB17 | Module 4 public-release record | [Module 4 Public-Release Record](./09_Module_04_Public_Release_Record.md) | Accepted |
+
 ## Priority 1 exercises and completed-work artifacts
 
 | ID | Artifact | Purpose | Content status | Learning status |
@@ -104,6 +113,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-A02 | Completed privileged-access lifecycle | Demonstrate lifecycle control reasoning | Template accepted | Not started |
 | P1-A02B | Module 2 authentication-to-consequence analysis | Separate identity, authentication, authorization, delegated authority, and consequence | Workbook accepted | Not started |
 | P1-A02C | Module 3 agent token-and-delegation chain | Trace agents, workloads, clients, tokens, exchanges, tools, and targets | Workbook accepted | Not started |
+| P1-A02D | Module 4 bounded privileged-authority analysis | Convert broad admin access into a testable authority envelope and lifecycle control plan | Workbook accepted | Not started |
 | P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Backlog | Not started |
 | P1-A04 | Human-authority decision matrix | Separate autonomous, monitored, approval, and prohibited actions | Backlog | Not started |
 | P1-A05 | Evidence-record specification | Define decision-grade transaction evidence | Backlog | Not started |
@@ -188,9 +198,11 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 1 | P1-A01 | Complete the Module 1 participant workbook and defense | Preserve a learner-created artifact; do not submit the model answer as completed work |
 | 2 | P1-A02B | Complete the Module 2 participant workbook and defense | Create and defend the authentication-to-consequence boundary analysis |
 | 3 | P1-A02C | Complete the Module 3 participant workbook and defense | Create and defend the agent token-and-delegation chain |
-| 4 | P1-M04 | Build “Credentials, Secrets, and Privileged Access” | Complete lesson, participant workbook, model answer, source review, and release record |
+| 4 | P1-A02D | Complete the Module 4 participant workbook and defense | Create and defend the bounded privileged-authority analysis; do not submit the model answer as completed work |
 | 5 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
-| 6 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
+| 5 | P1-M05 | Build “Agent Chains, Tools, Memory, and Context” | Complete lesson, participant workbook, model answer, source review, and release record |
+| 6 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
+| 7 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 
 ## Update rule
 
