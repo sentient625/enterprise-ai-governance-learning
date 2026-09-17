@@ -151,3 +151,42 @@ The introduction of false, malicious, stale, unauthorized, or mis-scoped informa
 ### Token passthrough
 
 The practice of an intermediary (such as a tool gateway or protocol server) accepting a credential from a client and forwarding it unmodified to a downstream resource without validating that the credential was issued for that downstream resource. This can create or worsen a confused-deputy condition and is prohibited under current Model Context Protocol authorization guidance.
+
+
+## Module 6 additions
+
+### Human authority
+
+The decision right held by a person or role to authorize, refuse, condition, escalate, suspend, or restore an action within a defined business, legal, operational, safety, or control boundary.
+
+### Autonomous action
+
+An action an agent may execute without transaction-specific human approval under explicit, tested, and enforced conditions.
+
+### Monitored action
+
+An action an agent may execute while a human or control function has defined visibility, intervention authority, response objectives, and interruption capability.
+
+### Prior-approval action
+
+An action that may not cross its defined consequential boundary until a qualified human authority records an approval.
+
+### Prohibited action
+
+An action an agent may not perform in the defined context because authority, evidence, control, or acceptable consequence is absent.
+
+### Meaningful approval
+
+A decision made before the controlled consequence by an authorized, sufficiently informed, independent person who can approve, decline, condition, request more evidence, or escalate.
+
+### Automation bias
+
+A tendency to over-rely on automated recommendations or treat system output as more authoritative than supporting evidence warrants.
+
+### Separation of duties
+
+Assignment of incompatible responsibilities to different actors so that one person, agent, identity, or service cannot unilaterally request, approve, execute, conceal, and certify a consequential action.
+
+### Approval timeout
+
+The defined point at which an unanswered approval request expires and follows a governed deny, pause, escalation, or safe-fallback path rather than implying consent.

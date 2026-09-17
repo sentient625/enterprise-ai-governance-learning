@@ -34,6 +34,9 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 16. [Module 5 — Agent Chains, Tools, Memory, and Context](./08_Module_05_Agent_Chains_Tools_Memory_and_Context.md) — accepted for public learning use
 17. [Module 5 Participant Workbook](./exercises/09_Module_05_Participant_Workbook.md)
 18. [Module 5 Model Answer and Review Guide](./exercises/10_Module_05_Model_Answer_and_Review_Guide.md)
+19. [Module 6 — Human Authority and Separation of Duties](./09_Module_06_Human_Authority_and_Separation_of_Duties.md) — accepted for public learning use
+20. [Module 6 Participant Workbook](./exercises/11_Module_06_Participant_Workbook.md)
+21. [Module 6 Model Answer and Review Guide](./exercises/12_Module_06_Model_Answer_and_Review_Guide.md)
 
 ## Suggested working folders
 
