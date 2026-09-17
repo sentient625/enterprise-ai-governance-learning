@@ -92,7 +92,7 @@ The module builds program-lead governance and challenge fluency. It does not tea
 
 **Status:** Accepted for public learning use, version 1.0.
 
-Module 5 teaches learners to distinguish a tool's technical capability from its governed authority; recognize the confused-deputy and authority-laundering patterns in agent-and-tool and agent-and-agent relationships; treat retrieved content and memory as a distinct attack surface; evaluate dynamic tool discovery; and require a tool-and-downstream-authority matrix before a multi-tool or multi-agent design proceeds.
+Module 5 teaches learners to map a full agent chain from principal through agents, tools, credentials, and targets; distinguish a tool's technical capability from its governed authority; recognize confused-deputy and authority-attenuation failure across agent-to-agent delegation; separate trusted instructions from untrusted retrieved content, including direct and indirect prompt injection; govern working context and durable memory through provenance, write control, expiry, correction, deletion, and quarantine; and require chain-level evidence and interruption before a multi-tool or multi-agent design proceeds.
 
 Use the package in this order:
 

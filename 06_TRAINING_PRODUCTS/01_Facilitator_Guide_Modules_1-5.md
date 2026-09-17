@@ -91,16 +91,17 @@ Adjust segment lengths for group size and seniority; senior groups often need le
 
 ## Module 5 — Agent Chains, Tools, Memory, and Context
 
-**Governing question to open with:** "Both agents are authenticated and both have real entitlements — isn't that enough?"
+**Governing question to open with:** "Production blocked the change, so the control worked — can we continue the pilot?"
 
-**Best scenario for live group work:** The ORION delegation case (Section 8); this module benefits from being run immediately after Module 4 in the same extended session or the next session, since it continues the same fictional agent and case familiarity carries over.
+**Best scenario for live group work:** The ORION chain-expansion case (Section 14); this module benefits from being run immediately after Module 4 in the same extended session or the next session, since it continues the same fictional agent and case familiarity carries over. Given the length of the workbook (12 parts), consider splitting Parts 1–6 (chain map, tool matrix, delegation boundaries, context trust, memory governance, poisoning response) into one segment and Parts 7–12 (tool discovery, approval, suspension, evidence, recommendation, defense) into a second, with a short break between.
 
 **Discussion prompts:**
 
-- Ask the group to state, in one sentence, why this is not a credential-theft problem. Groups that cannot articulate this distinction have not yet grasped the confused-deputy pattern and should revisit Module 5, Section 3 before the report-out.
+- Ask the group to explain why the target-side denial did not prove the chain was governed. Groups that answer only "because it could have failed" have not yet grasped that a downstream denial is defense in depth, not proof of upstream authority, context handling, or memory control — revisit Section 6 (confused authority and the confused deputy) before the report-out.
 - Ask: "Where in our own environment might an agent's next action already be shaped by content it merely reads — a ticket, a document, a search result — rather than by an instruction someone deliberately gave it?" Keep this abstract/hypothetical; do not let the discussion turn into naming a specific live vulnerability in a group setting.
+- Ask the group to distinguish direct from indirect prompt injection using their own words, then apply the distinction to the case: which one actually occurred, and where?
 
-**Facilitator watch-for:** This is the most conceptually demanding module in the sequence. Groups may want to jump to "just don't let it auto-execute" as a complete answer; push them to the tool-and-downstream-authority matrix to show the fix has to be structural (bounded entitlements, independent checks, attribution) rather than a single control.
+**Facilitator watch-for:** This is the most conceptually demanding module in the sequence — it has the longest lesson and workbook of the five. Groups may want to jump to "just don't let it write to durable memory" as a complete answer; push them past a single control to the full memory-governance table (Section 9) and the poisoning-response sequence (Section 10), which show the fix has to include provenance, quarantine, and tracing dependent decisions — not just blocking the write.
 
 ## Cross-module capstone option (after Module 5)
 
