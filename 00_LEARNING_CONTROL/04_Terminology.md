@@ -34,3 +34,38 @@ This register supports consistent learning. It is not a substitute for the forma
 ## Maintenance rule
 
 When a source uses a materially different definition, preserve the source-specific definition and cite it. Do not force emerging terminology into false consensus.
+
+
+## Module 3 additions
+
+### OAuth client
+
+An application making protected-resource requests on behalf of a resource owner and with its authorization, or on its own behalf under an applicable OAuth grant and policy. In this curriculum, an OAuth client is not automatically identical to an agent or workload.
+
+### Access token
+
+A credential used by a client to access a protected resource under attributes such as scope, lifetime, audience, and other issuer- and resource-defined conditions. It is not a complete business-authorization record.
+
+### ID token
+
+An OpenID Connect token containing claims about an end user’s authentication for the intended client. It is not a general-purpose API-access token.
+
+### Refresh token
+
+A credential used to obtain new access tokens. Its lifetime and revocation must remain aligned with continuing business authority.
+
+### Audience
+
+The intended recipient or resource server for a token. Audience restriction limits where a token should be accepted but does not define every permitted operation.
+
+### Scope
+
+An issuer- and resource-server-defined label representing requested or granted access. Scope names do not have universal meaning and may be coarser than the required business boundary.
+
+### Sender-constrained token
+
+A token whose use requires the presenter to demonstrate possession of associated key material. Sender constraint reduces replay by a different presenter but does not prove business purpose or decision integrity.
+
+### Token exchange
+
+A process in which a client obtains one security token using another security token. Governance must verify subject, actor, audience, scope, lifetime, delegation semantics, and whether authority narrows or expands.
