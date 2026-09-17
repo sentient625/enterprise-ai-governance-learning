@@ -612,6 +612,7 @@ The demonstrated claim is program leadership over identity, delegated authority,
 | [RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens](https://datatracker.ietf.org/doc/html/rfc8705) | Standards Track | Sender-constrained access-token category using client certificates |
 | [RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession](https://datatracker.ietf.org/doc/html/rfc9449) | Standards Track | Sender-constrained access-token category using DPoP |
 | [SPIFFE ID specification](https://spiffe.io/docs/latest/spiffe-specs/spiffe-id/) | Current SPIFFE specification | Workload-identity vocabulary and separation from agent/business authority |
+| [OAuth 2.1 Authorization Framework](https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/) | Active Internet-Draft version 16, updated 2026-09-02; work in progress | Status context only; not treated as a final normative source |
 
 ## Source boundary
 
