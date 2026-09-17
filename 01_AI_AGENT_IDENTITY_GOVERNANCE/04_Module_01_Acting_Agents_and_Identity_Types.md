@@ -4,7 +4,7 @@
 **Learning priority:** AI-agent identity, security, and governance  
 **Estimated time:** 75–90 minutes  
 **Required output:** Identity-classification and accountability analysis  
-**Professional level:** Executive and program leadership
+**Professional level:** Executive and program leadership  
 **Version:** 1.0  
 **Status:** Accepted for public learning use  
 **Source status checked:** 2026-09-17  
