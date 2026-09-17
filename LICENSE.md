@@ -1,6 +1,6 @@
 # Content License
 
-Copyright © 2026 Michael A. Kaplan.
+Copyright © 2026 Michael Kaplan.
 
 Except where otherwise noted, the original educational text, exercises, tables, and illustrative cases in this repository are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
@@ -8,7 +8,7 @@ You may share and adapt the licensed material for any purpose, including commerc
 
 ## Suggested attribution
 
-> Enterprise AI Governance Learning by Michael A. Kaplan, licensed under CC BY 4.0. Source: https://github.com/sentient625/enterprise-ai-governance-learning
+> Enterprise AI Governance Learning by Michael Kaplan, licensed under CC BY 4.0. Source: https://github.com/sentient625/enterprise-ai-governance-learning
 
 ## Material not relicensed
 

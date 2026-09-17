@@ -95,5 +95,5 @@ The curriculum may apply concepts developed in *The Sentient PMO* and *Forensic 
 
 ## Author
 
-Michael A. Kaplan is a senior enterprise program leader whose work connects cybersecurity, IAM/PAM, regulated delivery, AI governance, and accountable decision-making.
+Michael Kaplan is a senior enterprise program leader whose work connects cybersecurity, IAM/PAM, regulated delivery, AI governance, and accountable decision-making.
 

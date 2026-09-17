@@ -344,4 +344,4 @@ Source status and links remain controlled in the repository Source Register and 
 
 **Positioning boundary:** Use of this model answer does not demonstrate hands-on design or implementation of agent identity, OAuth, SPIFFE, PAM, OT, or production security controls.
 
-Created by Michael A. Kaplan. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Created by Michael Kaplan. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
