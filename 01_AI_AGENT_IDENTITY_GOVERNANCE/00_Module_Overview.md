@@ -19,6 +19,7 @@ This module does not attempt to make Michael an AI engineer, IAM architect, or C
 1. [Thirty-Day Learning Guide](./01_Thirty_Day_Learning_Guide.md)
 2. [AI Agent Privileged-Access Lifecycle](./02_AI_Agent_Privileged_Access_Lifecycle.md)
 3. [Regulated-Enterprise Case Workbook](./03_Regulated_Enterprise_Case_Workbook.md)
+4. [Module 1 — Acting Agents and Identity Types](./04_Module_01_Acting_Agents_and_Identity_Types.md)
 
 ## Suggested working folders
 
