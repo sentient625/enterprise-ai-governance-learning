@@ -68,7 +68,7 @@ The package specifically challenges the incomplete conclusion:
 | Participant work separated from model answer | Passed |
 | Evidence, suspension, and residual-work treatment | Passed |
 | License and attribution | CC BY 4.0 |
-| Internal navigation | To be merged with the release package |
+| Internal navigation | Passed; lesson, workbook, guide, and release record are cross-linked |
 
 ## Material changes made during review
 
