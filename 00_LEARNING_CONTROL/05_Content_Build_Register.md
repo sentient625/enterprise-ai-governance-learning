@@ -61,7 +61,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-M02 | Authentication, authorization, and authority | Day 3 | Identity proof, permissions, business authority, transaction consequence; why identity is not authority | Challenge the statement: “The agent uses SSO, so access is controlled” | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M03 | OAuth, OIDC, tokens, and delegation | Days 4–5 | OAuth/OIDC recognition; clients, scopes, audiences, token lifetime, proof of possession, workload identity, delegation chains | Trace human/system → agent → tool → target | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Accepted | Maintain source status and incorporate substantiated reader feedback |
-| P1-M05 | Agent chains, tools, memory, and context | Days 8–10 | Tool authority, agent-to-agent delegation, confused authority, context and memory poisoning, unauthorized tool discovery | Build a tool and downstream-authority matrix | Backlog | Draft tool-chain case and review observations |
+| P1-M05 | Agent chains, tools, memory, and context | Days 8–10 | Tool authority, agent-to-agent delegation, confused authority, context and memory poisoning, unauthorized tool discovery | Build a tool and downstream-authority matrix | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M06 | Human authority and separation of duties | Day 11 | Human-in-the-loop, human-on-the-loop, consent fatigue, meaningful approval, prohibited activity, separation of duties | Classify actions as autonomous, monitored, prior approval, or prohibited | Backlog | Build action-classification exercise and approval-quality rubric |
 | P1-M07 | Evidence, provenance, and monitoring | Days 12–13 | Transaction correlation, identity and policy evidence, context references, log integrity, privacy/records limits, leading and incident indicators | Specify an agent transaction evidence record | Backlog | Draft evidence-chain lesson and monitoring worksheet |
 | P1-M08 | Suspension, response, fallback, and recovery | Days 14–15 | Emergency authority, disabling identity, revoking credentials, containing queued work, preserving evidence, continuity, governed restoration | Conduct the unexpected-privileged-action tabletop | Backlog | Draft tabletop package and decision prompts |
@@ -105,6 +105,15 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-PUB16 | Module 4 model answer and review guide | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/08_Module_04_Model_Answer_and_Review_Guide.md) | Accepted |
 | P1-PUB17 | Module 4 public-release record | [Module 4 Public-Release Record](./09_Module_04_Public_Release_Record.md) | Accepted |
 
+## Module 5 public-release package
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P1-PUB18 | Module 5 lesson | [Agent Chains, Tools, Memory, and Context](../01_AI_AGENT_IDENTITY_GOVERNANCE/08_Module_05_Agent_Chains_Tools_Memory_and_Context.md) | Accepted |
+| P1-PUB19 | Module 5 participant workbook | [Tool and Downstream-Authority Matrix](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/09_Module_05_Participant_Workbook.md) | Accepted |
+| P1-PUB20 | Module 5 model answer and review guide | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/10_Module_05_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB21 | Module 5 public-release record | [Module 5 Public-Release Record](./10_Module_05_Public_Release_Record.md) | Accepted |
+
 ## Priority 1 exercises and completed-work artifacts
 
 | ID | Artifact | Purpose | Content status | Learning status |
@@ -114,7 +123,8 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-A02B | Module 2 authentication-to-consequence analysis | Separate identity, authentication, authorization, delegated authority, and consequence | Workbook accepted | Not started |
 | P1-A02C | Module 3 agent token-and-delegation chain | Trace agents, workloads, clients, tokens, exchanges, tools, and targets | Workbook accepted | Not started |
 | P1-A02D | Module 4 bounded privileged-authority analysis | Convert broad admin access into a testable authority envelope and lifecycle control plan | Workbook accepted | Not started |
-| P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Backlog | Not started |
+| P1-A02E | Module 5 tool and downstream-authority matrix | Trace authority, attribution, and confused-deputy risk across a tool and agent-delegation chain | Workbook accepted | Not started |
+| P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Superseded by P1-A02E | Not started |
 | P1-A04 | Human-authority decision matrix | Separate autonomous, monitored, approval, and prohibited actions | Backlog | Not started |
 | P1-A05 | Evidence-record specification | Define decision-grade transaction evidence | Backlog | Not started |
 | P1-A06 | Suspension and fallback runbook | Demonstrate interruptibility and continuity | Backlog | Not started |
@@ -185,7 +195,7 @@ Priority 3 must teach executive fluency without implying accounting, valuation, 
 | PORT-03 | Executive operating-model one-pager | Demonstrated Priority 2 | Backlog |
 | PORT-04 | Investment continuation decision case | Demonstrated Priority 3 | Backlog |
 | TRAIN-01 | Executive briefing deck | Portfolio review complete | Backlog |
-| TRAIN-02 | Facilitator guide | Demonstrated content and license review | Backlog |
+| TRAIN-02 | [Facilitator guide — Modules 1–5](../06_TRAINING_PRODUCTS/01_Facilitator_Guide_Modules_1-5.md) | Demonstrated content and license review | Drafting; sequences accepted Modules 1–5, not yet passed the Training Products gate |
 | TRAIN-03 | Participant workbook | Demonstrated content and license review | Backlog |
 | TRAIN-04 | Agent suspension tabletop | P1-M08 accepted and demonstrated | Backlog |
 
@@ -199,9 +209,11 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 2 | P1-A02B | Complete the Module 2 participant workbook and defense | Create and defend the authentication-to-consequence boundary analysis |
 | 3 | P1-A02C | Complete the Module 3 participant workbook and defense | Create and defend the agent token-and-delegation chain |
 | 4 | P1-A02D | Complete the Module 4 participant workbook and defense | Create and defend the bounded privileged-authority analysis; do not submit the model answer as completed work |
-| 5 | P1-M05 | Build “Agent Chains, Tools, Memory, and Context” | Complete lesson, participant workbook, model answer, source review, and release record |
-| 6 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
-| 7 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
+| 5 | P1-A02E | Complete the Module 5 participant workbook and defense | Create and defend the tool and downstream-authority matrix; do not submit the model answer as completed work |
+| 6 | P1-M06 | Build “Human Authority and Separation of Duties” | Complete lesson, participant workbook, model answer, source review, and release record |
+| 7 | TRAIN-02 | Build a facilitator/timing guide for group delivery of Modules 1–5 | One-page-per-module facilitator guide with timing, discussion prompts, and scoring guidance; does not replace individual completion evidence |
+| 8 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
+| 9 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 
 ## Update rule
 

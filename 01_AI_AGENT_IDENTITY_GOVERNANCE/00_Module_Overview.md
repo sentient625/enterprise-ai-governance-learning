@@ -31,6 +31,9 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 13. [Module 4 — Credentials, Secrets, and Privileged Access](./07_Module_04_Credentials_Secrets_and_Privileged_Access.md) — accepted for public learning use
 14. [Module 4 Participant Workbook](./exercises/07_Module_04_Participant_Workbook.md)
 15. [Module 4 Model Answer and Review Guide](./exercises/08_Module_04_Model_Answer_and_Review_Guide.md)
+16. [Module 5 — Agent Chains, Tools, Memory, and Context](./08_Module_05_Agent_Chains_Tools_Memory_and_Context.md) — accepted for public learning use
+17. [Module 5 Participant Workbook](./exercises/09_Module_05_Participant_Workbook.md)
+18. [Module 5 Model Answer and Review Guide](./exercises/10_Module_05_Model_Answer_and_Review_Guide.md)
 
 ## Suggested working folders
 
