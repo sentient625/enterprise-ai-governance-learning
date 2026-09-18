@@ -8,9 +8,9 @@ Free, source-grounded learning materials for leaders responsible for AI-agent id
 
 **The easiest way to use this curriculum is the companion website, not this repository's raw files:**
 
-### 👉 [learn.forensicgovernance.com](https://learn.forensicgovernance.com/)
+### 👉 [learn.enterpriseaigov.com](https://learn.enterpriseaigov.com/)
 
-[![Enterprise AI Governance Learning — site preview](docs/site-preview.png)](https://learn.forensicgovernance.com/)
+[![Enterprise AI Governance Learning — site preview](docs/site-preview.png)](https://learn.enterpriseaigov.com/)
 
 It renders every module's lesson, participant workbook, model answer & review guide, and public release record from this repository's own markdown, with fillable workbook fields (saved automatically in your browser) and a navigable module list — no GitHub folder-clicking required. The source in `site/` builds it directly from whatever is on `main`, so it always reflects the current state of this repository. See [Progress: curriculum now has a live reading website](https://github.com/sentient625/enterprise-ai-governance-learning/issues/30) for more.
 
