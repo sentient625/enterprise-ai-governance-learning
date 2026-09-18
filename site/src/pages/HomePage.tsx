@@ -8,7 +8,7 @@ export function HomePage() {
         What identity is acting, on whose authority, with what evidence?
       </h1>
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[#4a463c]">
-        A free, source-grounded curriculum for senior program leaders, IAM/PAM and cybersecurity program managers, and AI
+        A source-grounded curriculum for senior program leaders, IAM/PAM and cybersecurity program managers, and AI
         governance, risk, and assurance professionals working in regulated or high-consequence environments.
       </p>
 
