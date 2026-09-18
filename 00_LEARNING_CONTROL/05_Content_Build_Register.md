@@ -258,10 +258,13 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 4 | P1-A02D | Complete the Module 4 participant workbook and defense | Create and defend the bounded privileged-authority analysis; do not submit the model answer as completed work |
 | 5 | P1-A02E | Complete the Module 5 participant workbook and defense | Create and defend the tool and downstream-authority matrix; do not submit the model answer as completed work |
 | 6 | P1-A02F | Complete the Module 6 participant workbook and defense | Create and defend the human-authority and separation-of-duties analysis; do not submit the model answer as completed work |
-| 7 | P1-A08–P1-A10 | Complete and defend the original Module 10 capstone after the underlying exercises | Original lifecycle and case response, memorandum, evidence appendix, briefing, defense and reviewed revisions; publication alone does not complete learning |
-| 8 | TRAIN-02 | Build a facilitator/timing guide for group delivery of Modules 1–5 | One-page-per-module facilitator guide with timing, discussion prompts, and scoring guidance; does not replace individual completion evidence |
-| 9 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
-| 10 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
+| 7 | P1-A05 | Complete the Module 7 participant workbook and defense | Create and defend the transaction evidence-record specification; do not submit the model answer as completed work |
+| 8 | P1-A06 | Complete the Module 8 participant workbook and defense | Create and defend the suspension, fallback, and recovery tabletop; do not submit the model answer as completed work |
+| 9 | P1-A02I | Complete the Module 9 participant workbook and defense | Create and defend the inventory and lifecycle gate review; do not submit the model answer as completed work |
+| 10 | P1-A08–P1-A10 | Complete and defend the original Module 10 capstone after the underlying exercises | Original lifecycle and case response, memorandum, evidence appendix, briefing, defense and reviewed revisions; publication alone does not complete learning |
+| 11 | TRAIN-02 | Extend the facilitator/timing guide from Modules 1–5 to cover Modules 6–10 | One-page-per-module facilitator guide with timing, discussion prompts, and scoring guidance for the full ten-module sequence; does not replace individual completion evidence |
+| 12 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
+| 13 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 
 ## Update rule
 
