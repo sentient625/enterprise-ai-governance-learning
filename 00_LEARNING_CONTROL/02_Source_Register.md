@@ -35,6 +35,8 @@ This register records the small primary source set used by the active learning p
 | SRC-027 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | NIST | Final, April 2025; supersedes Rev. 2; checked 2026-09-18 | Incident response and recovery in cybersecurity risk management |
 | SRC-028 | [RFC 7009 — OAuth 2.0 Token Revocation](https://datatracker.ietf.org/doc/html/rfc7009) | IETF | Standards Track RFC / Proposed Standard, August 2013; checked 2026-09-18 | Revocation semantics, related-token scope, propagation and response limits |
 | SRC-029 | [NIST Cybersecurity Framework 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf) | NIST | Published framework, February 26, 2024; checked 2026-09-18 | Governance roles/oversight, asset lifecycle, changes/exceptions, and supplier dependencies |
+| SRC-030 | [ISO/IEC 42001:2023 — AI management systems](https://www.iso.org/standard/42001) | ISO/IEC | Published standard, 2023; remains current at review via independent web search, 2026-09-18; direct publisher-page fetch unavailable this session | Certifiable AI management-system requirements; impact-assessment and AI-lifecycle-oriented Annex A controls informing enterprise inventory scope |
+| SRC-031 | [OMB Memorandum M-25-21 — Accelerating Federal Use of AI through Innovation, Governance, and Public Trust](https://static.carahsoft.com/concrete/files/9717/4412/5797/Guidance_M-25-21_Accelerating_Federal_Use_of_AI_through_Innovation_Governance_and_Public_Trust.pdf) | White House OMB | Issued April 3, 2025; rescinds and replaces OMB M-24-10; confirmed current via independent web search, 2026-09-18; direct whitehouse.gov fetch unavailable this session | Illustrative federal-sector context only for AI use-case inventory, Chief AI Officer accountability, and annual public reporting; not applicable as a compliance requirement to this curriculum's general audience |
 
 ## Module 9 source review — 2026-09-18
 
@@ -68,6 +70,12 @@ This log does not replace the Maintenance rule below. It documents that these so
 Reused SRC-025 (NIST AI RMF 1.0, published January 2023) and SRC-029 (NIST CSF 2.0, published February 26, 2024). Publisher PDFs were checked directly for this module. Focused reading: AI RMF GOVERN 2 and MANAGE 1–2; CSF GV.RM, GV.RR and GV.OV. These voluntary frameworks inform accountability, risk response and oversight; neither prescribes the capstone memo, decision options, scoring rubric, pilot limits or professional certification.
 
 The lesson, case synthesis, workbook, illustrative conditions and assessment thresholds are original educational material. No new source ID is required. Prior module source maps remain the references for detailed identity, access, evidence and response topics. Source use does not establish legal, regulatory, safety or production acceptance.
+
+## Priority 2, Module 1 source review — 2026-09-18
+
+New sources SRC-030 (ISO/IEC 42001:2023) and SRC-031 (OMB Memorandum M-25-21) were added for this module. Both were checked through independent web search rather than a direct publisher-page fetch: the authoring environment's network egress proxy blocked direct requests to iso.org, whitehouse.gov, and nvlpubs.nist.gov during this session. Multiple independent search results corroborated ISO/IEC 42001:2023 as the current, unsuperseded AI management-system standard, and confirmed that OMB M-25-21 (issued April 3, 2025) rescinded and replaced M-24-10 while preserving the core inventory-and-Chief-AI-Officer pattern. SRC-025 (NIST AI RMF 1.0, GOVERN 1.5–1.7) and SRC-029 (NIST CSF 2.0, ID.AM) were reused from prior modules without re-verification beyond their existing entries.
+
+This is a search-corroborated authoring check, not independent peer review or a direct primary-source read. Reconfirm both new sources directly against their publisher pages — including the exact M-25-21 URL, cited here through a third-party mirror rather than a confirmed whitehouse.gov path — before the next revision or any production-facing use. The inventory schema, ownership model, and case in Priority 2, Module 1 are original educational synthesis; neither ISO/IEC 42001 nor M-25-21 prescribes them.
 
 ## Internal conceptual sources
 
