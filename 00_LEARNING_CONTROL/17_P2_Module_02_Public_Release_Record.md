@@ -31,17 +31,17 @@ Direct publisher-page fetch (iso.org, whitehouse.gov, nvlpubs.nist.gov) remained
 | Scope discipline | Explicitly distinguished from Module 6's action-level classification and Module 9's lifecycle gates; connection described without merging the decisions |
 | Classification factors | Population, consequence, reversibility, autonomy, data sensitivity, legal/rights exposure, scale, and explainability need each given a governing question |
 | Tier model | Four illustrative tiers, each with a distinct and checkable governance obligation rather than a vague description |
-| Regulatory grounding accuracy | M-25-21 correctly described as having consolidated M-24-10's two-category split into one "high-impact AI" tier; this correction was verified before drafting rather than assumed from Module 1's more general citation |
+| Regulatory grounding accuracy | M-25-21 correctly described as having consolidated M-24-10's two-category split into one "high-impact AI" tier; this correction was verified before drafting rather than assumed from Module 11's more general citation |
 | Intake design | Submitter and classification decision-owner roles separated at higher tiers; independent check required near tier boundaries |
 | Tier creep | A specific gaming scenario (self-described autonomy) constructed and answered with a falsifiable intake question, not a restated trust assumption |
 | Reclassification | Six triggers each tied to observable evidence, not a purely judgment-based watch |
-| Applied case | Reuses Module 1's five findings; introduces no new unauthorized activation or resolved incident; provisional tiers kept visibly provisional |
+| Applied case | Reuses Module 11's five findings; introduces no new unauthorized activation or resolved incident; provisional tiers kept visibly provisional |
 | Applied learning | Workbook Parts 1–8 align with the model answer's Parts 1–8; a review-observations section supports facilitator or self-review |
-| Confidentiality/positioning | Fictional enterprise setting continued from Module 1; program-lead scope and professional boundaries explicit; no claim of technical risk-modeling or legal risk-classification authority |
+| Confidentiality/positioning | Fictional enterprise setting continued from Module 11; program-lead scope and professional boundaries explicit; no claim of technical risk-modeling or legal risk-classification authority |
 | Completion | Original artifact and defense required; Progress Record unchanged by this publication |
 | Navigation | Relative file links checked before commit |
 
-This is an AI-assisted authoring review, not independent external or human peer review. Independent review of source citation accuracy and cross-module consistency has not yet been separately performed for this package, consistent with the still-open item recorded for Module 1, and should occur before either record is treated as unconditional.
+This is an AI-assisted authoring review, not independent external or human peer review. Independent review of source citation accuracy and cross-module consistency has not yet been separately performed for this package, consistent with the still-open item recorded for Module 11, and should occur before either record is treated as unconditional.
 
 ## Limitations and maintenance
 

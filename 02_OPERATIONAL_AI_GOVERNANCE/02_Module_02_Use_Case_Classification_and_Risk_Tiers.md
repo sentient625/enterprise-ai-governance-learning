@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Module 1 produced a list: every AI use case the enterprise could find, with an owner assigned or a gap flagged. A list treats every entry the same size. It does not yet say which entries need an executive-level impact assessment before they touch a customer, and which can proceed with routine oversight.
+Module 11 produced a list: every AI use case the enterprise could find, with an owner assigned or a gap flagged. A list treats every entry the same size. It does not yet say which entries need an executive-level impact assessment before they touch a customer, and which can proceed with routine oversight.
 
 This module develops the program-level ability to assign each inventoried use case a risk tier, define what governance obligation attaches to each tier, design an intake process that classifies a use case before it is deployed rather than after, and manage reclassification when a use case's purpose, population, or data changes.
 
@@ -67,7 +67,7 @@ This four-tier model is this module's own synthesis, built to be simple enough f
 
 ## 4. A real illustration of a consolidated high-impact category
 
-OMB Memorandum M-25-21 (April 2025), covered as illustrative federal-sector context in Module 1, replaced its predecessor's separate "rights-impacting" and "safety-impacting" categories with a single consolidated "high-impact AI" definition, covering AI whose output serves as a principal basis for a decision or action with a legal, material, or safety-related effect on rights, safety, or critical operations. It attaches minimum practices — pre-deployment testing, an impact assessment, ongoing monitoring, and human oversight — to that single tier, with a defined waiver path for a system that cannot meet a minimum practice, rather than a blanket exemption.
+OMB Memorandum M-25-21 (April 2025), covered as illustrative federal-sector context in Module 11, replaced its predecessor's separate "rights-impacting" and "safety-impacting" categories with a single consolidated "high-impact AI" definition, covering AI whose output serves as a principal basis for a decision or action with a legal, material, or safety-related effect on rights, safety, or critical operations. It attaches minimum practices — pre-deployment testing, an impact assessment, ongoing monitoring, and human oversight — to that single tier, with a defined waiver path for a system that cannot meet a minimum practice, rather than a blanket exemption.
 
 This is cited only to show a real government's example of consolidating multiple high-risk categories into one, and of tying a tier to specific, checkable minimum practices rather than a vague "handle carefully" instruction. It does not apply to a private-sector or non-U.S.-government learner's organization, and this module's own four-tier model is not a rewording of it.
 
@@ -105,17 +105,17 @@ Define these as explicit triggers requiring a reclassification review, not as in
 
 ## 8. Applied case — tiering the enterprise's discovered use cases
 
-Continuing the fictional case from Module 1, the same five findings now need a tier assignment.
+Continuing the fictional case from Module 11, the same five findings now need a tier assignment.
 
 | Use case | Population | Consequence/reversibility | Autonomy | Data | Illustrative tier |
 |---|---|---|---|---|---|
 | ORION maintenance agent | Internal operations/IT | Can affect production service availability; partially reversible | Currently governed under Module 6's own action classes | Operational/system data | Elevated to high-impact depending on the specific action being performed; already tracked via Module 6's governance, cross-referenced rather than re-derived here |
-| Sales proposal drafting (consumer tool) | External customers receive the drafted output | Reputational and possible confidentiality exposure; reversible before sending, not after | Human sends the output, but tool's data handling is unknown | Customer and possibly competitive-sensitive data, handling unverified | Elevated, pending the data-handling review Module 1 already flagged; provisionally treat as elevated until that review closes, not as minimal by default |
+| Sales proposal drafting (consumer tool) | External customers receive the drafted output | Reputational and possible confidentiality exposure; reversible before sending, not after | Human sends the output, but tool's data handling is unknown | Customer and possibly competitive-sensitive data, handling unverified | Elevated, pending the data-handling review Module 11 already flagged; provisionally treat as elevated until that review closes, not as minimal by default |
 | Benefits eligibility recommendation (vendor feature) | Employees seeking benefits | Denial or delay of a benefit; reversibility depends on appeal path | Recommendation only, but real human-review depth is unconfirmed | Sensitive employee benefits data | High-impact: affects access to a benefit and touches sensitive personal data; requires the full obligation set before continued use is accepted |
 | Customer-service analytics pilot | Customers, aggregated | Currently informational; no direct decision consequence documented in the case | No decision authority — analytics only, as far as documented | Live customer data | Elevated on data-sensitivity grounds alone, pending confirmation that no consequential decision is actually being made from its output |
-| Three disagreeing business-unit lists | N/A — a process gap, not a use case | N/A | N/A | N/A | Not tierable; this is the record-steward gap from Module 1 and must be resolved before any of the above tiers can be trusted enterprise-wide |
+| Three disagreeing business-unit lists | N/A — a process gap, not a use case | N/A | N/A | N/A | Not tierable; this is the record-steward gap from Module 11 and must be resolved before any of the above tiers can be trusted enterprise-wide |
 
-Two results are worth naming explicitly. First, the benefits-eligibility case reaches high-impact primarily because of what it decides (access to a benefit), not because of its technical sophistication — a simple recommendation engine can still be high-impact. Second, the sales-drafting and analytics cases are provisionally tiered pending information Module 1 already identified as missing; a tier assigned without that information should be labeled provisional, not final.
+Two results are worth naming explicitly. First, the benefits-eligibility case reaches high-impact primarily because of what it decides (access to a benefit), not because of its technical sophistication — a simple recommendation engine can still be high-impact. Second, the sales-drafting and analytics cases are provisionally tiered pending information Module 11 already identified as missing; a tier assigned without that information should be labeled provisional, not final.
 
 ## 9. Executive and program-lead questions
 
@@ -152,7 +152,7 @@ Complete the [Module 12 Participant Workbook](./exercises/03_Module_02_Participa
 Completion requires:
 
 - an original risk-tier model with a distinct governance obligation per tier;
-- a populated classification of the Module 1 case's use cases, including at least one provisional tier with its missing information named;
+- a populated classification of the Module 11 case's use cases, including at least one provisional tier with its missing information named;
 - an intake-process design naming the submitter and classification decision-owner roles;
 - a reclassification-trigger list;
 - a written or oral defense.
@@ -174,4 +174,4 @@ This builds on program disciplines of intake and gating, risk-based prioritizati
 - [ISO/IEC 42001:2023 — AI management systems](https://www.iso.org/standard/42001) — its AI risk assessment and AI system impact assessment requirements inform the general discipline of assessing a use case before and during operation; a certifiable management-system standard, not a public tier schema, and this module does not claim ISO-conformant control mapping.
 - [OMB Memorandum M-25-21 — Accelerating Federal Use of AI through Innovation, Governance, and Public Trust](https://static.carahsoft.com/concrete/files/9717/4412/5797/Guidance_M-25-21_Accelerating_Federal_Use_of_AI_through_Innovation_Governance_and_Public_Trust.pdf) (issued April 3, 2025; rescinds and replaces M-24-10) — cited specifically because it consolidated its predecessor's separate "rights-impacting" and "safety-impacting" categories into one "high-impact AI" tier with defined minimum practices and a waiver path; illustrative federal-sector context only, not applicable as a compliance requirement to this curriculum's general audience.
 
-Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Module 1. Verify current versions and organizational applicability before production or public-sector use, and specifically reconfirm that M-25-21's consolidated "high-impact AI" definition (rather than its rescinded predecessor's two-category split) remains current at the time of reuse.
+Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Module 11. Verify current versions and organizational applicability before production or public-sector use, and specifically reconfirm that M-25-21's consolidated "high-impact AI" definition (rather than its rescinded predecessor's two-category split) remains current at the time of reuse.

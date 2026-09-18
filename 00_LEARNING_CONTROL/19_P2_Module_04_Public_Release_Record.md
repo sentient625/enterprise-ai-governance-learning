@@ -14,15 +14,15 @@
 
 ## Scope and learning claim
 
-The package includes the lesson, participant workbook, model answer/review guide, source-register update, and navigation/content-register changes. It develops executive and program-lead judgment about separating testing, evaluation, verification, and validation as four distinct questions; requiring TEVV scope to cover adversarial and misuse behavior, not only functional accuracy; setting pass/fail criteria before results are known; scaling TEVV independence to a use case's risk tier; and connecting TEVV evidence to Module 3's control-assessment work without collapsing the two activities.
+The package includes the lesson, participant workbook, model answer/review guide, source-register update, and navigation/content-register changes. It develops executive and program-lead judgment about separating testing, evaluation, verification, and validation as four distinct questions; requiring TEVV scope to cover adversarial and misuse behavior, not only functional accuracy; setting pass/fail criteria before results are known; scaling TEVV independence to a use case's risk tier; and connecting TEVV evidence to Module 13's control-assessment work without collapsing the two activities.
 
 Publication does not establish learner completion, production readiness, independent peer review, or professional authority. The TEVV specification and fictional case are original educational synthesis, not a NIST-, ISO-, or OWASP-prescribed test plan.
 
 ## Source treatment
 
-Publisher-adjacent material checked through independent web search on 2026-09-18: NIST AI RMF 1.0 (January 2023), specifically its cross-cutting treatment of TEVV as a lifecycle-wide discipline; NIST AI 100-2e2025 (Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations), published March 2025 and confirmed to substantially expand the prior 2023 edition specifically to cover generative-AI, LLM, RAG, and agent-based attacks — a new source added specifically for this module; NIST AI 600-1, reused from earlier modules; and ISO/IEC 42001:2023, reused from Module 1 for its operational-planning and change-management framing.
+Publisher-adjacent material checked through independent web search on 2026-09-18: NIST AI RMF 1.0 (January 2023), specifically its cross-cutting treatment of TEVV as a lifecycle-wide discipline; NIST AI 100-2e2025 (Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations), published March 2025 and confirmed to substantially expand the prior 2023 edition specifically to cover generative-AI, LLM, RAG, and agent-based attacks — a new source added specifically for this module; NIST AI 600-1, reused from earlier modules; and ISO/IEC 42001:2023, reused from Module 11 for its operational-planning and change-management framing.
 
-Direct publisher-page fetch (nvlpubs.nist.gov, csrc.nist.gov, iso.org) remained unavailable during this authoring session because of the same network egress restriction recorded in the Module 11 through 3 release records. Source status rests on corroboration across multiple independent search results per source, not a direct page read. This is an authoring-time check, not independent peer review, and should be reconfirmed against the primary publisher pages before the next revision or before any production-facing use — particularly NIST AI 100-2's edition number, since it is an actively updated taxonomy that has already been revised once (2023 to 2025) within the period this register covers.
+Direct publisher-page fetch (nvlpubs.nist.gov, csrc.nist.gov, iso.org) remained unavailable during this authoring session because of the same network egress restriction recorded in the Modules 11 through 13 release records. Source status rests on corroboration across multiple independent search results per source, not a direct page read. This is an authoring-time check, not independent peer review, and should be reconfirmed against the primary publisher pages before the next revision or before any production-facing use — particularly NIST AI 100-2's edition number, since it is an actively updated taxonomy that has already been revised once (2023 to 2025) within the period this register covers.
 
 ## Authoring review
 
@@ -31,16 +31,16 @@ Direct publisher-page fetch (nvlpubs.nist.gov, csrc.nist.gov, iso.org) remained 
 | Scope discipline | Four TEVV terms (verification, validation, testing, evaluation) kept explicitly distinct, each with a stated question and a counterexample of what it does not answer |
 | Adversarial scope | Explicitly required, tied to Module 5's prompt-injection content and to NIST AI 100-2e2025's expanded GenAI/LLM/RAG/agent attack coverage, rather than limited to functional accuracy |
 | Criteria discipline | Pass/fail criteria required before testing, with specific warning signs for post-hoc criterion adjustment named |
-| Relationship to Module 3 | TEVV and control assessment explicitly distinguished, with a worked example (the claimed-safeguard test) showing how a TEVV finding would have caught Module 3's control-assessment gap proactively rather than reactively |
-| Independence | Scaled explicitly to Module 2's tier model, consistent with Module 3's assessor-independence pattern |
+| Relationship to Module 13 | TEVV and control assessment explicitly distinguished, with a worked example (the claimed-safeguard test) showing how a TEVV finding would have caught Module 13's control-assessment gap proactively rather than reactively |
+| Independence | Scaled explicitly to Module 12's tier model, consistent with Module 13's assessor-independence pattern |
 | Vendor-benchmark treatment | Explicitly rejected as a substitute for enterprise-specific TEVV at elevated and high-impact tiers, with a stated reason (population and condition mismatch) |
-| Applied case | Continues Modules 1–3's benefits-eligibility finding; reconstructs what TEVV should have covered pre-deployment without claiming a resolved outcome |
+| Applied case | Continues Modules 11–13's benefits-eligibility finding; reconstructs what TEVV should have covered pre-deployment without claiming a resolved outcome |
 | Applied learning | Workbook Parts 1–8 align with the model answer's Parts 1–8; a review-observations section supports facilitator or self-review |
-| Confidentiality/positioning | Fictional enterprise setting continued from Modules 1–3; program-lead scope and professional boundaries explicit; no claim of personally designing or executing a test methodology |
+| Confidentiality/positioning | Fictional enterprise setting continued from Modules 11–13; program-lead scope and professional boundaries explicit; no claim of personally designing or executing a test methodology |
 | Completion | Original artifact and defense required; Progress Record unchanged by this publication |
 | Navigation | Relative file links checked before commit; full-repository link check also run |
 
-This is an AI-assisted authoring review, not independent external or human peer review. Independent review of source citation accuracy and cross-module consistency has not yet been separately performed for this package, consistent with the still-open item recorded for Modules 1 through 3, and should occur before any of these four records is treated as unconditional.
+This is an AI-assisted authoring review, not independent external or human peer review. Independent review of source citation accuracy and cross-module consistency has not yet been separately performed for this package, consistent with the still-open item recorded for Modules 11 through 13, and should occur before any of these four records is treated as unconditional.
 
 ## Limitations and maintenance
 

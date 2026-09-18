@@ -1,8 +1,8 @@
 # Module 14 Participant Workbook — Testing, Evaluation, Verification, and Validation
 
-**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./08_Module_04_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 4's lesson](../04_Module_04_Testing_Evaluation_Verification_and_Validation.md).
+**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./08_Module_04_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 14's lesson](../04_Module_04_Testing_Evaluation_Verification_and_Validation.md).
 
-Use the fictional case in Section 7 of the lesson and your own Module 1–3 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
+Use the fictional case in Section 7 of the lesson and your own Module 11–13 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
 
 ## Part 1 — Four questions
 
@@ -15,7 +15,7 @@ Using the minimum specification in Section 3 of the lesson, draft a TEVV plan fo
 - one functional/accuracy test;
 - one adversarial or misuse test scenario specific to this use case;
 - one fairness/bias evaluation with a pass/fail threshold stated in advance;
-- one claimed-safeguard test targeting the human-review control Module 3 already found weak.
+- one claimed-safeguard test targeting the human-review control Module 13 already found weak.
 
 ## Part 3 — Criteria before results
 
@@ -23,19 +23,19 @@ For each test in your Part 2 plan, write the pass/fail criterion as you would re
 
 ## Part 4 — Independence
 
-State what level of TEVV independence this use case's tier (from your Module 2 workbook) requires, per Section 6. Name who should design and execute each test in your Part 2 plan, and explain why the vendor's own benchmark should not be accepted as a substitute for any of them.
+State what level of TEVV independence this use case's tier (from your Module 12 workbook) requires, per Section 6. Name who should design and execute each test in your Part 2 plan, and explain why the vendor's own benchmark should not be accepted as a substitute for any of them.
 
 ## Part 5 — Distinguishing TEVV from control assessment
 
-Using your Module 3 control-assessment workbook, identify one finding from that exercise that a TEVV test — if it had been run before deployment — should have caught earlier. Explain specifically why TEVV and control assessment are not the same activity, using this example.
+Using your Module 13 control-assessment workbook, identify one finding from that exercise that a TEVV test — if it had been run before deployment — should have caught earlier. Explain specifically why TEVV and control assessment are not the same activity, using this example.
 
 ## Part 6 — Retest triggers
 
-List at least three retest triggers for this use case, tying at least one to a Module 2 reclassification trigger and at least one to a Module 9-style material change (even though this specific use case may not yet be an agent under Module 9).
+List at least three retest triggers for this use case, tying at least one to a Module 12 reclassification trigger and at least one to a Module 9-style material change (even though this specific use case may not yet be an agent under Module 9).
 
 ## Part 7 — Executive summary
 
-In no more than 200 words, summarize to an executive audience what TEVV work must be completed before this use case can move from Module 3's "hold" toward a less restrictive governing response. Name the specific tests, not a general "more testing is needed" statement.
+In no more than 200 words, summarize to an executive audience what TEVV work must be completed before this use case can move from Module 13's "hold" toward a less restrictive governing response. Name the specific tests, not a general "more testing is needed" statement.
 
 ## Part 8 — Defense
 

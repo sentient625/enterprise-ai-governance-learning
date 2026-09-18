@@ -10,9 +10,9 @@
 
 ## Purpose
 
-Module 4 produced retest triggers — a new data class, a population expansion, a vendor model-version update — but did not say what an enterprise should actually be watching in production to notice when one of those triggers has occurred, or what should happen when it does. A use case that passed every TEVV test before deployment can still drift, degrade, or be silently changed by a vendor afterward. Without ongoing monitoring, the enterprise finds out about that drift only when someone complains, or not at all.
+Module 14 produced retest triggers — a new data class, a population expansion, a vendor model-version update — but did not say what an enterprise should actually be watching in production to notice when one of those triggers has occurred, or what should happen when it does. A use case that passed every TEVV test before deployment can still drift, degrade, or be silently changed by a vendor afterward. Without ongoing monitoring, the enterprise finds out about that drift only when someone complains, or not at all.
 
-This module develops the program-level ability to specify an ongoing monitoring plan distinct from the one-time or periodic testing built in Module 4; distinguish a material change requiring a fresh assessment cycle from a routine operational change; require vendors to disclose changes to a model or system the enterprise depends on but does not control; and assign a real decision owner and deadline to every monitoring signal, so that a signal leads to a response rather than sitting in a dashboard.
+This module develops the program-level ability to specify an ongoing monitoring plan distinct from the one-time or periodic testing built in Module 14; distinguish a material change requiring a fresh assessment cycle from a routine operational change; require vendors to disclose changes to a model or system the enterprise depends on but does not control; and assign a real decision owner and deadline to every monitoring signal, so that a signal leads to a response rather than sitting in a dashboard.
 
 The monitoring specification, change-governance model, and case below are original educational synthesis. They are not a NIST-, ISO-, or vendor-prescribed monitoring architecture, a certification, or a substitute for a qualified engineering or security monitoring design.
 
@@ -20,7 +20,7 @@ The monitoring specification, change-governance model, and case below are origin
 
 A learner should be able to:
 
-- Distinguish ongoing monitoring from the point-in-time or periodic testing built in Module 4.
+- Distinguish ongoing monitoring from the point-in-time or periodic testing built in Module 14.
 - Specify a minimum monitoring plan: what signals to track, their definitions, thresholds, owners, and response deadlines.
 - Distinguish a leading indicator of weakening control from a confirmed incident, and route each differently.
 - Define what counts as a material change requiring a fresh assessment cycle, distinguishing it from routine operation.
@@ -31,7 +31,7 @@ A learner should be able to:
 
 ## 1. Monitoring is not testing repeated
 
-Module 4's TEVV plan produces a result at a point in time, under conditions the tester controlled. Monitoring observes a live system's actual behavior continuously, under conditions no one controls, including behavior that only emerges after deployment: model drift as real-world data shifts away from training data, a gradual change in an override rate as staff grow more comfortable with a tool, a vendor pushing an unannounced update, or a slow accumulation of individually small effects into a material one.
+Module 14's TEVV plan produces a result at a point in time, under conditions the tester controlled. Monitoring observes a live system's actual behavior continuously, under conditions no one controls, including behavior that only emerges after deployment: model drift as real-world data shifts away from training data, a gradual change in an override rate as staff grow more comfortable with a tool, a vendor pushing an unannounced update, or a slow accumulation of individually small effects into a material one.
 
 A use case that passed TEVV on day one can fail in month six without any single dramatic event — only a monitoring plan, not a repeated test, is positioned to notice that kind of drift as it happens rather than long afterward.
 
@@ -63,13 +63,13 @@ Treating every leading indicator as an incident causes alarm fatigue and burns t
 
 ## 4. What counts as a material change
 
-A material change reopens an earlier gate — Module 2's tier, Module 3's assessment, or Module 4's TEVV plan — rather than being absorbed as routine operation. Building on the material-change discipline in Module 9, applied here at the use-case level:
+A material change reopens an earlier gate — Module 12's tier, Module 13's assessment, or Module 14's TEVV plan — rather than being absorbed as routine operation. Building on the material-change discipline in Module 9, applied here at the use-case level:
 
 | Change | Governing question |
 |---|---|
 | Model or provider version update | Has anything relevant to the last assessment's findings changed, even if the enterprise did not request the change? |
 | Population or scope expansion | Does the new population differ from what the original impact assessment and TEVV plan covered? |
-| Interface or workflow change | Could this change affect a claimed safeguard's actual operation, the way Module 3's interface-driven automation bias did? |
+| Interface or workflow change | Could this change affect a claimed safeguard's actual operation, the way Module 13's interface-driven automation bias did? |
 | Volume or usage-pattern growth | Could cumulative effects that were immaterial at the original volume become material now? |
 | New data source or integration | Does this introduce a data class or dependency the original assessment did not consider? |
 | A confirmed incident elsewhere with the same vendor or model family | Does that incident suggest a risk this use case's own assessment did not anticipate? |
@@ -93,26 +93,26 @@ Where a vendor will not agree to disclosure, or where the enterprise has no real
 - **Module 7** built transaction-level evidence and monitoring; this module builds use-case- and portfolio-level monitoring, watching for drift and change rather than reconstructing a single transaction.
 - **Module 8** governs suspension and response once an incident is confirmed; this module's job is to get a confirmed incident to Module 8's process quickly, and to catch a leading indicator before it becomes one.
 - **Module 9** and **Module 12** both already define material change and reclassification triggers at the agent-lifecycle and risk-tier level; this module operationalizes watching for those triggers in an already-deployed use case, rather than redefining what a material change is.
-- **Module 14** produced retest triggers; this module is where those triggers are actually detected in live operation, closing the loop Module 4 opened.
+- **Module 14** produced retest triggers; this module is where those triggers are actually detected in live operation, closing the loop Module 14 opened.
 
 ## 7. Applied case — monitoring the benefits-eligibility recommendation after remediation
 
-Continuing the fictional case from Modules 1 through 4, assume the interface redesign and the fairness evaluation Module 4 called for have been completed, and the use case has moved from Module 3's hold to a constrained continued-operation decision. The monitoring plan going forward should include:
+Continuing the fictional case from Modules 11 through 14, assume the interface redesign and the fairness evaluation Module 14 called for have been completed, and the use case has moved from Module 13's hold to a constrained continued-operation decision. The monitoring plan going forward should include:
 
 | Signal | Threshold (illustrative) | Owner | Response deadline |
 |---|---|---|---|
-| Override/rejection rate | Falls outside the range validated during Module 4's claimed-safeguard test | Benefits operations lead | Investigate within five business days; escalate if unresolved within two weeks |
-| Appeal-overturn rate | Exceeds the disparity threshold set in Module 4's fairness evaluation | Independent governance/control owner | Immediate investigation; route to Module 8 if a confirmed pattern is found |
+| Override/rejection rate | Falls outside the range validated during Module 14's claimed-safeguard test | Benefits operations lead | Investigate within five business days; escalate if unresolved within two weeks |
+| Appeal-overturn rate | Exceeds the disparity threshold set in Module 14's fairness evaluation | Independent governance/control owner | Immediate investigation; route to Module 8 if a confirmed pattern is found |
 | Vendor model-version change | Any change, disclosed or detected | Technology/vendor-management owner | Trigger Section 4's material-change review before the new version processes further live claims |
 | Volume | Exceeds the population the original impact assessment covered | Benefits business owner | Trigger reassessment before further expansion |
 
-Six months later, the enterprise's override-rate monitoring shows a sudden shift with no corresponding interface change on the enterprise's side. Investigation reveals the vendor pushed a model update without notice, despite the contract term requiring disclosure that was added after Module 4. The vendor's own release notes, found only after the drift was noticed, confirm the update changed the underlying recommendation model.
+Six months later, the enterprise's override-rate monitoring shows a sudden shift with no corresponding interface change on the enterprise's side. Investigation reveals the vendor pushed a model update without notice, despite the contract term requiring disclosure that was added after Module 14. The vendor's own release notes, found only after the drift was noticed, confirm the update changed the underlying recommendation model.
 
 ### Governing diagnosis
 
 - The monitoring plan worked as designed: it caught the drift before a confirmed incident occurred, even though the disclosure obligation failed.
 - The disclosure failure is itself a vendor-management finding, not merely a technical curiosity — the contract term exists precisely because monitoring alone should not be the only signal.
-- This is a material change under Section 4, and the use case should return to Module 4's TEVV plan against the new model version before continued reliance, not merely resume operation once the drift is explained.
+- This is a material change under Section 4, and the use case should return to Module 14's TEVV plan against the new model version before continued reliance, not merely resume operation once the drift is explained.
 - The response deadline in the monitoring plan is what turned a detected signal into a scheduled action, rather than a data point someone might eventually notice.
 
 ## 8. Executive and program-lead questions
@@ -123,11 +123,11 @@ Six months later, the enterprise's override-rate monitoring shows a sudden shift
 4. Does the vendor contract require change disclosure, and has that obligation ever actually been tested?
 5. What happens when a threshold is crossed and the named owner does not respond within the deadline?
 6. Is there a defined change envelope, or does every operational tweak require asking whether it counts as material?
-7. When a material change is detected, does it actually trigger Module 4's TEVV plan again, or does operation continue while the review is "scheduled"?
+7. When a material change is detected, does it actually trigger Module 14's TEVV plan again, or does operation continue while the review is "scheduled"?
 
 ## 9. Knowledge check
 
-1. Why is monitoring not the same as repeating Module 4's TEVV plan?
+1. Why is monitoring not the same as repeating Module 14's TEVV plan?
 2. Name the minimum fields a monitoring signal specification should include.
 3. Why must a leading indicator and a confirmed incident be routed differently?
 4. Give three examples of a material change that does not involve the enterprise changing anything itself.
@@ -169,6 +169,6 @@ This builds on program disciplines of operational monitoring, vendor management,
 
 - [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) — the MANAGE function, particularly MANAGE 1 (prioritizing and responding to risks), MANAGE 3 (managing risks and benefits from third-party entities), and MANAGE 4 (risk treatment, response, recovery, and communication plans), informs this module's monitoring-response and vendor-disclosure framing. AI RMF 1.0 remains the published framework while revision work proceeds; MANAGE is a risk-treatment function, not a mandated monitoring architecture.
 - [NIST Cybersecurity Framework 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf), reused from earlier modules — its Detect function informs general continuous-monitoring discipline, and its supplier-facing outcomes (GV.SC) reinforce the third-party disclosure framing.
-- [ISO/IEC 42001:2023 — AI management systems](https://www.iso.org/standard/42001), reused from Module 1 — its Clause 9 (monitoring, measurement, analysis, evaluation, internal audit, and management review) and Clause 10 (nonconformity, corrective action, and continual improvement) inform this module's ongoing-monitoring and change-response discipline; a certifiable management-system standard, not a monitoring-platform specification.
+- [ISO/IEC 42001:2023 — AI management systems](https://www.iso.org/standard/42001), reused from Module 11 — its Clause 9 (monitoring, measurement, analysis, evaluation, internal audit, and management review) and Clause 10 (nonconformity, corrective action, and continual improvement) inform this module's ongoing-monitoring and change-response discipline; a certifiable management-system standard, not a monitoring-platform specification.
 
-Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Modules 1 through 4. Verify current versions and organizational applicability before production use.
+Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Modules 11 through 14. Verify current versions and organizational applicability before production use.

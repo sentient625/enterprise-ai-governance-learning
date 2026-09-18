@@ -20,26 +20,26 @@ Publication does not establish learner completion, production readiness, indepen
 
 ## Source treatment
 
-Publisher-adjacent material checked through independent web search on 2026-09-18: NIST AI RMF 1.0 (January 2023) MANAGE function, specifically MANAGE 1 (prioritizing and responding to risk), MANAGE 3 (third-party risk and benefit management), and MANAGE 4 (risk treatment, response, recovery, and communication plans); NIST CSF 2.0, reused with focus on its Detect function and supplier-facing outcomes; and ISO/IEC 42001:2023, reused from Module 1 with focus on Clause 9 (monitoring, measurement, internal audit, management review) and Clause 10 (nonconformity, corrective action, continual improvement).
+Publisher-adjacent material checked through independent web search on 2026-09-18: NIST AI RMF 1.0 (January 2023) MANAGE function, specifically MANAGE 1 (prioritizing and responding to risk), MANAGE 3 (third-party risk and benefit management), and MANAGE 4 (risk treatment, response, recovery, and communication plans); NIST CSF 2.0, reused with focus on its Detect function and supplier-facing outcomes; and ISO/IEC 42001:2023, reused from Module 11 with focus on Clause 9 (monitoring, measurement, internal audit, management review) and Clause 10 (nonconformity, corrective action, continual improvement).
 
-Direct publisher-page fetch (nvlpubs.nist.gov, iso.org) remained unavailable during this authoring session because of the same network egress restriction recorded in the Module 11 through 4 release records. Source status rests on corroboration across multiple independent search results per source, not a direct page read. This is an authoring-time check, not independent peer review, and should be reconfirmed against the primary publisher pages before the next revision or before any production-facing use.
+Direct publisher-page fetch (nvlpubs.nist.gov, iso.org) remained unavailable during this authoring session because of the same network egress restriction recorded in the Modules 11 through 14 release records. Source status rests on corroboration across multiple independent search results per source, not a direct page read. This is an authoring-time check, not independent peer review, and should be reconfirmed against the primary publisher pages before the next revision or before any production-facing use.
 
 ## Authoring review
 
 | Dimension | Review finding |
 |---|---|
-| Scope discipline | Monitoring explicitly distinguished from Module 4's TEVV as continuous, uncontrolled observation versus point-in-time testing under controlled conditions |
+| Scope discipline | Monitoring explicitly distinguished from Module 14's TEVV as continuous, uncontrolled observation versus point-in-time testing under controlled conditions |
 | Monitoring specification | Signal, definition, baseline, threshold, data source, owner, response deadline, and escalation each given a governing question, extending Module 7's signal-definition discipline to use-case/portfolio level |
 | Leading indicator vs. incident | Two illustrative scenarios worked through with different, explicitly justified governing responses; incident scenario routes to Module 8 rather than restating Module 8's own process |
-| Change envelope | Drawn narrowly around the specific interface mechanism Module 3 already found broken, rather than a broad boundary that could let the same failure recur under a different description |
+| Change envelope | Drawn narrowly around the specific interface mechanism Module 13 already found broken, rather than a broad boundary that could let the same failure recur under a different description |
 | Vendor disclosure | A specific, checkable contract term proposed with a stated fallback (monitoring-based detection) and an honest acknowledgment that the fallback is weaker than real advance notice |
-| Applied case | Continues Modules 1–4's benefits-eligibility case into a six-months-later scenario; demonstrates the disclosure obligation failing and the monitoring plan catching the resulting drift, without asserting the vendor relationship or fairness question is now fully resolved |
+| Applied case | Continues Modules 11–14's benefits-eligibility case into a six-months-later scenario; demonstrates the disclosure obligation failing and the monitoring plan catching the resulting drift, without asserting the vendor relationship or fairness question is now fully resolved |
 | Applied learning | Workbook Parts 1–8 align with the model answer's Parts 1–8; a review-observations section supports facilitator or self-review |
-| Confidentiality/positioning | Fictional enterprise setting continued from Modules 1–4; program-lead scope and professional boundaries explicit; no claim of personally designing or operating a monitoring platform |
+| Confidentiality/positioning | Fictional enterprise setting continued from Modules 11–14; program-lead scope and professional boundaries explicit; no claim of personally designing or operating a monitoring platform |
 | Completion | Original artifact and defense required; Progress Record unchanged by this publication |
 | Navigation | Relative file links checked before commit; full-repository link check also run |
 
-This is an AI-assisted authoring review, not independent external or human peer review. Independent review of source citation accuracy and cross-module consistency has not yet been separately performed for this package, consistent with the still-open item recorded for Modules 1 through 4, and should occur before any of these five records is treated as unconditional.
+This is an AI-assisted authoring review, not independent external or human peer review. Independent review of source citation accuracy and cross-module consistency has not yet been separately performed for this package, consistent with the still-open item recorded for Modules 11 through 14, and should occur before any of these five records is treated as unconditional.
 
 ## Limitations and maintenance
 
