@@ -1,6 +1,6 @@
 # Priority 2 — Operationalizing AI Governance
 
-**Status:** Active — build started. Modules 1–4 are accepted for public learning use; Modules 5–10 remain planned.
+**Status:** Active — build started. Modules 1–5 are accepted for public learning use; Modules 6–10 remain planned.
 
 This priority translates governance frameworks into an enterprise operating model.
 
@@ -66,9 +66,23 @@ Use the package in this order:
 
 Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Modules 1–3, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
 
+### Module 5 — Monitoring and Change Governance
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 5 teaches learners to specify an ongoing monitoring plan with real signal thresholds, owners, and response deadlines; distinguish a leading indicator from a confirmed incident; define a material-change envelope; and require vendor and third-party change disclosure with an honestly acknowledged fallback when disclosure fails. It closes the loop Module 4's retest triggers opened.
+
+Use the package in this order:
+
+1. [Read the Module 5 lesson](./05_Module_05_Monitoring_and_Change_Governance.md).
+2. [Complete the participant workbook](./exercises/09_Module_05_Participant_Workbook.md).
+3. [Review the model answer and review guide](./exercises/10_Module_05_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](../00_LEARNING_CONTROL/20_P2_Module_05_Public_Release_Record.md).
+
+Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Modules 1–4, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
+
 ## Planned capabilities
 
-- Model and agent monitoring.
 - Vendor and supply-chain governance.
 - Incident response and decommissioning.
 - Evidence retention and regulatory defensibility.
@@ -82,4 +96,4 @@ Completion requires an original artifact and a defense. Reading the lesson or th
 - Use-case intake and classification artifact.
 - Monitoring, incident, and decommissioning case.
 
-Build on Modules 5–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.
+Build on Modules 6–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.

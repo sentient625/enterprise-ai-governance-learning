@@ -342,3 +342,22 @@ Testing that deliberately attempts to manipulate, bypass, or break an AI system'
 ### Claimed-safeguard test
 
 A test designed specifically to determine whether a control someone has claimed exists — such as a human-review step or a content filter — actually produces its intended effect under realistic conditions, rather than assuming the claim is accurate.
+
+
+## Priority 2, Module 5 additions
+
+### Monitoring signal
+
+A specific, defined metric tracked continuously in production, with a stated definition, baseline, threshold, data source, accountable owner, and response deadline — distinct from telemetry, which is collected but may have no owner or defined response attached.
+
+### Leading indicator
+
+A signal suggesting a control may be weakening or a risk may be growing, without yet confirming a specific harmful outcome has occurred — requiring timed investigation, distinct from a confirmed incident, which requires immediate response through the enterprise's suspension and response process.
+
+### Change envelope
+
+A defined, bounded set of changes an owner may make to an operating AI use case without triggering a full reassessment, with anything outside that boundary required to route back through the relevant risk-tier, impact-assessment, or testing gate.
+
+### Vendor change disclosure
+
+A specific, checkable contractual or vendor-management obligation requiring a vendor to notify the enterprise of a material change to a model or system the enterprise depends on but does not control, distinct from the enterprise's own monitoring, which can only detect such a change after it has already begun to have an effect.

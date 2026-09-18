@@ -100,6 +100,12 @@ New source SRC-034 (NIST AI 100-2e2025) was added for this module, checked throu
 
 This is a search-corroborated authoring check, not independent peer review or a direct primary-source read. The TEVV specification, independence model, and case in Priority 2, Module 4 are original educational synthesis; none of the sources above prescribes them. Because NIST AI 100-2 has already been revised once within this register's tracking period, reconfirm its current edition specifically before reuse in any later module or revision.
 
+## Priority 2, Module 5 source review — 2026-09-18
+
+No new source ID was required. Reused SRC-025 (NIST AI RMF 1.0), focused on the MANAGE function (MANAGE 1, MANAGE 3, and MANAGE 4) rather than GOVERN or MEASURE; SRC-029 (NIST CSF 2.0), focused on its Detect function and supplier-facing outcomes; and SRC-030 (ISO/IEC 42001:2023), focused on Clause 9 (monitoring, measurement, audit, management review) and Clause 10 (nonconformity, corrective action, continual improvement) rather than the impact-assessment clauses cited for Modules 1 and 3. All three were checked through independent web search rather than a direct publisher-page fetch, for the same network-egress-restriction reason recorded for Modules 1 through 4.
+
+This is a search-corroborated authoring check, not independent peer review or a direct primary-source read. The monitoring specification, change-envelope model, vendor-disclosure framing, and case in Priority 2, Module 5 are original educational synthesis; none of the sources above prescribes them.
+
 ## Internal conceptual sources
 
 The active module applies the Funded Belief, Evidence Locker, and accountable-authority concepts from *Forensic Capital Governance*. The accepted books remain separately governed. This repository may apply those concepts but must not silently revise their controlled meanings.
