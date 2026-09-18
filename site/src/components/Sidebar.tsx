@@ -9,7 +9,7 @@ function SidebarContents({ path, onNavigate }: { path: string; onNavigate?: () =
         <span className="block text-[11px] font-semibold uppercase tracking-[.2em] text-[#e9c46a]">Source-grounded curriculum</span>
         <strong className="mt-2 block font-serif text-xl font-normal leading-tight text-white">Enterprise AI Governance Learning</strong>
       </a>
-      <ol className="flex-1 space-y-0.5 overflow-y-auto px-3 py-4">
+      <ol className="min-h-0 flex-1 space-y-0.5 overflow-y-auto px-3 py-4">
         {curriculum.map((module, moduleIndex) => {
           const href = `/${module.slug}`;
           const active = path === href;
