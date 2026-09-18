@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–3 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment) accepted for public learning use; Modules 4–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–4 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment; Testing, Evaluation, Verification, and Validation) accepted for public learning use; Modules 5–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
@@ -217,14 +217,27 @@ Use the package in this order:
 3. [Review the model answer and review guide](./02_OPERATIONAL_AI_GOVERNANCE/exercises/06_Module_03_Model_Answer_and_Review_Guide.md).
 4. [Read the public-release record](./00_LEARNING_CONTROL/18_P2_Module_03_Public_Release_Record.md).
 
-All three Priority 2 modules' source verification relied on independent web search rather than a direct publisher-page fetch; each public-release record flags that as pending further independent review. Modules 4–10 of Priority 2 remain planned. Priority 3 remains planned and not yet built.
+### Priority 2, Module 4 — Testing, Evaluation, Verification, and Validation
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 4 teaches learners to separate testing, evaluation, verification, and validation as four distinct questions; require TEVV scope to cover adversarial and misuse behavior, not only functional accuracy; set pass/fail criteria before results are known; scale TEVV independence to a use case's risk tier; and connect TEVV evidence to Module 3's control-assessment work without collapsing the two activities.
+
+Use the package in this order:
+
+1. [Read the Module 4 lesson](./02_OPERATIONAL_AI_GOVERNANCE/04_Module_04_Testing_Evaluation_Verification_and_Validation.md).
+2. [Complete the participant workbook](./02_OPERATIONAL_AI_GOVERNANCE/exercises/07_Module_04_Participant_Workbook.md).
+3. [Review the model answer and review guide](./02_OPERATIONAL_AI_GOVERNANCE/exercises/08_Module_04_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](./00_LEARNING_CONTROL/19_P2_Module_04_Public_Release_Record.md).
+
+All four Priority 2 modules' source verification relied on independent web search rather than a direct publisher-page fetch; each public-release record flags that as pending further independent review. Modules 5–10 of Priority 2 remain planned. Priority 3 remains planned and not yet built.
 
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
 | 1 | AI-agent identity, security, and governance | Modules 1–10 accepted; learner completion requires artifacts and defense |
-| 2 | Operationalizing AI governance | Modules 1–3 accepted; Modules 4–10 planned |
+| 2 | Operationalizing AI governance | Modules 1–4 accepted; Modules 5–10 planned |
 | 3 | Financial decision fluency | Planned |
 
 The [Learning Roadmap](./00_LEARNING_CONTROL/01_Learning_Roadmap.md) and [Content Build Register](./00_LEARNING_CONTROL/05_Content_Build_Register.md) show the planned sequence and current status.

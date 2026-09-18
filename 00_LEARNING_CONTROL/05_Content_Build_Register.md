@@ -221,6 +221,15 @@ The build should follow the learning path:
 | P2-PUB11 | Module 3 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/06_Module_03_Model_Answer_and_Review_Guide.md) | Accepted |
 | P2-PUB12 | Module 3 public-release record | [Priority 2, Module 3 Public-Release Record](./18_P2_Module_03_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
 
+## Public-release package — Module 4
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P2-PUB13 | Module 4 lesson | [Testing, Evaluation, Verification, and Validation](../02_OPERATIONAL_AI_GOVERNANCE/04_Module_04_Testing_Evaluation_Verification_and_Validation.md) | Accepted |
+| P2-PUB14 | Module 4 participant workbook | [TEVV Workbook](../02_OPERATIONAL_AI_GOVERNANCE/exercises/07_Module_04_Participant_Workbook.md) | Accepted |
+| P2-PUB15 | Module 4 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/08_Module_04_Model_Answer_and_Review_Guide.md) | Accepted |
+| P2-PUB16 | Module 4 public-release record | [Priority 2, Module 4 Public-Release Record](./19_P2_Module_04_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
+
 ## Planned instructional modules
 
 | ID | Module | Core output | Status |
@@ -228,7 +237,7 @@ The build should follow the learning path:
 | P2-M01 | AI inventory and ownership | Inventory schema and owner model | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M02 | Use-case classification and risk tiers | Classification and approval matrix | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M03 | Impact and control assessment | Assessment template and evidence requirements | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
-| P2-M04 | Testing, evaluation, verification, and validation | TEVV decision model | Backlog |
+| P2-M04 | Testing, evaluation, verification, and validation | TEVV decision model | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M05 | Monitoring and change governance | Monitoring and material-change standard | Backlog |
 | P2-M06 | Vendor and supply-chain governance | Due-diligence and contract-control checklist | Backlog |
 | P2-M07 | Incident response and decommissioning | Response and retirement lifecycle | Backlog |
@@ -295,7 +304,8 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 14 | P2-A01 | Complete the Priority 2, Module 1 participant workbook and defense | Create and defend the enterprise AI inventory, ownership assignment, and detection/reconciliation plan; do not submit the model answer as completed work |
 | 15 | P2-A02 | Complete the Priority 2, Module 2 participant workbook and defense | Create and defend the risk-tier model, case classification, intake design, and reclassification triggers; do not submit the model answer as completed work |
 | 16 | P2-A03 | Complete the Priority 2, Module 3 participant workbook and defense | Create and defend the impact assessment, control assessment, assessor-independence justification, and governing response; do not submit the model answer as completed work |
-| 17 | P2-M04 | Draft Priority 2, Module 4 (testing, evaluation, verification, and validation) | Follow the standard module package; specify the pre-deployment testing obligation that Modules 2–3 point to but do not themselves define; verify current NIST AI RMF, ISO/IEC 42001-family, and TEVV-relevant source status before drafting rather than reusing Modules 1–3's citations unverified |
+| 17 | P2-A04 | Complete the Priority 2, Module 4 participant workbook and defense | Create and defend the TEVV plan, pre-set pass/fail criteria, independence justification, and retest triggers; do not submit the model answer as completed work |
+| 18 | P2-M05 | Draft Priority 2, Module 5 (monitoring and change governance) | Follow the standard module package; specify the ongoing monitoring and material-change standard that Module 4's retest triggers point to but do not themselves define; verify current NIST AI RMF, ISO/IEC 42001-family, and monitoring-relevant source status before drafting rather than reusing Modules 1–4's citations unverified |
 
 ## Update rule
 
