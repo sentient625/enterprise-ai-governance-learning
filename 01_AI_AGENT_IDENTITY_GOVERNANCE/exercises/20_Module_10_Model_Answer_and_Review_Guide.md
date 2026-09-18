@@ -1,6 +1,6 @@
 # Module 10 Model Answer and Review Guide
 
-**Version:** 1.0 | **Status:** Accepted for public learning use upon reviewed merge
+**Version:** 1.0 | **Status:** Accepted for public learning use
 
 Use after completing the [participant workbook](./19_Module_10_Participant_Workbook.md). This is one defensible educational response to the fictional [ORION case](../03_Regulated_Enterprise_Case_Workbook.md), not a completed learner submission, real authorization, or tested production design. Different recommendations can succeed if their boundaries and evidence are defensible.
 

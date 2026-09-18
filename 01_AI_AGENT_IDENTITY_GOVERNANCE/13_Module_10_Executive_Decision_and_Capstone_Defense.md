@@ -1,6 +1,6 @@
 # Module 10 — Executive Decision and Capstone Defense
 
-**Status:** Accepted for public learning use upon reviewed merge
+**Status:** Accepted for public learning use
 
 **Version:** 1.0
 

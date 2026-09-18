@@ -1,6 +1,6 @@
 # Module 8 Participant Workbook — Unexpected-Privileged-Action Tabletop
 
-**Status:** Accepted exercise template upon reviewed merge
+**Status:** Accepted exercise template
 
 **Version:** 1.0
 

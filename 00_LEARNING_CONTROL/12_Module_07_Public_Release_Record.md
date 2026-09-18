@@ -8,7 +8,7 @@
 
 **Review date:** 2026-09-18
 
-**Decision:** Accepted for public learning use upon reviewed merge into main
+**Decision:** Accepted for public learning use
 
 **License:** CC BY 4.0
 
@@ -39,7 +39,7 @@ Publisher pages were checked on 2026-09-18 for NIST SP 800-53 Rev. 5 (including 
 | Completion | Original artifact and defense required; Progress Record unchanged |
 | Navigation | Relative file links checked before pull request |
 
-This is an AI-assisted authoring review. It is not an independent human or external peer review. The pull request preserves the change set and review findings before merge.
+This was originally an AI-assisted authoring review only, not independent human or external peer review. An independent review pass was subsequently performed (2026-09-18) checking citation accuracy (NIST SP 800-53, AI RMF 1.0, AI 600-1, W3C Trace Context Level 1 — all verified against a second, independent source), technical accuracy, and consistency with Modules 1–6; no fabricated, mis-dated, or mis-described sources were found. That review flagged only a process gap (this record's conditional status language and a missing Terminology.md entry), both corrected in this update.
 
 ## Known limitations
 
@@ -47,6 +47,6 @@ The simplified scenario cannot establish the full effects of either job. Clock p
 
 ## Release decision and maintenance
 
-Acceptance becomes effective when the reviewed package is merged into main. A formal GitHub Release is separate from this content acceptance record. Do not promote the supplied answer guide as a learner's portfolio work.
+Acceptance is now unconditional: the package is merged into main and has passed independent review. A formal GitHub Release is separate from this content acceptance record. Do not promote the supplied answer guide as a learner's portfolio work.
 
 Revisit the package when source status changes, new evidence alters the guidance, or reader feedback identifies an accuracy, usability, privacy, confidentiality, or positioning issue. Module 8 is the next content build; Modules 5 and 6 are not reopened by this release.

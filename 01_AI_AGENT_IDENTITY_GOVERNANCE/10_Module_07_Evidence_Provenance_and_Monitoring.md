@@ -1,6 +1,6 @@
 # Module 7 — Evidence, Provenance, and Monitoring
 
-**Status:** Accepted for public learning use upon merge
+**Status:** Accepted for public learning use
 
 **Version:** 1.0
 

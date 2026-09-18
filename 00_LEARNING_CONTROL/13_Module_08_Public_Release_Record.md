@@ -8,7 +8,7 @@
 
 **Review date:** 2026-09-18
 
-**Decision:** Accepted for public learning use upon reviewed merge into main
+**Decision:** Accepted for public learning use
 
 **License:** CC BY 4.0
 
@@ -45,12 +45,12 @@ References and use boundaries appear in the lesson and Source Register. These so
 | Completion | Original artifact and defense required; Progress Record unchanged |
 | Navigation | Relative file links checked before pull request |
 
-This is AI-assisted authoring review, not independent external or human peer review. Review findings and the change set are retained in the pull request before merge.
+This was originally an AI-assisted authoring review only, not independent external or human peer review. An independent review pass was subsequently performed (2026-09-18) checking citation accuracy (NIST SP 800-61 Rev. 3, RFC 7009, NIST SP 800-82 Rev. 3 — all verified against a second, independent source), technical accuracy, and consistency with Modules 1–7; no fabricated, mis-dated, or mis-described sources were found. That review flagged only a process gap (this record's conditional status language and a missing Terminology.md entry), both corrected in this update.
 
 ## Limitations and maintenance
 
 The simplified case supplies neither root cause nor verified downstream containment. No universal response time, recovery deadline, notification deadline, or safe shutdown procedure is prescribed. Qualified operations, safety, security, engineering, IAM, privacy, records and legal owners must adapt the concepts.
 
-Acceptance becomes effective when the reviewed package is merged into main; a formal GitHub Release is a separate optional packaging step. Training-product and portfolio gates remain separate. Module 9 is the next content build.
+Acceptance is now unconditional: the package is merged into main and has passed independent review. A formal GitHub Release is a separate optional packaging step. Training-product and portfolio gates remain separate. Module 9 is the next content build.
 
 Revisit when source status changes, implementation evidence changes the guidance, or reader feedback identifies an accuracy, usability, privacy, confidentiality or positioning issue.

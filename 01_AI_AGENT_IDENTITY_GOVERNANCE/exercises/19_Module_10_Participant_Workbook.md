@@ -1,6 +1,6 @@
 # Module 10 Participant Workbook — Executive Decision and Capstone Defense
 
-**Version:** 1.0 | **Status:** Accepted for public learning use upon reviewed merge
+**Version:** 1.0 | **Status:** Accepted for public learning use
 
 Read the [lesson](../13_Module_10_Executive_Decision_and_Capstone_Defense.md). Complete this workbook before consulting the [model answer](./20_Module_10_Model_Answer_and_Review_Guide.md). All ORION facts are fictional. Empty response fields below are intentional learner spaces.
 
