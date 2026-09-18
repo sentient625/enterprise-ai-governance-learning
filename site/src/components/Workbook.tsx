@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Markdown } from './Markdown';
+import { injectBlanks } from '../lib/injectBlanks';
 import { splitWorkbookSections } from '../lib/splitWorkbookSections';
 import { clearModuleAnswers, exportAnswers, getAnswer, setAnswer } from '../lib/workbookAnswers';
 
@@ -23,13 +24,14 @@ function ResponseBox({ moduleSlug, sectionId }: { moduleSlug: string; sectionId:
 }
 
 export function Workbook({ moduleSlug, content }: { moduleSlug: string; content: string }) {
-  const sections = useMemo(() => splitWorkbookSections(content), [content]);
+  const { markdown: processedContent, blankIds } = useMemo(() => injectBlanks(content), [content]);
+  const sections = useMemo(() => splitWorkbookSections(processedContent), [processedContent]);
   const [generation, setGeneration] = useState(0);
   const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'empty'>('idle');
 
   const handleClear = () => {
     if (!window.confirm('Clear all your saved answers for this workbook? This cannot be undone.')) return;
-    clearModuleAnswers(moduleSlug, sections.map(section => section.id));
+    clearModuleAnswers(moduleSlug, [...sections.map(section => section.id), ...blankIds]);
     setGeneration(current => current + 1);
     setCopyStatus('idle');
   };
@@ -74,7 +76,7 @@ export function Workbook({ moduleSlug, content }: { moduleSlug: string; content:
 
       {sections.map(section => (
         <div key={`${section.id}-${generation}`}>
-          <Markdown content={section.body} />
+          <Markdown content={section.body} moduleSlug={moduleSlug} />
           {section.needsResponse && <ResponseBox moduleSlug={moduleSlug} sectionId={section.id} />}
         </div>
       ))}
