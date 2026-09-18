@@ -40,7 +40,7 @@ Hold. The use case's tier does not permit leaving open a benefit-access decision
 
 ## Part 6 — Linking outward (illustrative)
 
-Module 1's inventory entry only confirms the use case is known and has an owner; it says nothing about whether any specific harm exists or whether any control works. Module 2's tier only says how much governance attention this use case warrants; it points at the need for an impact and control assessment but does not itself perform one. This module adds the actual test of whether the claimed mitigation is real — the specific finding that "human review" is designed but not operating effectively could not have been produced by either the inventory or the tier alone; it required someone to interview staff and examine the interface.
+Module 11's inventory entry only confirms the use case is known and has an owner; it says nothing about whether any specific harm exists or whether any control works. Module 12's tier only says how much governance attention this use case warrants; it points at the need for an impact and control assessment but does not itself perform one. This module adds the actual test of whether the claimed mitigation is real — the specific finding that "human review" is designed but not operating effectively could not have been produced by either the inventory or the tier alone; it required someone to interview staff and examine the interface.
 
 ## Part 7 — Executive summary (illustrative, ~180 words)
 

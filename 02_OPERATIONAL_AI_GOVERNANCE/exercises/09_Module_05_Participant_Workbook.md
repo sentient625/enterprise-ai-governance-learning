@@ -1,12 +1,12 @@
 # Module 15 Participant Workbook — Monitoring and Change Governance
 
-**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./10_Module_05_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 5's lesson](../05_Module_05_Monitoring_and_Change_Governance.md).
+**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./10_Module_05_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 15's lesson](../05_Module_05_Monitoring_and_Change_Governance.md).
 
-Use the fictional case in Section 7 of the lesson and your own Module 1–4 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
+Use the fictional case in Section 7 of the lesson and your own Module 11–14 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
 
 ## Part 1 — Monitoring plan
 
-Using the minimum specification in Section 2 of the lesson, draft a monitoring plan for the benefits eligibility recommendation use case as it returns to constrained operation after Module 4's remediation. Include at least four signals, each with a definition, baseline, threshold, owner, and response deadline.
+Using the minimum specification in Section 2 of the lesson, draft a monitoring plan for the benefits eligibility recommendation use case as it returns to constrained operation after Module 14's remediation. Include at least four signals, each with a definition, baseline, threshold, owner, and response deadline.
 
 ## Part 2 — Leading indicator versus incident
 
@@ -26,7 +26,7 @@ Using Section 7's six-months-later scenario (an undisclosed vendor model update 
 
 ## Part 6 — Linking outward
 
-Explain, in your own words, how this module's monitoring plan differs from Module 4's TEVV plan, and how a leading indicator from this module's monitoring should connect to Module 8's suspension and response process once it becomes a confirmed incident.
+Explain, in your own words, how this module's monitoring plan differs from Module 14's TEVV plan, and how a leading indicator from this module's monitoring should connect to Module 8's suspension and response process once it becomes a confirmed incident.
 
 ## Part 7 — Executive summary
 

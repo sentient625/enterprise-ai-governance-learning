@@ -1,6 +1,6 @@
 # Module 11 Participant Workbook — Enterprise AI Inventory and Ownership
 
-**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./02_Module_01_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 1's lesson](../01_Module_01_AI_Inventory_and_Ownership.md).
+**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./02_Module_01_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 11's lesson](../01_Module_01_AI_Inventory_and_Ownership.md).
 
 Use the fictional case in Section 8 of the lesson. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
 

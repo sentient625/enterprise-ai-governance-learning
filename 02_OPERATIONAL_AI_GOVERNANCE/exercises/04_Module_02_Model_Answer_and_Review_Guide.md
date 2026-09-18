@@ -23,7 +23,7 @@ Using the lesson's four-tier model:
 
 ## Part 3 — Intake process (illustrative)
 
-The use case's business owner (named in Module 1) submits the initial classification. For a submission that lands at elevated or high-impact, a designated governance/control owner — not the business owner — makes the final tier decision. Any self-submitted tier within one factor of a tier boundary (for example, "limited, but touches personal data") triggers an automatic independent second review before the tier is accepted. The decision record captures the submitter, the decision owner, the factors considered, the tier assigned, the date, and whether the tier is final or provisional.
+The use case's business owner (named in Module 11) submits the initial classification. For a submission that lands at elevated or high-impact, a designated governance/control owner — not the business owner — makes the final tier decision. Any self-submitted tier within one factor of a tier boundary (for example, "limited, but touches personal data") triggers an automatic independent second review before the tier is accepted. The decision record captures the submitter, the decision owner, the factors considered, the tier assigned, the date, and whether the tier is final or provisional.
 
 ## Part 4 — Reclassification triggers (illustrative)
 

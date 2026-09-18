@@ -6,8 +6,8 @@ This is a model answer for calibration, not a substitute for your own completed 
 
 | Signal | Definition | Baseline | Threshold | Owner | Response deadline |
 |---|---|---|---|---|---|
-| Override/rejection rate | Percentage of AI recommendations overridden by staff, weekly | The rate validated during Module 4's claimed-safeguard test | Falls outside a defined band around that validated rate | Benefits operations lead | Investigate within 5 business days |
-| Appeal-overturn rate | Percentage of denial appeals that overturn the original recommendation, monthly | The disparity threshold set in Module 4's fairness evaluation | Exceeds that threshold for two consecutive months | Independent governance/control owner | Immediate investigation |
+| Override/rejection rate | Percentage of AI recommendations overridden by staff, weekly | The rate validated during Module 14's claimed-safeguard test | Falls outside a defined band around that validated rate | Benefits operations lead | Investigate within 5 business days |
+| Appeal-overturn rate | Percentage of denial appeals that overturn the original recommendation, monthly | The disparity threshold set in Module 14's fairness evaluation | Exceeds that threshold for two consecutive months | Independent governance/control owner | Immediate investigation |
 | Vendor model-version indicator | Any confirmed or detected change to the underlying model | No baseline; any occurrence is the signal | Any change | Technology/vendor-management owner | Trigger material-change review before further live use |
 | Claim volume | Number of claims processed monthly | Volume covered by the original impact assessment | Exceeds that population by a defined percentage | Benefits business owner | Trigger reassessment before further growth |
 
@@ -19,11 +19,11 @@ This is a model answer for calibration, not a substitute for your own completed 
 
 ## Part 3 — Change envelope (illustrative)
 
-**Inside the envelope (no full reassessment required):** Routine content or copy changes to the review interface that do not alter the accept/reject click structure; scheduled, previously-tested minor bug fixes from the vendor that do not change the recommendation model itself; staffing changes that keep review capacity at or above the level validated in Module 4.
+**Inside the envelope (no full reassessment required):** Routine content or copy changes to the review interface that do not alter the accept/reject click structure; scheduled, previously-tested minor bug fixes from the vendor that do not change the recommendation model itself; staffing changes that keep review capacity at or above the level validated in Module 14.
 
-**Outside the envelope (triggers reassessment):** Any change to the interface's accept/reject friction, since that is exactly the mechanism Module 3 found broken; any vendor model-version change, disclosed or detected; any expansion of the claim population beyond what the original impact assessment covered.
+**Outside the envelope (triggers reassessment):** Any change to the interface's accept/reject friction, since that is exactly the mechanism Module 13 found broken; any vendor model-version change, disclosed or detected; any expansion of the claim population beyond what the original impact assessment covered.
 
-**Justification:** The interface friction boundary is drawn narrowly and specifically because Module 3's actual finding was about that mechanism — a boundary drawn any looser would let the exact failure already identified recur under a different label ("just a copy update").
+**Justification:** The interface friction boundary is drawn narrowly and specifically because Module 13's actual finding was about that mechanism — a boundary drawn any looser would let the exact failure already identified recur under a different label ("just a copy update").
 
 ## Part 4 — Vendor disclosure (illustrative)
 
@@ -31,11 +31,11 @@ Contract term: "Vendor shall provide at least 30 days' advance written notice of
 
 ## Part 5 — The applied scenario (illustrative)
 
-The vendor model-version indicator (a detection-based signal, since disclosure failed) and the override-rate signal would both plausibly catch this: a model change is likely to shift the override rate even before any confirmed wrongful outcome exists. Under the Part 3 change envelope, an undisclosed model update is explicitly outside the envelope, so it triggers a return to Module 4's TEVV plan against the new model version before the use case continues processing further live claims — not merely an explanation of why the drift happened. The disclosure failure itself becomes a separate vendor-management finding, tracked independently of the technical reassessment.
+The vendor model-version indicator (a detection-based signal, since disclosure failed) and the override-rate signal would both plausibly catch this: a model change is likely to shift the override rate even before any confirmed wrongful outcome exists. Under the Part 3 change envelope, an undisclosed model update is explicitly outside the envelope, so it triggers a return to Module 14's TEVV plan against the new model version before the use case continues processing further live claims — not merely an explanation of why the drift happened. The disclosure failure itself becomes a separate vendor-management finding, tracked independently of the technical reassessment.
 
 ## Part 6 — Linking outward (illustrative)
 
-Module 4's TEVV plan produces a result at a point in time, under conditions the tester controlled, before or immediately after a change; this module's monitoring plan watches continuously, under conditions no one controls, for drift that only emerges over time. A leading indicator from this module (such as the slowly climbing override rate in Part 2) should trigger investigation under this module's own deadline; if that investigation confirms a specific wrongful outcome, it should immediately hand off to Module 8's suspension and response process rather than continuing to sit in ordinary monitoring review — the moment a leading indicator becomes a confirmed incident is the moment this module's job ends and Module 8's begins.
+Module 14's TEVV plan produces a result at a point in time, under conditions the tester controlled, before or immediately after a change; this module's monitoring plan watches continuously, under conditions no one controls, for drift that only emerges over time. A leading indicator from this module (such as the slowly climbing override rate in Part 2) should trigger investigation under this module's own deadline; if that investigation confirms a specific wrongful outcome, it should immediately hand off to Module 8's suspension and response process rather than continuing to sit in ordinary monitoring review — the moment a leading indicator becomes a confirmed incident is the moment this module's job ends and Module 8's begins.
 
 ## Part 7 — Executive summary (illustrative, ~180 words)
 

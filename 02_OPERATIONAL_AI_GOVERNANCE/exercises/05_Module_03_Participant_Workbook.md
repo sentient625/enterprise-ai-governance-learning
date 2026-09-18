@@ -1,8 +1,8 @@
 # Module 13 Participant Workbook — Impact and Control Assessment
 
-**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./06_Module_03_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 3's lesson](../03_Module_03_Impact_and_Control_Assessment.md).
+**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./06_Module_03_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 13's lesson](../03_Module_03_Impact_and_Control_Assessment.md).
 
-Use the fictional case in Section 7 of the lesson and your own Module 1 and Module 2 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
+Use the fictional case in Section 7 of the lesson and your own Module 11 and Module 12 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
 
 ## Part 1 — Impact assessment
 
@@ -14,7 +14,7 @@ For the "a human reviews every recommendation" control described in the case, co
 
 ## Part 3 — Assessor independence
 
-State what level of assessor independence this use case's tier (from your Module 2 workbook) requires, per Section 4. Name who should have performed the control assessment in Part 2, and explain why the enterprise's prior reliance on the vendor's own claim did not meet that bar.
+State what level of assessor independence this use case's tier (from your Module 12 workbook) requires, per Section 4. Name who should have performed the control assessment in Part 2, and explain why the enterprise's prior reliance on the vendor's own claim did not meet that bar.
 
 ## Part 4 — Governing response
 
@@ -26,7 +26,7 @@ Identify one additional control the case implies should exist but that has not y
 
 ## Part 6 — Linking outward
 
-Explain, in your own words, why a completed Module 2 risk tier and a completed Module 1 inventory entry are not sufficient, on their own, to justify continued operation of a high-impact use case. Name specifically what this module adds that those two do not provide.
+Explain, in your own words, why a completed Module 12 risk tier and a completed Module 11 inventory entry are not sufficient, on their own, to justify continued operation of a high-impact use case. Name specifically what this module adds that those two do not provide.
 
 ## Part 7 — Executive summary
 

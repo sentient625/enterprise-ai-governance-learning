@@ -1,8 +1,8 @@
 # Module 12 Participant Workbook — Use-Case Classification and Risk Tiers
 
-**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./04_Module_02_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 2's lesson](../02_Module_02_Use_Case_Classification_and_Risk_Tiers.md).
+**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./04_Module_02_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 12's lesson](../02_Module_02_Use_Case_Classification_and_Risk_Tiers.md).
 
-Use the fictional case in Section 8 of the lesson and your own Module 1 workbook. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
+Use the fictional case in Section 8 of the lesson and your own Module 11 workbook. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
 
 ## Part 1 — Tier model
 
@@ -13,7 +13,7 @@ Define your own risk-tier model (you may adapt the lesson's four-tier illustrati
 
 ## Part 2 — Classify the case
 
-For each of the five findings from Module 1's case (ORION, sales proposal drafting, benefits eligibility recommendation, customer-service analytics pilot, three disagreeing lists), assign a tier from your Part 1 model. For each assignment:
+For each of the five findings from Module 11's case (ORION, sales proposal drafting, benefits eligibility recommendation, customer-service analytics pilot, three disagreeing lists), assign a tier from your Part 1 model. For each assignment:
 
 - name the classification factors (Section 2 of the lesson) that drove it;
 - state whether the tier is final or provisional, and if provisional, name exactly what missing information would resolve it.

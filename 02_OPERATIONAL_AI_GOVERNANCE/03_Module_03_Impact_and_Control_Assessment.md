@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Module 2 assigned the benefits-eligibility recommendation a high-impact tier and attached an obligation: "document an impact assessment" and "define pre-deployment testing." It did not say what either of those actually has to contain, or how anyone would know whether a control someone claims exists is actually working.
+Module 12 assigned the benefits-eligibility recommendation a high-impact tier and attached an obligation: "document an impact assessment" and "define pre-deployment testing." It did not say what either of those actually has to contain, or how anyone would know whether a control someone claims exists is actually working.
 
 This module answers that. It separates two distinct questions that a risk tier alone cannot answer — who could be harmed and how (impact assessment), and is the control that is supposed to prevent that harm actually implemented and operating (control assessment) — and develops the program-level ability to specify both, assign an assessor with real independence from whoever built or owns the use case, and decide what happens when an assessment finds a gap.
 
@@ -43,7 +43,7 @@ A completed risk tier is not an impact assessment. A completed impact assessment
 
 | Field | Minimum content | Question it supports |
 |---|---|---|
-| Scope | The specific use case and deployed instance being assessed, tied to its Module 1 inventory entry | What exactly is being assessed? |
+| Scope | The specific use case and deployed instance being assessed, tied to its Module 11 inventory entry | What exactly is being assessed? |
 | Affected population | Everyone who could be affected by the output, including people who never chose to interact with the system | Who could be harmed? |
 | Foreseeable use and misuse | Intended use, and realistic misuse or edge-case use the design should anticipate | What could go wrong even without malicious intent? |
 | Benefit | The specific benefit claimed, and for whom | What does this use case buy, and who receives that value? |
@@ -76,12 +76,12 @@ Adapted from the general discipline of security and privacy control assessment: 
 
 ## 4. Assessor independence must scale with the tier
 
-| Tier (from Module 2) | Minimum assessor independence |
+| Tier (from Module 12) | Minimum assessor independence |
 |---|---|
 | Minimal | Self-assessment by the business or technical owner is acceptable |
 | Limited | Self-assessment, with the governance/control owner spot-checking a sample |
 | Elevated | An assessor independent of the use case's business owner; technical owner may still perform the control test itself under that independent assessor's review |
-| High-impact | An assessor independent of both the business and technical owner, with findings reviewed by the same executive-level accountable decision-maker Module 2 requires for this tier |
+| High-impact | An assessor independent of both the business and technical owner, with findings reviewed by the same executive-level accountable decision-maker Module 12 requires for this tier |
 
 This mirrors Module 6's separation-of-duties logic, applied to assessment rather than to approval: the person who most wants a use case to pass its assessment should not be the sole judge of whether it does.
 
@@ -107,7 +107,7 @@ A finding that goes unrecorded, or that is recorded but never leads to one of th
 
 ## 7. Applied case — assessing the benefits-eligibility recommendation
 
-Continuing the fictional case from Modules 1 and 2, the benefits eligibility recommendation was tiered high-impact, provisionally, pending confirmation of its actual human-review depth.
+Continuing the fictional case from Modules 11 and 12, the benefits eligibility recommendation was tiered high-impact, provisionally, pending confirmation of its actual human-review depth.
 
 The vendor's own documentation claims: "a human reviews every recommendation before a final decision." No enterprise assessment has verified this. When an assessor actually interviews the benefits team and observes the workflow:
 
@@ -178,7 +178,7 @@ This builds on program disciplines of control testing, independent assurance, an
 
 - [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) — the MEASURE function informs this module's assessment discipline, particularly MEASURE 1 (assessing AI characteristics against defined methods) and MEASURE 2 (evaluating trustworthy-AI characteristics including validity, safety, fairness, and transparency). AI RMF 1.0 remains the published framework while revision work proceeds; MEASURE is a risk-measurement function, not a mandated assessment form.
 - [ISO/IEC 42005:2025 — AI system impact assessment](https://www.iso.org/standard/42005) — a guidance standard, published May 2025 as a companion to ISO/IEC 42001, specifically addressing how and when to perform an AI system impact assessment across the AI lifecycle. This module's impact-assessment specification draws on its general framing, not a claim of conformance to its detailed guidance.
-- [ISO/IEC 42001:2023 — AI management systems](https://www.iso.org/standard/42001), reused from Module 1 — its impact-assessment requirement (establishing a standing process to assess consequences for individuals, groups, and society, not only the organization) frames this module's distinction between organizational risk and individual/societal impact.
+- [ISO/IEC 42001:2023 — AI management systems](https://www.iso.org/standard/42001), reused from Module 11 — its impact-assessment requirement (establishing a standing process to assess consequences for individuals, groups, and society, not only the organization) frames this module's distinction between organizational risk and individual/societal impact.
 - [NIST Special Publication 800-53A Revision 5 — Assessing Security and Privacy Controls in Information Systems and Organizations](https://csrc.nist.gov/pubs/sp/800/53/a/r5/final) — a final publication providing assessment methodology (examine, interview, test) and the designed/implemented/operating-effectively distinction this module adapts for AI-specific control assessment. It is a security- and privacy-control assessment methodology, not an AI-specific standard, and this module does not claim SP 800-53A-conformant assessment procedures.
 
-Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Modules 1 and 2. Verify current versions and organizational applicability before production or public-sector use.
+Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Modules 11 and 12. Verify current versions and organizational applicability before production or public-sector use.

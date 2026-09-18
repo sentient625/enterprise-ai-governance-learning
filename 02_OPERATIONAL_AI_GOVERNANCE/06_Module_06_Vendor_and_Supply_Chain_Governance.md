@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Module 5 required a vendor to disclose a material model change, then found that a one-clause contract term is not enough on its own — the benefits-eligibility vendor's own disclosure obligation went untested for six months before an undisclosed update was caught by monitoring instead. Module 1 separately found that embedded vendor AI is one of the hardest categories to detect in the first place, because it typically arrives inside a product the enterprise already trusted for something else.
+Module 15 required a vendor to disclose a material model change, then found that a one-clause contract term is not enough on its own — the benefits-eligibility vendor's own disclosure obligation went untested for six months before an undisclosed update was caught by monitoring instead. Module 11 separately found that embedded vendor AI is one of the hardest categories to detect in the first place, because it typically arrives inside a product the enterprise already trusted for something else.
 
 This module builds the due-diligence and contract-control discipline that should have existed before the benefits-eligibility contract was ever signed: what to require a vendor to disclose before onboarding, what a concrete AI-specific bill of materials actually contains, what contract terms give the enterprise a real, checkable hold on a vendor's AI supply chain rather than a sales conversation's assurances, and what to do — as a governance decision, not a shrug — when a vendor will not disclose what the enterprise needs to know.
 
@@ -46,12 +46,12 @@ A vendor can pass every conventional security and compliance check on this list 
 | Field | Minimum question | Why it matters |
 |---|---|---|
 | Model/component identity | What specific model, version, and provider underlies this feature? | Without this, no later disclosure obligation has anything specific to attach to |
-| Data provenance | What data trained or fine-tuned the model, and under what rights? | Determines fairness, privacy, and IP exposure the impact assessment in Module 3 needs to evaluate |
+| Data provenance | What data trained or fine-tuned the model, and under what rights? | Determines fairness, privacy, and IP exposure the impact assessment in Module 13 needs to evaluate |
 | Sub-processor chain | Does the vendor depend on another vendor's model, hosting, or service? | A risk in the sub-processor is a risk to the enterprise, whether or not the primary vendor discloses it |
-| Change-notification capability | Can the vendor actually notify the enterprise of a material change, and has it done so for any other customer? | A vendor with no operational mechanism for this cannot meaningfully commit to Module 5's disclosure obligation |
-| Security and incident history | Has this model or vendor had a confirmed security or safety incident, at this enterprise or elsewhere? | Informs the risk tier and the assessor-independence decision in Modules 2–3 |
+| Change-notification capability | Can the vendor actually notify the enterprise of a material change, and has it done so for any other customer? | A vendor with no operational mechanism for this cannot meaningfully commit to Module 15's disclosure obligation |
+| Security and incident history | Has this model or vendor had a confirmed security or safety incident, at this enterprise or elsewhere? | Informs the risk tier and the assessor-independence decision in Modules 12–13 |
 | Data-use restriction | Will the enterprise's data be used to train the vendor's model for other customers' benefit? | A material term affecting both privacy exposure and competitive risk |
-| Exit and portability | Can the enterprise extract its data and configuration if it needs to leave? | Determines whether "hold" (Module 3's governing response) is actually achievable without existential cost |
+| Exit and portability | Can the enterprise extract its data and configuration if it needs to leave? | Determines whether "hold" (Module 13's governing response) is actually achievable without existential cost |
 
 A vendor's inability to answer a question is itself an answer. Record "vendor could not or would not disclose" as a specific finding, not as a blank field.
 
@@ -59,31 +59,31 @@ A vendor's inability to answer a question is itself an answer. Record "vendor co
 
 A sales conversation's assurances are not evidence. A real illustration of what a checkable artifact looks like: CISA, together with G7 partners, published joint guidance in 2026 on AI bill-of-materials minimum elements, organizing AI-specific supply-chain documentation into clusters covering metadata, model identity and weight provenance, dataset properties, key performance indicators, infrastructure dependencies, and a documented update cadence.
 
-This module does not require an enterprise to adopt that guidance's exact format. It requires the same underlying discipline: request a structured, specific artifact describing what is actually inside the AI component the enterprise is relying on, rather than accepting a marketing description of "AI-powered" features. Where a vendor cannot produce anything resembling this, that gap should feed directly into the risk tier and impact assessment already built in Modules 2 and 3, not be treated as an acceptable cost of doing business with every AI vendor.
+This module does not require an enterprise to adopt that guidance's exact format. It requires the same underlying discipline: request a structured, specific artifact describing what is actually inside the AI component the enterprise is relying on, rather than accepting a marketing description of "AI-powered" features. Where a vendor cannot produce anything resembling this, that gap should feed directly into the risk tier and impact assessment already built in Modules 12 and 13, not be treated as an acceptable cost of doing business with every AI vendor.
 
 ## 4. Minimum contract-control checklist
 
 | Control | Minimum term | Connects to |
 |---|---|---|
-| Change disclosure | Advance notice of a material model or system change, with enough detail to assess against Module 5's material-change categories | Module 5's monitoring and change governance |
-| Data-use restriction | The enterprise's data will not train the vendor's model for other customers' benefit without separate, explicit agreement | Module 3's privacy harm category |
+| Change disclosure | Advance notice of a material model or system change, with enough detail to assess against Module 15's material-change categories | Module 15's monitoring and change governance |
+| Data-use restriction | The enterprise's data will not train the vendor's model for other customers' benefit without separate, explicit agreement | Module 13's privacy harm category |
 | Incident disclosure | Notification of a confirmed security or safety incident involving this model, at this enterprise or elsewhere, within a defined window | Module 8's suspension and response process |
-| Audit/inspection rights | The enterprise, or an independent assessor it designates, may request evidence supporting the vendor's disclosures | Module 3's assessor-independence requirement |
+| Audit/inspection rights | The enterprise, or an independent assessor it designates, may request evidence supporting the vendor's disclosures | Module 13's assessor-independence requirement |
 | Sub-processor disclosure and flow-down | The vendor must disclose its own AI-relevant sub-processors and flow down equivalent obligations to them | Section 1's sub-processor risk |
-| Exit and portability | A defined, tested process for extracting data and replicating or transitioning the use case | Module 3's "hold" governing response remaining actually achievable |
+| Exit and portability | A defined, tested process for extracting data and replicating or transitioning the use case | Module 13's "hold" governing response remaining actually achievable |
 
 Liability, indemnification, and the precise legal enforceability of any of these terms are matters for qualified legal review; this module specifies what a program lead should insist a contract addresses, not how to draft the clause.
 
 ## 5. Non-disclosure is a risk finding, not a neutral unknown
 
-A vendor that will not disclose training-data provenance, sub-processor identity, or incident history has not given the enterprise "no information" — it has given the enterprise a specific finding: this vendor's practice does not currently support the assessment Module 3 requires. Route that finding through the same governing responses already built:
+A vendor that will not disclose training-data provenance, sub-processor identity, or incident history has not given the enterprise "no information" — it has given the enterprise a specific finding: this vendor's practice does not currently support the assessment Module 13 requires. Route that finding through the same governing responses already built:
 
 - **Proceed** only if the use case's tier is low enough that the undisclosed information would not materially change the impact assessment.
 - **Remediate** by requiring disclosure as a condition of continued or expanded use, with a deadline.
 - **Documented risk acceptance** only when an authorized owner explicitly accepts operating without that information, time-bounded and reviewed.
-- **Hold**, as Module 3 already concluded for the benefits-eligibility case, when the use case's tier does not permit proceeding without it.
+- **Hold**, as Module 13 already concluded for the benefits-eligibility case, when the use case's tier does not permit proceeding without it.
 
-Accepting non-disclosure silently, by continuing to operate without any of these four responses being explicitly chosen, is the same failure Module 3 identified when a claimed control was assumed to work without being tested.
+Accepting non-disclosure silently, by continuing to operate without any of these four responses being explicitly chosen, is the same failure Module 13 identified when a claimed control was assumed to work without being tested.
 
 ## 6. Ongoing vendor governance, not just onboarding
 
@@ -97,7 +97,7 @@ Due diligence performed once at signing goes stale. Maintain:
 ## 7. Relationship to the rest of the curriculum
 
 - **Module 11** identified embedded vendor AI as a blind spot; this module gives the enterprise the due-diligence and contract tools to catch it before signing, not only after discovering it already in production.
-- **Module 15** required a change-disclosure contract term as one illustration; this module builds that term into a complete contract-control checklist and treats the disclosure failure already dramatized in Module 5's case as a predictable outcome of inadequate due diligence at signing, not a one-off surprise.
+- **Module 15** required a change-disclosure contract term as one illustration; this module builds that term into a complete contract-control checklist and treats the disclosure failure already dramatized in Module 15's case as a predictable outcome of inadequate due diligence at signing, not a one-off surprise.
 - **Module 13** assigns a governing response to a risk finding; this module applies the same four responses to vendor non-disclosure specifically.
 - **Module 8** governs suspension and response once an incident is confirmed; this module's incident-disclosure term is what gets a vendor-side incident into that process at all.
 
@@ -108,17 +108,17 @@ Continuing the fictional case, reconstruct the due-diligence review the enterpri
 | Due-diligence field | What a proper pre-contract review should have found |
 |---|---|
 | Model/component identity | The vendor's recommendation engine, and its specific version at the time of signing — never independently recorded |
-| Data provenance | The vendor's later refusal to disclose training-data composition should have been caught here, before signing, not discovered during Module 3's control assessment after deployment |
+| Data provenance | The vendor's later refusal to disclose training-data composition should have been caught here, before signing, not discovered during Module 13's control assessment after deployment |
 | Sub-processor chain | Unknown — never asked whether the vendor's model itself depends on a further third-party provider |
-| Change-notification capability | Never tested before signing; the contract term added after Module 5 was the first time this was addressed at all |
+| Change-notification capability | Never tested before signing; the contract term added after Module 15 was the first time this was addressed at all |
 | Data-use restriction | Never specified; unknown whether this enterprise's claim data is used to improve the vendor's model for other customers |
 | Exit and portability | Never assessed; unknown whether the enterprise could actually replace this tool without losing historical claim-scoring data |
 
 ### Governing diagnosis
 
-- Every gap Module 3 discovered reactively — the undisclosed training data, the untested human-review claim — traces back to due diligence that was never performed before signing.
+- Every gap Module 13 discovered reactively — the undisclosed training data, the untested human-review claim — traces back to due diligence that was never performed before signing.
 - The vendor's non-disclosure of training-data composition should have been treated, at signing, as a specific risk finding requiring one of Section 5's four governing responses — most plausibly remediate (require disclosure as a condition of signing) or hold (do not sign until it is provided).
-- Retrofitting a change-disclosure term after deployment, as Module 5 did, is strictly worse than having it at signing: the enterprise operated for an unknown period without any disclosure mechanism at all.
+- Retrofitting a change-disclosure term after deployment, as Module 15 did, is strictly worse than having it at signing: the enterprise operated for an unknown period without any disclosure mechanism at all.
 - Going forward, renewal of this contract should require the full checklist in Section 4, not merely the single clause added reactively.
 
 ## 9. Executive and program-lead questions
@@ -146,7 +146,7 @@ Continuing the fictional case, reconstruct the due-diligence review the enterpri
 2. Because the absence of an answer is information about the vendor's practice and the enterprise's actual risk exposure, not an absence of information.
 3. A structured, checkable description of what is actually inside an AI component — model identity, data provenance, dependencies — as opposed to an unverifiable claim of being "AI-powered."
 4. Change disclosure, data-use restriction, incident disclosure, audit/inspection rights, sub-processor disclosure and flow-down, exit and portability.
-5. Because non-disclosure is a risk finding like any other, and treating it differently (as a neutral unknown) creates an ungoverned gap in the same assessment discipline Module 3 already established.
+5. Because non-disclosure is a risk finding like any other, and treating it differently (as a neutral unknown) creates an ungoverned gap in the same assessment discipline Module 13 already established.
 6. Data provenance — the vendor's refusal to disclose training-data composition, caught at signing rather than discovered reactively, would have triggered a remediate-or-hold decision before deployment rather than after.
 
 ## 11. Exercise and completion evidence
@@ -178,4 +178,4 @@ This builds on program disciplines of vendor management, contract governance, an
 - [CISA and G7 partners — Software Bill of Materials for AI: Minimum Elements](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements) — joint guidance released 2026 organizing AI-specific supply-chain documentation (metadata, model identity and weight provenance, dataset properties, key performance indicators, infrastructure, and update-cadence records). Cited as a real, concrete illustration of what a checkable AI bill of materials contains; this module does not require conformance to its exact structure.
 - [OMB Memorandum M-25-22 — Driving Efficient Acquisition of Artificial Intelligence in Government](https://static.carahsoft.com/concrete/files/6317/4412/5796/Guidance_M-25-22_Driving_Efficient_Acquisition_of_Artificial_Intelligence_in_Government.pdf) (issued April 3, 2025; replaces the rescinded M-24-18) — illustrative federal-sector context only, cited specifically for its contract-requirement pattern (data-use restrictions, IP/data ownership protections, vendor lock-in protections, mandatory AI disclosure provisions) informing this module's contract-control checklist. Not applicable as a compliance requirement to this curriculum's general audience.
 
-Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Modules 1 through 5. Verify current versions and organizational applicability before production or public-sector use.
+Source status was checked through independent web search on 2026-09-18; direct publisher-page fetch was unavailable during this session due to network egress restrictions in the authoring environment, consistent with the limitation already recorded for Modules 11 through 15. Verify current versions and organizational applicability before production or public-sector use.

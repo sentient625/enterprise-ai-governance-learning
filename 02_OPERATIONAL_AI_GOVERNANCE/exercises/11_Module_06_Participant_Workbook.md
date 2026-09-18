@@ -1,8 +1,8 @@
 # Module 16 Participant Workbook — Vendor and Supply-Chain Governance
 
-**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./12_Module_06_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 6's lesson](../06_Module_06_Vendor_and_Supply_Chain_Governance.md).
+**Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./12_Module_06_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 16's lesson](../06_Module_06_Vendor_and_Supply_Chain_Governance.md).
 
-Use the fictional case in Section 8 of the lesson and your own Module 1–5 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
+Use the fictional case in Section 8 of the lesson and your own Module 11–15 workbooks. Do not introduce confidential information from your own employer; keep any real-world parallels abstract.
 
 ## Part 1 — Retroactive due-diligence record
 
@@ -14,11 +14,11 @@ Draft a request to this vendor for an AI bill of materials, per Section 3. Name 
 
 ## Part 3 — Contract-control checklist
 
-Populate the six-control checklist in Section 4 for this vendor relationship going forward (post-remediation, informed by Modules 4–5's findings). For each control, state whether it is now present, partially present, or absent, and what evidence would confirm it is actually working rather than merely written.
+Populate the six-control checklist in Section 4 for this vendor relationship going forward (post-remediation, informed by Modules 14–15's findings). For each control, state whether it is now present, partially present, or absent, and what evidence would confirm it is actually working rather than merely written.
 
 ## Part 4 — Governing response to non-disclosure
 
-Identify the specific point in the case where the vendor's non-disclosure of training-data composition should have triggered a governing response under Section 5. State which of the four responses (proceed, remediate, documented risk acceptance, hold) applies, and justify your choice against the use case's risk tier from your Module 2 workbook.
+Identify the specific point in the case where the vendor's non-disclosure of training-data composition should have triggered a governing response under Section 5. State which of the four responses (proceed, remediate, documented risk acceptance, hold) applies, and justify your choice against the use case's risk tier from your Module 12 workbook.
 
 ## Part 5 — Ongoing vendor governance plan
 
@@ -26,7 +26,7 @@ Design an ongoing vendor-governance plan per Section 6: a reattestation cadence,
 
 ## Part 6 — Linking outward
 
-Explain, in your own words, how a completed due-diligence record at signing would have changed the sequence of discoveries in Modules 3 through 5. Would the interface-friction finding, the fairness-assessment gap, and the undisclosed model update all still have occurred, or would proper due diligence have caught any of them earlier?
+Explain, in your own words, how a completed due-diligence record at signing would have changed the sequence of discoveries in Modules 13 through 15. Would the interface-friction finding, the fairness-assessment gap, and the undisclosed model update all still have occurred, or would proper due diligence have caught any of them earlier?
 
 ## Part 7 — Executive summary
 
@@ -36,7 +36,7 @@ In no more than 200 words, summarize to an executive audience the vendor-governa
 
 Prepare to defend, in writing or aloud:
 
-- why retrofitting a contract term after deployment (as happened in Module 5) is strictly worse than requiring it at signing, using this case as your example;
+- why retrofitting a contract term after deployment (as happened in Module 15) is strictly worse than requiring it at signing, using this case as your example;
 - one control in your Part 3 checklist you marked "present" that you have not actually seen tested, and what you would do to close that gap.
 
 ## Completion note
