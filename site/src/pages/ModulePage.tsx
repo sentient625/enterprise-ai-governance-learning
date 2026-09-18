@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Markdown } from '../components/Markdown';
+import { Workbook } from '../components/Workbook';
 import { getDocument } from '../lib/content';
 import { prepareMarkdown } from '../lib/prepareMarkdown';
 import { curriculum } from '../config/curriculum';
@@ -75,6 +76,8 @@ export function ModulePage({ module }: { module: CurriculumModule }) {
           <p className="text-sm uppercase tracking-[.1em] text-[#8a836f]">Loading document…</p>
         ) : content === null ? (
           <p className="text-base leading-relaxed text-[#726c5d]">This document could not be loaded.</p>
+        ) : activeDoc === 'workbook' ? (
+          <Workbook moduleSlug={module.slug} content={content} />
         ) : (
           <Markdown content={content} />
         )}
