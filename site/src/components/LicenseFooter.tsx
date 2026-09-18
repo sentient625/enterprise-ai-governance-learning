@@ -7,7 +7,7 @@ export function LicenseFooter() {
           You may share and adapt it, including for internal enterprise use and commercially.
           Credit Michael Kaplan, link to the source and license, and indicate any changes.
           Referenced third-party materials retain their own terms.</p>
-        <p className="mt-2"><a className="underline" href="https://learn.forensicgovernance.com/">Enterprise AI Governance Learning</a>{' · '}
+        <p className="mt-2"><a className="underline" href="https://learn.enterpriseaigov.com/">Enterprise AI Governance Learning</a>{' · '}
           <a className="underline" href="https://github.com/sentient625/enterprise-ai-governance-learning/blob/main/LICENSE.md">Repository license</a></p>
       </div>
     </footer>
