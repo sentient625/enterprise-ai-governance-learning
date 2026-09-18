@@ -1,4 +1,4 @@
-# Priority 2, Module 2 Model Answer and Review Guide — Use-Case Classification and Risk Tiers
+# Module 12 Model Answer and Review Guide — Use-Case Classification and Risk Tiers
 
 This is a model answer for calibration, not a substitute for your own completed [participant workbook](./03_Module_02_Participant_Workbook.md). A strong response will differ in wording and may reasonably differ in some judgment calls; what matters is whether the reasoning holds up under challenge.
 
@@ -40,7 +40,7 @@ Scenario: a business owner wants their new customer-facing recommendation tool a
 
 ## Part 6 — Linking outward (illustrative)
 
-For ORION, this module's tier determines how much governance ORION's use case as a whole warrants; Priority 1, Module 6 then classifies each specific action ORION might take (a UAT health read versus a production restart) into autonomous, monitored, prior-approval, or prohibited. A high-impact use-case tier does not mean every action within it is prior-approval — it means the use case as a whole warrants the full assessment, testing, and monitoring obligations, within which some individual actions may still be safely autonomous under Module 6's own factors. For lifecycle gates, a minimal-tier use case might pass through Module 9's design and test gates with a lightweight review, while a high-impact use case should expect every gate — classify, design, threat-model, test, authorize — to require the full evidentiary rigor Module 9 describes, because the tier sets how much proof each gate should demand, not whether the gate exists at all.
+For ORION, this module's tier determines how much governance ORION's use case as a whole warrants; Module 6 then classifies each specific action ORION might take (a UAT health read versus a production restart) into autonomous, monitored, prior-approval, or prohibited. A high-impact use-case tier does not mean every action within it is prior-approval — it means the use case as a whole warrants the full assessment, testing, and monitoring obligations, within which some individual actions may still be safely autonomous under Module 6's own factors. For lifecycle gates, a minimal-tier use case might pass through Module 9's design and test gates with a lightweight review, while a high-impact use case should expect every gate — classify, design, threat-model, test, authorize — to require the full evidentiary rigor Module 9 describes, because the tier sets how much proof each gate should demand, not whether the gate exists at all.
 
 ## Part 7 — Executive summary (illustrative, ~180 words)
 
@@ -56,7 +56,7 @@ A response that scores well:
 
 - attaches a specific, checkable obligation to every tier, not a vague description;
 - keeps a provisional tier visibly provisional rather than treating it as settled;
-- separates this module's use-case tier from Priority 1, Module 6's action-level classification and Module 9's lifecycle gates, while showing how they connect;
+- separates this module's use-case tier from Module 6's action-level classification and Module 9's lifecycle gates, while showing how they connect;
 - designs an intake check that would actually catch the Part 5 scenario, not one that would pass it.
 
 A response that needs revision:

@@ -1,4 +1,4 @@
-# Priority 2, Module 1 Participant Workbook — Enterprise AI Inventory and Ownership
+# Module 11 Participant Workbook — Enterprise AI Inventory and Ownership
 
 **Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./02_Module_01_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 1's lesson](../01_Module_01_AI_Inventory_and_Ownership.md).
 
@@ -34,9 +34,9 @@ For each, name at least two independent data sources you would reconcile, and st
 
 Propose a reconciliation cadence and trigger set for the enterprise inventory. Justify the cadence by the kind of change it is meant to catch, not by a default calendar interval.
 
-## Part 6 — Linking to Priority 1, Module 9
+## Part 6 — Linking to Module 9
 
-Explain, in your own words, the difference between what belongs in this enterprise-wide inventory and what belongs in an individual agent's Priority 1, Module 9 lifecycle record. Using ORION as the example, state exactly what the enterprise-inventory entry should contain and what it should instead reference rather than duplicate.
+Explain, in your own words, the difference between what belongs in this enterprise-wide inventory and what belongs in an individual agent's Module 9 lifecycle record. Using ORION as the example, state exactly what the enterprise-inventory entry should contain and what it should instead reference rather than duplicate.
 
 ## Part 7 — Executive summary
 

@@ -1,10 +1,10 @@
-# Priority 2, Module 5 — Monitoring and Change Governance
+# Module 15 — Monitoring and Change Governance
 
 **Status:** Accepted for public learning use
 
 **Version:** 1.0
 
-**Guide coverage:** Priority 2, Days 13–15
+**Guide coverage:** Days 13–15
 
 **Estimated study time:** 60–90 minutes plus exercise
 
@@ -26,7 +26,7 @@ A learner should be able to:
 - Define what counts as a material change requiring a fresh assessment cycle, distinguishing it from routine operation.
 - Require vendor and third-party change disclosure as a specific, checkable obligation, and design a fallback for when that disclosure fails.
 - Assign a decision owner and deadline to every monitoring signal so that detection leads to a real response.
-- Connect monitoring and change governance to the reclassification, retest, and lifecycle-gate work already built in Priority 1 and Priority 2 without duplicating it.
+- Connect monitoring and change governance to the reclassification, retest, and lifecycle-gate work already built in earlier modules without duplicating it.
 - Explain the program-lead's monitoring role without claiming to personally design or operate a technical monitoring platform.
 
 ## 1. Monitoring is not testing repeated
@@ -37,7 +37,7 @@ A use case that passed TEVV on day one can fail in month six without any single 
 
 ## 2. Minimum monitoring specification
 
-Building directly on Priority 1, Module 7's requirement that every signal need a definition, population, threshold, owner, and response deadline — applied here at the use-case and portfolio level rather than the single-transaction level:
+Building directly on Module 7's requirement that every signal need a definition, population, threshold, owner, and response deadline — applied here at the use-case and portfolio level rather than the single-transaction level:
 
 | Field | Minimum content | Question it supports |
 |---|---|---|
@@ -50,20 +50,20 @@ Building directly on Priority 1, Module 7's requirement that every signal need a
 | Response deadline | How quickly a response is required once the threshold is crossed | Does detection actually lead to timely action? |
 | Escalation | Who is notified if the owner does not act within the deadline | What happens if the first response fails? |
 
-A dashboard showing a metric with no defined threshold, owner, or deadline is telemetry, not monitoring — the same distinction Priority 1, Module 7 drew between telemetry and evidence applies here between telemetry and governance.
+A dashboard showing a metric with no defined threshold, owner, or deadline is telemetry, not monitoring — the same distinction Module 7 drew between telemetry and evidence applies here between telemetry and governance.
 
 ## 3. Leading indicators versus confirmed incidents
 
 | Type | Example | Governing response |
 |---|---|---|
 | Leading indicator | A rising override rate, a growing backlog of unreviewed exceptions, a declining sample-review rate | Investigate; may not yet require suspension, but requires a defined response deadline |
-| Confirmed incident | A verified wrongful benefit denial traced to the tool, a confirmed disparate-impact finding, a verified data breach | Route through Priority 1, Module 8's suspension and response discipline immediately |
+| Confirmed incident | A verified wrongful benefit denial traced to the tool, a confirmed disparate-impact finding, a verified data breach | Route through Module 8's suspension and response discipline immediately |
 
 Treating every leading indicator as an incident causes alarm fatigue and burns the escalation path's credibility; treating a confirmed incident as merely a leading indicator delays a response that should already be underway. Both errors are foreseeable, and both should have a named owner whose job is to make the distinction rather than defaulting to whichever framing is more convenient.
 
 ## 4. What counts as a material change
 
-A material change reopens an earlier gate — Module 2's tier, Module 3's assessment, or Module 4's TEVV plan — rather than being absorbed as routine operation. Building on the material-change discipline in Priority 1, Module 9, applied here at the use-case level:
+A material change reopens an earlier gate — Module 2's tier, Module 3's assessment, or Module 4's TEVV plan — rather than being absorbed as routine operation. Building on the material-change discipline in Module 9, applied here at the use-case level:
 
 | Change | Governing question |
 |---|---|
@@ -78,7 +78,7 @@ Define a change envelope in advance: a specific, bounded set of changes an owner
 
 ## 5. Vendor and third-party change disclosure
 
-Priority 2, Module 1 already identified that a model's behavior can depend on a version the vendor controls, not the enterprise. Monitoring and change governance make that risk concrete: an enterprise that only finds out about a vendor's model update by noticing its own metrics drift has no advance warning at all.
+Module 11 already identified that a model's behavior can depend on a version the vendor controls, not the enterprise. Monitoring and change governance make that risk concrete: an enterprise that only finds out about a vendor's model update by noticing its own metrics drift has no advance warning at all.
 
 Require, as a contract or vendor-management term going forward:
 
@@ -90,10 +90,10 @@ Where a vendor will not agree to disclosure, or where the enterprise has no real
 
 ## 6. Relationship to the rest of the curriculum
 
-- **Priority 1, Module 7** built transaction-level evidence and monitoring; this module builds use-case- and portfolio-level monitoring, watching for drift and change rather than reconstructing a single transaction.
-- **Priority 1, Module 8** governs suspension and response once an incident is confirmed; this module's job is to get a confirmed incident to Module 8's process quickly, and to catch a leading indicator before it becomes one.
-- **Priority 1, Module 9** and **Priority 2, Module 2** both already define material change and reclassification triggers at the agent-lifecycle and risk-tier level; this module operationalizes watching for those triggers in an already-deployed use case, rather than redefining what a material change is.
-- **Priority 2, Module 4** produced retest triggers; this module is where those triggers are actually detected in live operation, closing the loop Module 4 opened.
+- **Module 7** built transaction-level evidence and monitoring; this module builds use-case- and portfolio-level monitoring, watching for drift and change rather than reconstructing a single transaction.
+- **Module 8** governs suspension and response once an incident is confirmed; this module's job is to get a confirmed incident to Module 8's process quickly, and to catch a leading indicator before it becomes one.
+- **Module 9** and **Module 12** both already define material change and reclassification triggers at the agent-lifecycle and risk-tier level; this module operationalizes watching for those triggers in an already-deployed use case, rather than redefining what a material change is.
+- **Module 14** produced retest triggers; this module is where those triggers are actually detected in live operation, closing the loop Module 4 opened.
 
 ## 7. Applied case — monitoring the benefits-eligibility recommendation after remediation
 
@@ -145,7 +145,7 @@ Six months later, the enterprise's override-rate monitoring shows a sudden shift
 
 ## 10. Exercise and completion evidence
 
-Complete the [Priority 2, Module 5 Participant Workbook](./exercises/09_Module_05_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/10_Module_05_Model_Answer_and_Review_Guide.md).
+Complete the [Module 15 Participant Workbook](./exercises/09_Module_05_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/10_Module_05_Model_Answer_and_Review_Guide.md).
 
 Completion requires:
 

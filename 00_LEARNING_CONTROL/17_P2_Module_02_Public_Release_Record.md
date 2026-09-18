@@ -1,4 +1,4 @@
-# Priority 2, Module 2 Public-Release Record
+# Module 12 Public-Release Record
 
 **Release ID:** P2-M02-R1
 
@@ -22,13 +22,13 @@ Publication does not establish learner completion, production readiness, indepen
 
 Publisher-adjacent material checked through independent web search on 2026-09-18: NIST AI RMF 1.0 (January 2023) MAP function, particularly MAP 1 (context, purpose, and prospective impacts) and MAP 5 (impact likelihood and magnitude); NIST AI 600-1 (Generative AI Profile, July 2024); ISO/IEC 42001:2023 AI risk assessment and AI system impact assessment requirements; and OMB Memorandum M-25-21 (issued April 3, 2025), specifically its consolidation of the rescinded M-24-10's separate "rights-impacting" and "safety-impacting" categories into a single "high-impact AI" tier with defined minimum practices and a waiver path.
 
-Direct publisher-page fetch (iso.org, whitehouse.gov, nvlpubs.nist.gov) remained unavailable during this authoring session because of the same network egress restriction recorded in the Priority 2, Module 1 release record. Source status rests on corroboration across multiple independent search results per source, not a direct page read. This is an authoring-time check, not independent peer review, and should be reconfirmed against the primary publisher pages before the next revision or before any production-facing use.
+Direct publisher-page fetch (iso.org, whitehouse.gov, nvlpubs.nist.gov) remained unavailable during this authoring session because of the same network egress restriction recorded in the Module 11 release record. Source status rests on corroboration across multiple independent search results per source, not a direct page read. This is an authoring-time check, not independent peer review, and should be reconfirmed against the primary publisher pages before the next revision or before any production-facing use.
 
 ## Authoring review
 
 | Dimension | Review finding |
 |---|---|
-| Scope discipline | Explicitly distinguished from Priority 1, Module 6's action-level classification and Module 9's lifecycle gates; connection described without merging the decisions |
+| Scope discipline | Explicitly distinguished from Module 6's action-level classification and Module 9's lifecycle gates; connection described without merging the decisions |
 | Classification factors | Population, consequence, reversibility, autonomy, data sensitivity, legal/rights exposure, scale, and explainability need each given a governing question |
 | Tier model | Four illustrative tiers, each with a distinct and checkable governance obligation rather than a vague description |
 | Regulatory grounding accuracy | M-25-21 correctly described as having consolidated M-24-10's two-category split into one "high-impact AI" tier; this correction was verified before drafting rather than assumed from Module 1's more general citation |
@@ -45,6 +45,6 @@ This is an AI-assisted authoring review, not independent external or human peer 
 
 ## Limitations and maintenance
 
-This module does not itself specify the impact-assessment method, test criteria, or monitoring design that an elevated or high-impact tier requires; those are reserved for later Priority 2 modules once drafted. The fictional case's tier assignments are illustrative and depend on information the case explicitly marks as still missing; learners must preserve that provisional status rather than inventing a resolution. OMB M-25-21 is federal-sector-specific and illustrative only; it must not be represented as binding on a private-sector or non-U.S.-government learner's organization, and its "high-impact AI" category must not be conflated with this module's own four-tier model.
+This module does not itself specify the impact-assessment method, test criteria, or monitoring design that an elevated or high-impact tier requires; those are reserved for later modules once drafted. The fictional case's tier assignments are illustrative and depend on information the case explicitly marks as still missing; learners must preserve that provisional status rather than inventing a resolution. OMB M-25-21 is federal-sector-specific and illustrative only; it must not be represented as binding on a private-sector or non-U.S.-government learner's organization, and its "high-impact AI" category must not be conflated with this module's own four-tier model.
 
-Review again when source status changes (particularly any further OMB AI-memo revision or ISO/IEC 42001 update), when Priority 2's later assessment and monitoring modules are drafted and this module's forward references need tightening, or when reader feedback identifies accuracy, usability, confidentiality, or positioning concerns. Confirm direct publisher-page access for the sources listed above at the next revision opportunity, since this release relied on search-based corroboration rather than a direct fetch.
+Review again when source status changes (particularly any further OMB AI-memo revision or ISO/IEC 42001 update), when the later assessment and monitoring modules are drafted and this module's forward references need tightening, or when reader feedback identifies accuracy, usability, confidentiality, or positioning concerns. Confirm direct publisher-page access for the sources listed above at the next revision opportunity, since this release relied on search-based corroboration rather than a direct fetch.

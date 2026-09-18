@@ -1,4 +1,4 @@
-# Priority 2, Module 6 Model Answer and Review Guide — Vendor and Supply-Chain Governance
+# Module 16 Model Answer and Review Guide — Vendor and Supply-Chain Governance
 
 This is a model answer for calibration, not a substitute for your own completed [participant workbook](./11_Module_06_Participant_Workbook.md). A strong response will differ in wording and may reasonably differ in some judgment calls; what matters is whether the reasoning holds up under challenge.
 

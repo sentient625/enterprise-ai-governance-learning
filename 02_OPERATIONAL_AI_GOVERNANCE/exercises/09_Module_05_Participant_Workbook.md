@@ -1,4 +1,4 @@
-# Priority 2, Module 5 Participant Workbook — Monitoring and Change Governance
+# Module 15 Participant Workbook — Monitoring and Change Governance
 
 **Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./10_Module_05_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 5's lesson](../05_Module_05_Monitoring_and_Change_Governance.md).
 
@@ -26,7 +26,7 @@ Using Section 7's six-months-later scenario (an undisclosed vendor model update 
 
 ## Part 6 — Linking outward
 
-Explain, in your own words, how this module's monitoring plan differs from Module 4's TEVV plan, and how a leading indicator from this module's monitoring should connect to Priority 1, Module 8's suspension and response process once it becomes a confirmed incident.
+Explain, in your own words, how this module's monitoring plan differs from Module 4's TEVV plan, and how a leading indicator from this module's monitoring should connect to Module 8's suspension and response process once it becomes a confirmed incident.
 
 ## Part 7 — Executive summary
 

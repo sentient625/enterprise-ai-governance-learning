@@ -1,4 +1,4 @@
-# Priority 2, Module 3 Participant Workbook — Impact and Control Assessment
+# Module 13 Participant Workbook — Impact and Control Assessment
 
 **Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./06_Module_03_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 3's lesson](../03_Module_03_Impact_and_Control_Assessment.md).
 

@@ -1,4 +1,4 @@
-# Priority 2, Module 1 Public-Release Record
+# Module 11 Public-Release Record
 
 **Release ID:** P2-M01-R1
 
@@ -28,7 +28,7 @@ Direct publisher-page fetch (iso.org, whitehouse.gov, nvlpubs.nist.gov) was unav
 
 | Dimension | Review finding |
 |---|---|
-| Scope discipline | Explicitly distinguished from Priority 1, Module 9's agent-lifecycle record; cross-reference rather than duplication required |
+| Scope discipline | Explicitly distinguished from Module 9's agent-lifecycle record; cross-reference rather than duplication required |
 | Inventory levels | Use case, deployed instance, and component/model version distinguished |
 | Minimum specification | Ten field groups each tied to a specific later governance question |
 | Ownership model | Business, technical, governance, sponsor, and steward roles separated; "IT" or "vendor" alone rejected as an owner |
@@ -44,6 +44,6 @@ This is an AI-assisted authoring review, not independent external or human peer 
 
 ## Limitations and maintenance
 
-This module does not itself assign a risk tier or approval boundary to any use case; that is reserved for a later Priority 2 module once one is drafted. The fictional case does not supply real ownership acceptance, data-handling findings, or reconciliation results; learners must preserve those as open items rather than inventing resolutions. OMB M-25-21 is federal-sector-specific and illustrative only; it must not be represented as binding on a private-sector or non-U.S.-government learner's organization.
+This module does not itself assign a risk tier or approval boundary to any use case; that is reserved for a later module once one is drafted. The fictional case does not supply real ownership acceptance, data-handling findings, or reconciliation results; learners must preserve those as open items rather than inventing resolutions. OMB M-25-21 is federal-sector-specific and illustrative only; it must not be represented as binding on a private-sector or non-U.S.-government learner's organization.
 
 Review again when source status changes (particularly ISO/IEC 42001 revisions or further OMB AI-memo changes), when implementation evidence changes the guidance, or when reader feedback identifies accuracy, usability, confidentiality, or positioning concerns. Confirm direct publisher-page access for ISO 42001 and the OMB memo at the next revision opportunity, since this release relied on search-based corroboration rather than a direct fetch.

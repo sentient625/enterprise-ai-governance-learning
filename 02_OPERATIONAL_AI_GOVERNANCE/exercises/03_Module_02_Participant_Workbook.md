@@ -1,4 +1,4 @@
-# Priority 2, Module 2 Participant Workbook — Use-Case Classification and Risk Tiers
+# Module 12 Participant Workbook — Use-Case Classification and Risk Tiers
 
 **Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./04_Module_02_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 2's lesson](../02_Module_02_Use_Case_Classification_and_Risk_Tiers.md).
 
@@ -39,8 +39,8 @@ Write a short scenario, in your own words, where a business owner has an incenti
 
 Explain, in your own words:
 
-- how a use case's tier here should affect which of Priority 1, Module 6's action classes eventually apply to it, using ORION as the example;
-- how a use case's tier here should affect which of Priority 1, Module 9's lifecycle gates apply, and how rigorously.
+- how a use case's tier here should affect which of Module 6's action classes eventually apply to it, using ORION as the example;
+- how a use case's tier here should affect which of Module 9's lifecycle gates apply, and how rigorously.
 
 ## Part 7 — Executive summary
 
