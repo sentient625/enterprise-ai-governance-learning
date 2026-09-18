@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { BlankCell } from './BlankCell';
 import { BlankInput } from './BlankInput';
 
 export function Markdown({ content, moduleSlug }: { content: string; moduleSlug?: string }) {
@@ -10,13 +11,16 @@ export function Markdown({ content, moduleSlug }: { content: string; moduleSlug?
         components={
           moduleSlug
             ? {
-                img: ({ src, alt }) =>
-                  typeof src === 'string' && src.startsWith('blank-') ? (
-                    <BlankInput moduleSlug={moduleSlug} blankId={src} />
-                  ) : (
-                    // eslint-disable-next-line jsx-a11y/alt-text
-                    <img src={src} alt={alt} />
-                  ),
+                img: ({ src, alt }) => {
+                  if (typeof src === 'string' && src.startsWith('blank-cell-')) {
+                    return <BlankCell moduleSlug={moduleSlug} blankId={src} />;
+                  }
+                  if (typeof src === 'string' && src.startsWith('blank-run-')) {
+                    return <BlankInput moduleSlug={moduleSlug} blankId={src} />;
+                  }
+                  // eslint-disable-next-line jsx-a11y/alt-text
+                  return <img src={src} alt={alt} />;
+                },
               }
             : undefined
         }
