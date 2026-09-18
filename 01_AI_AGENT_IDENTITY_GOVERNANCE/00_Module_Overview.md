@@ -43,6 +43,9 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 25. [Module 8 — Suspension, Response, Fallback, and Recovery](./11_Module_08_Suspension_Response_Fallback_and_Recovery.md) — accepted for public learning use upon reviewed merge
 26. [Module 8 Participant Workbook](./exercises/15_Module_08_Participant_Workbook.md)
 27. [Module 8 Model Answer and Review Guide](./exercises/16_Module_08_Model_Answer_and_Review_Guide.md)
+28. [Module 9 — Inventory, Lifecycle, and Program Governance](./12_Module_09_Inventory_Lifecycle_and_Program_Governance.md) — accepted for public learning use upon reviewed merge
+29. [Module 9 Participant Workbook](./exercises/17_Module_09_Participant_Workbook.md)
+30. [Module 9 Model Answer and Review Guide](./exercises/18_Module_09_Model_Answer_and_Review_Guide.md)
 
 ## Suggested working folders
 
