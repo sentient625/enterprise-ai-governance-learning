@@ -36,4 +36,4 @@ Deploy as its own Cloudflare Pages project (separate from the `forensic-governan
 - **Node version:** 22
 
 Point a subdomain (e.g. `learn.enterpriseaigov.com`) at this Pages project, then add a single linked entry on
-`enterpriseaigov.com` to it — do not re-embed the curriculum in the main site.
+`forensicgovernance.com` to it — do not re-embed the curriculum in the main site.
