@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 6 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 7 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
@@ -120,11 +120,26 @@ Use the package in this order:
 
 The module develops decision-rights and operating-control judgment. It does not confer legal, safety, audit, architecture, or engineering authority.
 
+### Module 7 — Evidence, Provenance, and Monitoring
+
+**Status:** Accepted for public learning use, version 1.0, upon merge of the Module 7 package.
+
+Module 7 teaches learners to connect requests, identities, authority, approvals, tool attempts, and verified target outcomes; preserve provenance and uncertainty; protect evidence while limiting sensitive capture; and assign monitoring failures to accountable responses.
+
+Use the package in this order:
+
+1. [Read the Module 7 lesson](./01_AI_AGENT_IDENTITY_GOVERNANCE/10_Module_07_Evidence_Provenance_and_Monitoring.md).
+2. [Complete the Module 7 participant workbook](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md).
+3. [Review the Module 7 model answer and review guide](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/14_Module_07_Model_Answer_and_Review_Guide.md).
+4. [Read the Module 7 public-release record](./00_LEARNING_CONTROL/12_Module_07_Public_Release_Record.md).
+
+The module develops evidence and monitoring judgment. It does not prescribe production logging architecture, establish legal retention requirements, or confer audit authority. Publication does not establish learner completion.
+
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
-| 1 | AI-agent identity, security, and governance | Active; Modules 1–6 accepted |
+| 1 | AI-agent identity, security, and governance | Active; Modules 1–7 accepted |
 | 2 | Operationalizing AI governance | Planned |
 | 3 | Financial decision fluency | Planned |
 

@@ -1,6 +1,6 @@
 # Source Register
 
-**Last reviewed:** 2026-09-17
+**Last reviewed:** 2026-09-18 (Module 7 source subset; other entries retain their recorded review dates)
 
 This register records the small primary source set used by the active learning priority. Status labels matter: draft material and project pages must not be described as final requirements.
 
@@ -22,7 +22,7 @@ This register records the small primary source set used by the active learning p
 | SRC-014 | [RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens](https://datatracker.ietf.org/doc/html/rfc8705) | IETF | Standards Track RFC | Sender-constrained token category using mutual TLS and certificate binding |
 | SRC-015 | [RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession](https://datatracker.ietf.org/doc/html/rfc9449) | IETF | Standards Track RFC | Sender-constrained token category using DPoP |
 | SRC-016 | [OAuth 2.1 Authorization Framework](https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/) | IETF OAuth Working Group | Active Internet-Draft version 16, updated 2026-09-02; work in progress | Emerging-version status context only; not used as a final normative source |
-| SRC-017 | [NIST SP 800-53 Rev. 5, Update 1](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | Final Special Publication; published 2020, updated 2021 | Access control, separation of duties, least privilege, authenticator management, audit, and control vocabulary |
+| SRC-017 | [NIST SP 800-53 Rev. 5, Update 1](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | NIST | Final Special Publication; December 2020 update; publisher notes Release 5.2.0 issued August 2025 (checked 2026-09-18) | Access control, separation of duties, least privilege, authenticator management, audit, and control vocabulary |
 | SRC-018 | [NIST SP 800-207 — Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | NIST | Final Special Publication, August 2020 | Resource-focused access; explicit authentication and authorization |
 | SRC-019 | [NIST SP 800-82 Rev. 3 — Guide to Operational Technology Security](https://csrc.nist.gov/pubs/sp/800/82/r3/final) | NIST | Final Special Publication, September 2023 | OT performance, reliability, safety, security, and environment context |
 | SRC-020 | [NIST IR 8587 — Protecting Tokens and Assertions from Forgery, Theft, and Misuse](https://csrc.nist.gov/pubs/ir/8587/final) | NIST | Final Interagency Report, September 2026 | Token and assertion protection, key management, verification, lifecycle controls, and monitoring |
@@ -31,6 +31,11 @@ This register records the small primary source set used by the active learning p
 | SRC-023 | [Model Context Protocol specification, 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28) | Model Context Protocol (community/industry spec) | Current published protocol revision at review | Tool/resource connectivity context; not treated as a universal enterprise control framework |
 | SRC-024 | [MCP Authorization Security Considerations, 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/security-considerations) | Model Context Protocol | Normative security requirements within the current MCP specification | Audience validation, confused-deputy risk, privilege restriction, and token-passthrough prohibition |
 | SRC-025 | [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | NIST | Final framework, January 2023; revision work noted by NIST at review | Governance, roles, accountability, human oversight, measurement, and risk-management outcomes |
+| SRC-026 | [W3C Trace Context Level 1](https://www.w3.org/TR/2021/REC-trace-context-1-20211123/) | W3C | Recommendation, 23 November 2021; checked 2026-09-18 | Distributed correlation, privacy, and security; does not establish identity or authority |
+
+## Module 7 source review — 2026-09-18
+
+Publisher pages for SRC-017, SRC-022, SRC-025, and SRC-026 were read during Module 7 preparation. SRC-017 now records the publisher's December 2020 update and Release 5.2.0 note. SRC-022 and SRC-025 are cited as the published July 2024 profile and January 2023 framework respectively; no claim of an exhaustive supersession search is made. The Module 7 record and monitoring rules are educational synthesis, not a standardized schema. This is an authoring source check, not independent peer review.
 
 ## Independent verification log
 
