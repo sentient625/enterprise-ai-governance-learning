@@ -1,5 +1,7 @@
 # Progress Record
 
+**Read this before assuming "Not started" means nothing has been built.** This record tracks Michael's own demonstrated learning — whether he has personally completed and defended each exercise — not whether content has been published. As of 2026-09-18, all ten Priority 1 instructional modules are built, published, and accepted for public learning use (see the [Content Build Register](./05_Content_Build_Register.md)). This record correctly still shows "Not started" throughout because the exercises themselves have not yet been completed and defended; publishing a module's lesson and workbook template does not, by this repository's own rule, establish that the learning happened.
+
 ## Status legend
 
 - **Not started** — no evidence created.
@@ -12,7 +14,7 @@
 
 | Priority | Status | Evidence | Next decision |
 |---|---|---|---|
-| 1. AI-agent identity, security, and governance | In progress | Learning guide, lifecycle template, case workbook | Complete Week 1 and populate lifecycle Sections 1–4 |
+| 1. AI-agent identity, security, and governance | In progress | All ten Priority 1 modules published and accepted (see Content Build Register); learning guide, lifecycle template, case workbook | Complete and defend the Module 1–10 workbooks; none are yet marked Demonstrated |
 | 2. Operationalize AI governance | Not started | Module placeholder | Begin only after Priority 1 capstone |
 | 3. Financial decision fluency | Not started | Module placeholder | Begin after Priority 2 or by explicit reprioritization |
 
