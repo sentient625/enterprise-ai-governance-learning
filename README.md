@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Module 1 (AI Inventory and Ownership) accepted for public learning use; Modules 2–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–2 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers) accepted for public learning use; Modules 3–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
@@ -191,14 +191,27 @@ Use the package in this order:
 3. [Review the model answer and review guide](./02_OPERATIONAL_AI_GOVERNANCE/exercises/02_Module_01_Model_Answer_and_Review_Guide.md).
 4. [Read the public-release record](./00_LEARNING_CONTROL/16_P2_Module_01_Public_Release_Record.md).
 
-This module's source verification relied on independent web search rather than a direct publisher-page fetch; the public-release record flags that as pending further independent review. Modules 2–10 of Priority 2 remain planned. Priority 3 remains planned and not yet built.
+### Priority 2, Module 2 — Use-Case Classification and Risk Tiers
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 2 teaches learners to assign each inventoried AI use case a risk tier tied to a specific, checkable governance obligation; design an intake process that classifies before deployment; resist tier creep in self-classified submissions; and define the triggers that require reclassification. It distinguishes this use-case-level tiering from the action-level classification in Priority 1, Module 6, and from the lifecycle gates in Priority 1, Module 9.
+
+Use the package in this order:
+
+1. [Read the Module 2 lesson](./02_OPERATIONAL_AI_GOVERNANCE/02_Module_02_Use_Case_Classification_and_Risk_Tiers.md).
+2. [Complete the participant workbook](./02_OPERATIONAL_AI_GOVERNANCE/exercises/03_Module_02_Participant_Workbook.md).
+3. [Review the model answer and review guide](./02_OPERATIONAL_AI_GOVERNANCE/exercises/04_Module_02_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](./00_LEARNING_CONTROL/17_P2_Module_02_Public_Release_Record.md).
+
+Both Priority 2 modules' source verification relied on independent web search rather than a direct publisher-page fetch; each public-release record flags that as pending further independent review. Modules 3–10 of Priority 2 remain planned. Priority 3 remains planned and not yet built.
 
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
 | 1 | AI-agent identity, security, and governance | Modules 1–10 accepted; learner completion requires artifacts and defense |
-| 2 | Operationalizing AI governance | Module 1 accepted; Modules 2–10 planned |
+| 2 | Operationalizing AI governance | Modules 1–2 accepted; Modules 3–10 planned |
 | 3 | Financial decision fluency | Planned |
 
 The [Learning Roadmap](./00_LEARNING_CONTROL/01_Learning_Roadmap.md) and [Content Build Register](./00_LEARNING_CONTROL/05_Content_Build_Register.md) show the planned sequence and current status.

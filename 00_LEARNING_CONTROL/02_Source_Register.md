@@ -77,6 +77,14 @@ New sources SRC-030 (ISO/IEC 42001:2023) and SRC-031 (OMB Memorandum M-25-21) we
 
 This is a search-corroborated authoring check, not independent peer review or a direct primary-source read. Reconfirm both new sources directly against their publisher pages — including the exact M-25-21 URL, cited here through a third-party mirror rather than a confirmed whitehouse.gov path — before the next revision or any production-facing use. The inventory schema, ownership model, and case in Priority 2, Module 1 are original educational synthesis; neither ISO/IEC 42001 nor M-25-21 prescribes them.
 
+## Priority 2, Module 2 source review — 2026-09-18
+
+Reused SRC-025 (NIST AI RMF 1.0), focused on the MAP function (MAP 1 and MAP 5) rather than GOVERN; SRC-022 (NIST AI 600-1); SRC-030 (ISO/IEC 42001:2023), focused on AI risk and impact assessment rather than the impact-assessment controls cited for Module 1; and SRC-031 (OMB M-25-21). All were checked through independent web search rather than a direct publisher-page fetch, for the same network-egress-restriction reason recorded for Module 1.
+
+This review specifically corrected an assumption before drafting: a search confirmed that M-25-21 did not simply carry forward M-24-10's "rights-impacting" and "safety-impacting" categories, but consolidated them into a single "high-impact AI" definition with its own minimum practices and waiver path. Module 2's lesson cites this consolidation directly rather than the two-category split. Verify this remains current before reuse, since federal AI guidance in this area has changed at least once already (M-24-10 to M-25-21) within the period this register covers.
+
+This is a search-corroborated authoring check, not independent peer review or a direct primary-source read. The tier model, intake design, and case in Priority 2, Module 2 are original educational synthesis; none of the sources above prescribes them.
+
 ## Internal conceptual sources
 
 The active module applies the Funded Belief, Evidence Locker, and accountable-authority concepts from *Forensic Capital Governance*. The accepted books remain separately governed. This repository may apply those concepts but must not silently revise their controlled meanings.
