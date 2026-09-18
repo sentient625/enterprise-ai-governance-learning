@@ -9,6 +9,12 @@ const HEADING_LINE = /^(#{1,6})\s+(.*)$/;
 // Closing instructions ("Completion note", "Submission and completion gate", ...) are not
 // exercise prompts, so they don't get a response box even though they're headed sections.
 const SKIP_RESPONSE = /^(completion|submission)/i;
+// Some workbooks (Modules 1 and 5) follow a prompt with an empty blockquote ("> ") as a
+// static "write your answer here" placeholder. The response box below replaces that, so
+// drop the empty placeholder to avoid two different "type here" indicators stacked on top
+// of each other. A blockquote that actually has template text (e.g. "> ... may ___ ...")
+// is left alone — only a blockquote with nothing after the ">" is stripped.
+const EMPTY_BLOCKQUOTE = /^>\s*$/;
 
 /**
  * Splits a workbook document into sections at heading lines, at whatever heading depth
@@ -44,7 +50,7 @@ export function splitWorkbookSections(markdown: string): WorkbookSection[] {
       heading = match[2].trim();
       level = match[1].length;
       buffer = [];
-    } else {
+    } else if (!EMPTY_BLOCKQUOTE.test(line)) {
       buffer.push(line);
     }
   }
