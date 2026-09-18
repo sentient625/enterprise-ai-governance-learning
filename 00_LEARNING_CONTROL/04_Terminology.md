@@ -281,3 +281,22 @@ AI functionality added to an already-purchased product or platform, often throug
 ### Record steward
 
 The role accountable for maintaining the inventory registry itself, resolving conflicting entries, and tracking reconciliation — distinct from ownership of any individual AI use case.
+
+
+## Priority 2, Module 2 additions
+
+### Risk tier
+
+A governance-obligation category assigned to an AI use case as a whole, based on factors such as affected population, consequence, reversibility, autonomy, data sensitivity, and legal or rights exposure — distinct from a technical risk or accuracy score, and distinct from the action-level classification in Priority 1, Module 6.
+
+### Tier creep
+
+The tendency for a use case to be classified one tier lower than its actual risk, typically because the person submitting the classification has an incentive to avoid the governance obligation the correct tier would require.
+
+### Provisional tier
+
+A risk tier assigned with named missing information still outstanding. A provisional tier must remain visibly provisional until the missing information is resolved, rather than being treated as final by default.
+
+### Reclassification trigger
+
+A defined event — such as population expansion, a new data class, reduced human review, repurposing, volume growth past a threshold, or an incident — that requires a use case's risk tier to be reviewed again, rather than left to informal judgment.

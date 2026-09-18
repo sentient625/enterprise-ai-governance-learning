@@ -203,12 +203,21 @@ The build should follow the learning path:
 | P2-PUB03 | Module 1 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/02_Module_01_Model_Answer_and_Review_Guide.md) | Accepted |
 | P2-PUB04 | Module 1 public-release record | [Priority 2, Module 1 Public-Release Record](./16_P2_Module_01_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
 
+## Public-release package — Module 2
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P2-PUB05 | Module 2 lesson | [Use-Case Classification and Risk Tiers](../02_OPERATIONAL_AI_GOVERNANCE/02_Module_02_Use_Case_Classification_and_Risk_Tiers.md) | Accepted |
+| P2-PUB06 | Module 2 participant workbook | [Use-Case Classification and Risk Tiers Workbook](../02_OPERATIONAL_AI_GOVERNANCE/exercises/03_Module_02_Participant_Workbook.md) | Accepted |
+| P2-PUB07 | Module 2 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/04_Module_02_Model_Answer_and_Review_Guide.md) | Accepted |
+| P2-PUB08 | Module 2 public-release record | [Priority 2, Module 2 Public-Release Record](./17_P2_Module_02_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
+
 ## Planned instructional modules
 
 | ID | Module | Core output | Status |
 |---|---|---|---|
 | P2-M01 | AI inventory and ownership | Inventory schema and owner model | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
-| P2-M02 | Use-case classification and risk tiers | Classification and approval matrix | Backlog |
+| P2-M02 | Use-case classification and risk tiers | Classification and approval matrix | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M03 | Impact and control assessment | Assessment template and evidence requirements | Backlog |
 | P2-M04 | Testing, evaluation, verification, and validation | TEVV decision model | Backlog |
 | P2-M05 | Monitoring and change governance | Monitoring and material-change standard | Backlog |
@@ -275,7 +284,8 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 12 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 13 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 | 14 | P2-A01 | Complete the Priority 2, Module 1 participant workbook and defense | Create and defend the enterprise AI inventory, ownership assignment, and detection/reconciliation plan; do not submit the model answer as completed work |
-| 15 | P2-M02 | Draft Priority 2, Module 2 (use-case classification and risk tiers) | Follow the standard module package; verify current NIST AI RMF, CSF 2.0, and ISO/IEC 42001 status before drafting rather than reusing Module 1's citations unverified |
+| 15 | P2-A02 | Complete the Priority 2, Module 2 participant workbook and defense | Create and defend the risk-tier model, case classification, intake design, and reclassification triggers; do not submit the model answer as completed work |
+| 16 | P2-M03 | Draft Priority 2, Module 3 (impact and control assessment) | Follow the standard module package; specify the impact-assessment method that Module 2's elevated and high-impact tiers point to but do not themselves define; verify current NIST AI RMF, CSF 2.0, and ISO/IEC 42001 status before drafting rather than reusing Modules 1–2's citations unverified |
 
 ## Update rule
 

@@ -1,6 +1,6 @@
 # Priority 2 — Operationalizing AI Governance
 
-**Status:** Active — build started. Module 1 is accepted for public learning use; Modules 2–10 remain planned.
+**Status:** Active — build started. Modules 1–2 are accepted for public learning use; Modules 3–10 remain planned.
 
 This priority translates governance frameworks into an enterprise operating model.
 
@@ -21,10 +21,23 @@ Use the package in this order:
 
 Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. The package's public-release record notes that source verification for this module relied on independent web search rather than a direct publisher-page fetch, and flags that as pending further independent review.
 
+### Module 2 — Use-Case Classification and Risk Tiers
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 2 teaches learners to assign each inventoried AI use case a risk tier tied to a specific, checkable governance obligation; design an intake process that classifies before deployment; resist tier creep in self-classified submissions; and define the triggers that require reclassification. It distinguishes this use-case-level tiering from the action-level classification built in Priority 1, Module 6, and from the lifecycle gates built in Priority 1, Module 9.
+
+Use the package in this order:
+
+1. [Read the Module 2 lesson](./02_Module_02_Use_Case_Classification_and_Risk_Tiers.md).
+2. [Complete the participant workbook](./exercises/03_Module_02_Participant_Workbook.md).
+3. [Review the model answer and review guide](./exercises/04_Module_02_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](../00_LEARNING_CONTROL/17_P2_Module_02_Public_Release_Record.md).
+
+Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Module 1, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
+
 ## Planned capabilities
 
-- AI inventory and use-case classification.
-- Risk tiers and approval boundaries.
 - Impact and control assessments.
 - Testing, evaluation, verification, and validation.
 - Model and agent monitoring.
@@ -41,4 +54,4 @@ Completion requires an original artifact and a defense. Reading the lesson or th
 - Use-case intake and classification artifact.
 - Monitoring, incident, and decommissioning case.
 
-Build on Modules 2–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.
+Build on Modules 3–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.
