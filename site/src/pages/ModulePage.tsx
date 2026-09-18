@@ -54,7 +54,10 @@ export function ModulePage({ module }: { module: CurriculumModule }) {
             <button
               key={tab.key}
               type="button"
-              onClick={() => setActiveDoc(tab.key)}
+              onClick={() => {
+                setActiveDoc(tab.key);
+                window.scrollTo({ top: 0 });
+              }}
               aria-current={activeDoc === tab.key ? 'true' : undefined}
               className={
                 'px-4 py-2 text-xs font-semibold uppercase tracking-[.1em] ' +
