@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 9 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
@@ -165,11 +165,24 @@ Use the package in this order:
 
 The module develops program-lead governance judgment. Inventory registration is not authorization, and publication does not establish learner completion.
 
+### Module 10 — Executive Decision and Capstone Defense
+
+**Status:** Accepted for public learning use, version 1.0, upon reviewed merge.
+
+Module 10 integrates the preceding modules into an ORION decision dossier, one-page memorandum, 90-second executive briefing, and fifteen-minute capstone defense. It separates preparation funding from operational authorization and activation, and requires explicit proof gates, accountable owners, value measurement, and expansion decisions.
+
+1. [Read the Module 10 lesson](./01_AI_AGENT_IDENTITY_GOVERNANCE/13_Module_10_Executive_Decision_and_Capstone_Defense.md).
+2. [Complete the participant workbook and memorandum template](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md).
+3. [Review the model answer and scoring rubric](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/20_Module_10_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](./00_LEARNING_CONTROL/15_Module_10_Public_Release_Record.md).
+
+All ten Priority 1 instructional packages are now available. Demonstrated learning still requires original artifacts and a reviewed defense. Priorities 2 and 3 remain planned; the Modules 1–5 facilitator guide remains a draft. A formal GitHub Release is a separate versioned snapshot.
+
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
-| 1 | AI-agent identity, security, and governance | Active; Modules 1–9 accepted |
+| 1 | AI-agent identity, security, and governance | Modules 1–10 accepted; learner completion requires artifacts and defense |
 | 2 | Operationalizing AI governance | Planned |
 | 3 | Financial decision fluency | Planned |
 

@@ -63,6 +63,12 @@ Source status is normally recorded once, at module preparation time, from the pu
 
 This log does not replace the Maintenance rule below. It documents that these sources were checked from a second, independent source on a date after original preparation, rather than relying solely on the original same-day citation.
 
+## Module 10 source review — 2026-09-18
+
+Reused SRC-025 (NIST AI RMF 1.0, published January 2023) and SRC-029 (NIST CSF 2.0, published February 26, 2024). Publisher PDFs were checked directly for this module. Focused reading: AI RMF GOVERN 2 and MANAGE 1–2; CSF GV.RM, GV.RR and GV.OV. These voluntary frameworks inform accountability, risk response and oversight; neither prescribes the capstone memo, decision options, scoring rubric, pilot limits or professional certification.
+
+The lesson, case synthesis, workbook, illustrative conditions and assessment thresholds are original educational material. No new source ID is required. Prior module source maps remain the references for detailed identity, access, evidence and response topics. Source use does not establish legal, regulatory, safety or production acceptance.
+
 ## Internal conceptual sources
 
 The active module applies the Funded Belief, Evidence Locker, and accountable-authority concepts from *Forensic Capital Governance*. The accepted books remain separately governed. This repository may apply those concepts but must not silently revise their controlled meanings.

@@ -47,6 +47,12 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 29. [Module 9 Participant Workbook](./exercises/17_Module_09_Participant_Workbook.md)
 30. [Module 9 Model Answer and Review Guide](./exercises/18_Module_09_Model_Answer_and_Review_Guide.md)
 
+31. [Module 10 — Executive Decision and Capstone Defense](./13_Module_10_Executive_Decision_and_Capstone_Defense.md) — accepted for public learning use upon reviewed merge
+32. [Module 10 Participant Workbook and Memorandum Template](./exercises/19_Module_10_Participant_Workbook.md)
+33. [Module 10 Model Answer and Review Guide](./exercises/20_Module_10_Model_Answer_and_Review_Guide.md)
+
+All ten instructional modules are available. Publication does not establish demonstrated learning; complete and defend the original capstone artifacts below.
+
 ## Suggested working folders
 
 Create these only as work is produced:
