@@ -37,17 +37,17 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 19. [Module 6 — Human Authority and Separation of Duties](./09_Module_06_Human_Authority_and_Separation_of_Duties.md) — accepted for public learning use
 20. [Module 6 Participant Workbook](./exercises/11_Module_06_Participant_Workbook.md)
 21. [Module 6 Model Answer and Review Guide](./exercises/12_Module_06_Model_Answer_and_Review_Guide.md)
-22. [Module 7 — Evidence, Provenance, and Monitoring](./10_Module_07_Evidence_Provenance_and_Monitoring.md) — accepted for public learning use upon merge
+22. [Module 7 — Evidence, Provenance, and Monitoring](./10_Module_07_Evidence_Provenance_and_Monitoring.md) — accepted for public learning use
 23. [Module 7 Participant Workbook](./exercises/13_Module_07_Participant_Workbook.md)
 24. [Module 7 Model Answer and Review Guide](./exercises/14_Module_07_Model_Answer_and_Review_Guide.md)
-25. [Module 8 — Suspension, Response, Fallback, and Recovery](./11_Module_08_Suspension_Response_Fallback_and_Recovery.md) — accepted for public learning use upon reviewed merge
+25. [Module 8 — Suspension, Response, Fallback, and Recovery](./11_Module_08_Suspension_Response_Fallback_and_Recovery.md) — accepted for public learning use
 26. [Module 8 Participant Workbook](./exercises/15_Module_08_Participant_Workbook.md)
 27. [Module 8 Model Answer and Review Guide](./exercises/16_Module_08_Model_Answer_and_Review_Guide.md)
-28. [Module 9 — Inventory, Lifecycle, and Program Governance](./12_Module_09_Inventory_Lifecycle_and_Program_Governance.md) — accepted for public learning use upon reviewed merge
+28. [Module 9 — Inventory, Lifecycle, and Program Governance](./12_Module_09_Inventory_Lifecycle_and_Program_Governance.md) — accepted for public learning use
 29. [Module 9 Participant Workbook](./exercises/17_Module_09_Participant_Workbook.md)
 30. [Module 9 Model Answer and Review Guide](./exercises/18_Module_09_Model_Answer_and_Review_Guide.md)
 
-31. [Module 10 — Executive Decision and Capstone Defense](./13_Module_10_Executive_Decision_and_Capstone_Defense.md) — accepted for public learning use upon reviewed merge
+31. [Module 10 — Executive Decision and Capstone Defense](./13_Module_10_Executive_Decision_and_Capstone_Defense.md) — accepted for public learning use
 32. [Module 10 Participant Workbook and Memorandum Template](./exercises/19_Module_10_Participant_Workbook.md)
 33. [Module 10 Model Answer and Review Guide](./exercises/20_Module_10_Model_Answer_and_Review_Guide.md)
 

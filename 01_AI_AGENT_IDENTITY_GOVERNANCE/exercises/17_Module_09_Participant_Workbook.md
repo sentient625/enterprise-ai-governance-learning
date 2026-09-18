@@ -1,6 +1,6 @@
 # Module 9 Participant Workbook — Agent Inventory and Lifecycle Gate Review
 
-**Status:** Accepted exercise template upon reviewed merge
+**Status:** Accepted exercise template
 
 **Version:** 1.0
 

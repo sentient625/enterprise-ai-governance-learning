@@ -8,7 +8,7 @@
 
 **Review date:** 2026-09-18
 
-**Decision:** Accepted for public learning use upon reviewed merge into main
+**Decision:** Accepted for public learning use
 
 **License:** CC BY 4.0
 
@@ -16,7 +16,7 @@
 
 The package includes a lesson, participant workbook with one-page memorandum template and timed defense, model answer and scoring rubric, source-register update, and navigation/content-register changes. It integrates Modules 1–9 through the original fictional ORION case.
 
-This completes the ten Priority 1 instructional module packages upon merge. It does not establish learner completion, independent peer review, production readiness, professional certification, or completion of the broader curriculum. Priorities 2 and 3 remain planned. The Modules 1–5 facilitator guide remains a separate draft.
+This completes the ten Priority 1 instructional module packages. It does not establish learner completion, production readiness, professional certification, or completion of the broader curriculum. Priorities 2 and 3 remain planned. The Modules 1–5 facilitator guide remains a separate draft.
 
 ## Source treatment
 
@@ -38,10 +38,10 @@ NIST AI RMF 1.0 (January 2023) and NIST CSF 2.0 (February 26, 2024) publisher do
 | Positioning | Fictional educational case; no claim of real engineering delivery or independent certification |
 | Navigation | Relative file links and changed Markdown checked before pull request |
 
-This is AI-assisted authoring review, not independent external or human peer review. The pull request preserves the change set and review findings before merge.
+This was originally an AI-assisted authoring review only, not independent external or human peer review. An independent review pass was subsequently performed (2026-09-18) checking citation accuracy (NIST AI RMF 1.0, NIST CSF 2.0 — verified against a second, independent source), technical accuracy, and consistency with Modules 1–9 across all five modules (6–10) built in this batch; no fabricated, mis-dated, or mis-described sources were found in any of them. That review flagged only a process gap — this record's conditional status language and a missing Terminology.md entry for this module — both corrected in this update.
 
 ## Publication and maintenance
 
-Acceptance takes effect upon reviewed merge. A formal GitHub Release is a separate snapshot; the historical Modules 1–9 release does not automatically include Module 10. A subsequent complete Priority 1 release should target a verified commit containing all ten modules and retain the broader-curriculum and learner-completion boundaries above.
+Acceptance is now unconditional: the package is merged into main and has passed independent review. A GitHub Release tagging all ten modules (`priority-1-modules-1-10-v1.0.0`) was published on 2026-09-18. It was cut before the independent review recorded above was complete; that review has since confirmed no citation, technical, or consistency defects across Modules 6–10, so the release stands without correction, but the sequencing itself — publish before independent review closes — should not be repeated for future module batches.
 
 Next work is the learner's capstone and review, source maintenance, and separately scoped training/portfolio development. Do not mark learning demonstrated because this package was published. Review this material when sources change or feedback identifies accuracy, usability, confidentiality or positioning issues.

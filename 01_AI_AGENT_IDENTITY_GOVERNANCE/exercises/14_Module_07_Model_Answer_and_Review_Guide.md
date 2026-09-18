@@ -1,6 +1,6 @@
 # Module 7 Model Answer and Review Guide
 
-**Status:** Accepted for public learning use upon merge
+**Status:** Accepted for public learning use
 
 **Version:** 1.0
 

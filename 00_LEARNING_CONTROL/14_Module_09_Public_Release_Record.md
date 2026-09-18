@@ -8,7 +8,7 @@
 
 **Review date:** 2026-09-18
 
-**Decision:** Accepted for public learning use upon reviewed merge into main
+**Decision:** Accepted for public learning use
 
 **License:** CC BY 4.0
 
@@ -40,12 +40,12 @@ Publisher material checked 2026-09-18: NIST AI RMF 1.0 (January 2023), NIST CSF 
 | Completion | Original artifact and defense required; Progress Record unchanged |
 | Navigation | Relative file links checked before pull request |
 
-This is AI-assisted authoring review, not independent external or human peer review. The pull request retains the change set and review findings before merge.
+This was originally an AI-assisted authoring review only, not independent external or human peer review. An independent review pass was subsequently performed (2026-09-18) checking citation accuracy (NIST AI RMF 1.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5 — all verified against a second, independent source), technical accuracy, and consistency with Modules 1–8; no fabricated, mis-dated, or mis-described sources were found. That review flagged only a process gap (this record's conditional status language and a missing Terminology.md entry), both corrected in this update.
 
 ## Limitations and maintenance
 
 The case does not supply actual runtime configuration, identity mappings, accepted owners, risk classification or approval dates. Learners must preserve those gaps. Review cadence, authorization expiry, retirement retention and control requirements require qualified organizational decisions.
 
-Acceptance becomes effective upon reviewed merge into main. A formal GitHub Release is a separate optional packaging step. Portfolio and training-product gates remain separate. Module 10 is the next content build.
+Acceptance is now unconditional: the package is merged into main and has passed independent review. A formal GitHub Release is a separate optional packaging step. Portfolio and training-product gates remain separate. Module 10 is the next content build.
 
 Review again when source status changes, implementation evidence changes the guidance, or reader feedback identifies accuracy, usability, privacy, confidentiality or positioning concerns.

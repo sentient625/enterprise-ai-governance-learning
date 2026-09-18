@@ -1,6 +1,6 @@
 # Module 8 — Suspension, Response, Fallback, and Recovery
 
-**Status:** Accepted for public learning use upon reviewed merge
+**Status:** Accepted for public learning use
 
 **Version:** 1.0
 

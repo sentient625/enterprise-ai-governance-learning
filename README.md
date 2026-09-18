@@ -122,7 +122,7 @@ The module develops decision-rights and operating-control judgment. It does not 
 
 ### Module 7 — Evidence, Provenance, and Monitoring
 
-**Status:** Accepted for public learning use, version 1.0, upon merge of the Module 7 package.
+**Status:** Accepted for public learning use, version 1.0.
 
 Module 7 teaches learners to connect requests, identities, authority, approvals, tool attempts, and verified target outcomes; preserve provenance and uncertainty; protect evidence while limiting sensitive capture; and assign monitoring failures to accountable responses.
 
@@ -137,7 +137,7 @@ The module develops evidence and monitoring judgment. It does not prescribe prod
 
 ### Module 8 — Suspension, Response, Fallback, and Recovery
 
-**Status:** Accepted for public learning use, version 1.0, upon reviewed merge.
+**Status:** Accepted for public learning use, version 1.0.
 
 Module 8 teaches learners to assign emergency authority, identify work that survives an agent stop, verify containment, preserve evidence, establish viable fallback, and require evidence before restoring agent authority.
 
@@ -152,7 +152,7 @@ The module develops program-level response and recovery judgment. A tabletop doe
 
 ### Module 9 — Inventory, Lifecycle, and Program Governance
 
-**Status:** Accepted for public learning use, version 1.0, upon reviewed merge.
+**Status:** Accepted for public learning use, version 1.0.
 
 Module 9 teaches learners to define governed deployments, assign accountable owners, specify an agent inventory, lead lifecycle gate reviews, assess material changes, verify operational handover, and govern retirement.
 
@@ -167,7 +167,7 @@ The module develops program-lead governance judgment. Inventory registration is 
 
 ### Module 10 — Executive Decision and Capstone Defense
 
-**Status:** Accepted for public learning use, version 1.0, upon reviewed merge.
+**Status:** Accepted for public learning use, version 1.0.
 
 Module 10 integrates the preceding modules into an ORION decision dossier, one-page memorandum, 90-second executive briefing, and fifteen-minute capstone defense. It separates preparation funding from operational authorization and activation, and requires explicit proof gates, accountable owners, value measurement, and expansion decisions.
 

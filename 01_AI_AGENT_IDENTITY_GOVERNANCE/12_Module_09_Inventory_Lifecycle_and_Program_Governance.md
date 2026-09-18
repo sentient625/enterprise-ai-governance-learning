@@ -1,6 +1,6 @@
 # Module 9 — Inventory, Lifecycle, and Program Governance
 
-**Status:** Accepted for public learning use upon reviewed merge
+**Status:** Accepted for public learning use
 
 **Version:** 1.0
 

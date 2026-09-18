@@ -190,3 +190,75 @@ Assignment of incompatible responsibilities to different actors so that one pers
 ### Approval timeout
 
 The defined point at which an unanswered approval request expires and follows a governed deny, pause, escalation, or safe-fallback path rather than implying consent.
+
+
+## Module 7 additions
+
+### Telemetry
+
+Observations emitted by systems, such as events and metrics. Collection alone does not establish completeness or reliability, and telemetry is not automatically evidence.
+
+### Provenance
+
+The source of an item, its version, and its transformations. A traceable source can still be wrong or malicious; provenance supports assessment, it does not itself establish trust.
+
+### Transaction boundary
+
+The reconstructed span of a business request from initiation through verified outcome or explicit unresolved state, including child agents, tools, queues, retries, callbacks, and target effects.
+
+### Outcome state
+
+One of a defined vocabulary — submitted, accepted, executed, verified, denied/failed, or unknown — used to describe what evidence can actually support about a requested action, rather than treating any acknowledgement as proof of completion.
+
+### Evidence custody
+
+Accountability for who can write, read, export, correct, retain, and delete evidence records, and for preserving the original record when a correction is made.
+
+
+## Module 8 additions
+
+### Containment
+
+Limiting further adverse effects across affected systems and work once suspension has begun, distinct from suspension itself and from revocation of any single credential or grant.
+
+### Recovery
+
+Re-establishing an acceptable business service and data state. Recovery is a service-level judgment; restoring the same agent process does not by itself establish that recovery occurred, and recovering the service does not require restoring the same agent.
+
+### Restoration
+
+A deliberate, separately authorized decision to return bounded agent authority after suspension, requiring corrected controls, tested restrictions, and a named approval — not an automatic reversal of suspension.
+
+### Retirement
+
+Ending an agent's permitted use, including removal of access, resolution of residual work, and disposition of associated records.
+
+
+## Module 9 additions
+
+### Governed unit
+
+The specific agent definition, deployment, or configuration being tracked and authorized — distinguished from a product name, which may cover multiple deployments with materially different authority.
+
+### Lifecycle gate
+
+A recorded decision about a defined scope of an agent's development or operation, supported by evidence and made by a named decision owner. A document upload or calendar meeting is not itself a gate decision.
+
+### Material change
+
+A change to an agent's environment, tools, helper or provider relationships, data, concurrency, or ownership sufficient to require reopening an earlier lifecycle gate, regardless of whether the underlying code changed.
+
+
+## Module 10 additions
+
+### Preactivation gate
+
+A condition type requiring accepted proof to exist before an affected operation may begin; the operation does not proceed on a promise that the proof will follow.
+
+### Operating obligation
+
+A condition type that remains monitored during authorized operation, with a defined response if it is breached, rather than a one-time precondition to activation.
+
+### Expansion gate
+
+A condition type defining the proof needed before additional tools, environments, autonomy, volume, or duration may be added to an already-authorized agent's operation.

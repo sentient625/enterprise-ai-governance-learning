@@ -1,6 +1,6 @@
 # Module 9 Model Answer and Review Guide
 
-**Status:** Accepted review guide upon reviewed merge
+**Status:** Accepted review guide
 
 **Version:** 1.0
 

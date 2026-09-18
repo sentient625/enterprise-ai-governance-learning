@@ -63,10 +63,10 @@ These foundation items establish the path and applied artifacts. The ten instruc
 | P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M05 | Agent chains, tools, memory, and context | Days 8–10 | Tool authority, agent-to-agent delegation, confused authority, context and memory poisoning, unauthorized tool discovery | Build a tool and downstream-authority matrix | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M06 | Human authority and separation of duties | Day 11 | Human-in-the-loop, human-on-the-loop, consent fatigue, meaningful approval, prohibited activity, separation of duties | Classify actions as autonomous, monitored, prior approval, or prohibited | Accepted | Maintain source status and incorporate substantiated reader feedback |
-| P1-M07 | Evidence, provenance, and monitoring | Days 12–13 | Transaction correlation, identity and policy evidence, context references, log integrity, privacy/records limits, leading and incident indicators | Specify an agent transaction evidence record | Accepted upon merge | Maintain source status and incorporate substantiated reader feedback |
-| P1-M08 | Suspension, response, fallback, and recovery | Days 14–15 | Emergency authority, disabling identity, revoking credentials, containing queued work, preserving evidence, continuity, governed restoration | Conduct the unexpected-privileged-action tabletop | Accepted upon reviewed merge | Maintain source status and incorporate substantiated reader feedback |
-| P1-M09 | Inventory, lifecycle, and program governance | Days 16–18 | Inventory, ownership, lifecycle gates, change reauthorization, architecture-review leadership | Complete an agent inventory entry and lifecycle gate review | Accepted upon reviewed merge | Maintain source status and incorporate substantiated reader feedback |
-| P1-M10 | Executive decision and capstone defense | Days 19–20 | Executive briefing, decision memorandum, recommendation choices, residual uncertainty, next proof | Defend approve, constrain, pilot, or defer | Accepted upon reviewed merge | Maintain source status and incorporate substantiated reader feedback |
+| P1-M07 | Evidence, provenance, and monitoring | Days 12–13 | Transaction correlation, identity and policy evidence, context references, log integrity, privacy/records limits, leading and incident indicators | Specify an agent transaction evidence record | Accepted | Maintain source status and incorporate substantiated reader feedback |
+| P1-M08 | Suspension, response, fallback, and recovery | Days 14–15 | Emergency authority, disabling identity, revoking credentials, containing queued work, preserving evidence, continuity, governed restoration | Conduct the unexpected-privileged-action tabletop | Accepted | Maintain source status and incorporate substantiated reader feedback |
+| P1-M09 | Inventory, lifecycle, and program governance | Days 16–18 | Inventory, ownership, lifecycle gates, change reauthorization, architecture-review leadership | Complete an agent inventory entry and lifecycle gate review | Accepted | Maintain source status and incorporate substantiated reader feedback |
+| P1-M10 | Executive decision and capstone defense | Days 19–20 | Executive briefing, decision memorandum, recommendation choices, residual uncertainty, next proof | Defend approve, constrain, pilot, or defer | Accepted | Maintain source status and incorporate substantiated reader feedback |
 
 ## Module 1 public-release package
 
@@ -127,37 +127,37 @@ These foundation items establish the path and applied artifacts. The ten instruc
 
 | ID | Public material | Location | Status |
 |---|---|---|---|
-| P1-PUB26 | Module 7 lesson | [Evidence, Provenance, and Monitoring](../01_AI_AGENT_IDENTITY_GOVERNANCE/10_Module_07_Evidence_Provenance_and_Monitoring.md) | Accepted upon merge |
-| P1-PUB27 | Module 7 participant workbook | [Evidence-record specification](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md) | Accepted upon merge |
-| P1-PUB28 | Module 7 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/14_Module_07_Model_Answer_and_Review_Guide.md) | Accepted upon merge |
-| P1-PUB29 | Module 7 release record | [Public-Release Record](./12_Module_07_Public_Release_Record.md) | Accepted upon merge |
+| P1-PUB26 | Module 7 lesson | [Evidence, Provenance, and Monitoring](../01_AI_AGENT_IDENTITY_GOVERNANCE/10_Module_07_Evidence_Provenance_and_Monitoring.md) | Accepted |
+| P1-PUB27 | Module 7 participant workbook | [Evidence-record specification](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md) | Accepted |
+| P1-PUB28 | Module 7 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/14_Module_07_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB29 | Module 7 release record | [Public-Release Record](./12_Module_07_Public_Release_Record.md) | Accepted |
 
 ## Module 8 public-release package
 
 | ID | Public material | Location | Status |
 |---|---|---|---|
-| P1-PUB30 | Module 8 lesson | [Suspension, Response, Fallback, and Recovery](../01_AI_AGENT_IDENTITY_GOVERNANCE/11_Module_08_Suspension_Response_Fallback_and_Recovery.md) | Accepted upon reviewed merge |
-| P1-PUB31 | Module 8 participant workbook | [Unexpected-privileged-action tabletop](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/15_Module_08_Participant_Workbook.md) | Accepted upon reviewed merge |
-| P1-PUB32 | Module 8 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/16_Module_08_Model_Answer_and_Review_Guide.md) | Accepted upon reviewed merge |
-| P1-PUB33 | Module 8 release record | [Public-Release Record](./13_Module_08_Public_Release_Record.md) | Accepted upon reviewed merge |
+| P1-PUB30 | Module 8 lesson | [Suspension, Response, Fallback, and Recovery](../01_AI_AGENT_IDENTITY_GOVERNANCE/11_Module_08_Suspension_Response_Fallback_and_Recovery.md) | Accepted |
+| P1-PUB31 | Module 8 participant workbook | [Unexpected-privileged-action tabletop](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/15_Module_08_Participant_Workbook.md) | Accepted |
+| P1-PUB32 | Module 8 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/16_Module_08_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB33 | Module 8 release record | [Public-Release Record](./13_Module_08_Public_Release_Record.md) | Accepted |
 
 ## Module 9 public-release package
 
 | ID | Public material | Location | Status |
 |---|---|---|---|
-| P1-PUB34 | Module 9 lesson | [Inventory, Lifecycle, and Program Governance](../01_AI_AGENT_IDENTITY_GOVERNANCE/12_Module_09_Inventory_Lifecycle_and_Program_Governance.md) | Accepted upon reviewed merge |
-| P1-PUB35 | Module 9 participant workbook | [Inventory and lifecycle gate review](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/17_Module_09_Participant_Workbook.md) | Accepted upon reviewed merge |
-| P1-PUB36 | Module 9 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/18_Module_09_Model_Answer_and_Review_Guide.md) | Accepted upon reviewed merge |
-| P1-PUB37 | Module 9 release record | [Public-Release Record](./14_Module_09_Public_Release_Record.md) | Accepted upon reviewed merge |
+| P1-PUB34 | Module 9 lesson | [Inventory, Lifecycle, and Program Governance](../01_AI_AGENT_IDENTITY_GOVERNANCE/12_Module_09_Inventory_Lifecycle_and_Program_Governance.md) | Accepted |
+| P1-PUB35 | Module 9 participant workbook | [Inventory and lifecycle gate review](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/17_Module_09_Participant_Workbook.md) | Accepted |
+| P1-PUB36 | Module 9 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/18_Module_09_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB37 | Module 9 release record | [Public-Release Record](./14_Module_09_Public_Release_Record.md) | Accepted |
 
 ## Module 10 public-release package
 
 | ID | Public material | Location | Status |
 |---|---|---|---|
-| P1-PUB38 | Module 10 lesson | [Executive Decision and Capstone Defense](../01_AI_AGENT_IDENTITY_GOVERNANCE/13_Module_10_Executive_Decision_and_Capstone_Defense.md) | Accepted upon reviewed merge |
-| P1-PUB39 | Module 10 participant workbook | [Memorandum and defense](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Accepted upon reviewed merge |
-| P1-PUB40 | Module 10 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/20_Module_10_Model_Answer_and_Review_Guide.md) | Accepted upon reviewed merge |
-| P1-PUB41 | Module 10 release record | [Public-Release Record](./15_Module_10_Public_Release_Record.md) | Accepted upon reviewed merge |
+| P1-PUB38 | Module 10 lesson | [Executive Decision and Capstone Defense](../01_AI_AGENT_IDENTITY_GOVERNANCE/13_Module_10_Executive_Decision_and_Capstone_Defense.md) | Accepted |
+| P1-PUB39 | Module 10 participant workbook | [Memorandum and defense](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Accepted |
+| P1-PUB40 | Module 10 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/20_Module_10_Model_Answer_and_Review_Guide.md) | Accepted |
+| P1-PUB41 | Module 10 release record | [Public-Release Record](./15_Module_10_Public_Release_Record.md) | Accepted |
 
 ## Priority 1 exercises and completed-work artifacts
 
@@ -172,13 +172,13 @@ These foundation items establish the path and applied artifacts. The ten instruc
 | P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Superseded by P1-A02E | Not started |
 | P1-A02F | Module 6 human-authority decision matrix | Classify actions and define meaningful approval, separation of duties, escalation, and restoration | Workbook accepted | Not started |
 | P1-A04 | Human-authority decision matrix | Separate autonomous, monitored, approval, and prohibited actions | Backlog | Not started |
-| P1-A05 | [Evidence-record specification](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md) | Define decision-grade transaction evidence | Workbook accepted upon merge | Not started |
-| P1-A06 | [Suspension and fallback runbook](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/15_Module_08_Participant_Workbook.md) | Demonstrate interruptibility and continuity reasoning; technical validation remains separate | Workbook accepted upon reviewed merge | Not started |
-| P1-A02I | [Module 9 inventory and lifecycle gate review](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/17_Module_09_Participant_Workbook.md) | Define governed units, ownership, lifecycle decisions and material-change review | Workbook accepted upon reviewed merge | Not started |
+| P1-A05 | [Evidence-record specification](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md) | Define decision-grade transaction evidence | Workbook accepted | Not started |
+| P1-A06 | [Suspension and fallback runbook](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/15_Module_08_Participant_Workbook.md) | Demonstrate interruptibility and continuity reasoning; technical validation remains separate | Workbook accepted | Not started |
+| P1-A02I | [Module 9 inventory and lifecycle gate review](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/17_Module_09_Participant_Workbook.md) | Define governed units, ownership, lifecycle decisions and material-change review | Workbook accepted | Not started |
 | P1-A07 | Completed ORION case workbook | Apply the full control model | Workbook accepted | Not started |
-| P1-A08 | One-page decision memorandum | Recommend approval, constraint, pilot, or deferral | [Workbook accepted upon reviewed merge](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Not started |
-| P1-A09 | Fifteen-minute defense guide | Test ability to explain and defend the recommendation | [Workbook accepted upon reviewed merge](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Not started |
-| P1-A10 | Interview-ready explanation | Translate learning into credible professional positioning | [Workbook accepted upon reviewed merge](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Not started |
+| P1-A08 | One-page decision memorandum | Recommend approval, constraint, pilot, or deferral | [Workbook accepted](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Not started |
+| P1-A09 | Fifteen-minute defense guide | Test ability to explain and defend the recommendation | [Workbook accepted](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Not started |
+| P1-A10 | Interview-ready explanation | Translate learning into credible professional positioning | [Workbook accepted](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/19_Module_10_Participant_Workbook.md) | Not started |
 
 ## Priority 1 build sequence
 
