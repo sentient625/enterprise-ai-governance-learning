@@ -4,6 +4,16 @@ Free, source-grounded learning materials for leaders responsible for AI-agent id
 
 > **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–6 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment; Testing, Evaluation, Verification, and Validation; Monitoring and Change Governance; Vendor and Supply-Chain Governance) accepted for public learning use; Modules 7–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
+## Read the curriculum online
+
+**The easiest way to use this curriculum is the companion website, not this repository's raw files:**
+
+### 👉 [enterprise-ai-governance-learning.pages.dev](https://enterprise-ai-governance-learning.pages.dev/)
+
+[![Enterprise AI Governance Learning — site preview](docs/site-preview.png)](https://enterprise-ai-governance-learning.pages.dev/)
+
+It renders every module's lesson, participant workbook, model answer & review guide, and public release record from this repository's own markdown, with fillable workbook fields (saved automatically in your browser) and a navigable module list — no GitHub folder-clicking required. The source in `site/` builds it directly from whatever is on `main`, so it always reflects the current state of this repository. See [Progress: curriculum now has a live reading website](https://github.com/sentient625/enterprise-ai-governance-learning/issues/30) for more.
+
 ## Why this repository exists
 
 AI agents are becoming non-human enterprise actors. They can use credentials, invoke tools, retrieve protected information, change systems, delegate work, and create business consequences.
