@@ -29,7 +29,7 @@ export function ModulePage({ module }: { module: CurriculumModule }) {
     let cancelled = false;
     setContent(undefined);
     getDocument(module[activeDoc]).then(result => {
-      if (!cancelled) setContent(result === null ? null : prepareMarkdown(result));
+      if (!cancelled) setContent(result === null || activeDoc === 'record' ? result : prepareMarkdown(result));
     });
     return () => {
       cancelled = true;
