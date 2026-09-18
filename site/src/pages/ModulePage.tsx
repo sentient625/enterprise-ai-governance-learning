@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Markdown } from '../components/Markdown';
 import { getDocument } from '../lib/content';
+import { prepareMarkdown } from '../lib/prepareMarkdown';
 import { curriculum } from '../config/curriculum';
 import type { CurriculumModule } from '../config/curriculum';
 
@@ -28,7 +29,7 @@ export function ModulePage({ module }: { module: CurriculumModule }) {
     let cancelled = false;
     setContent(undefined);
     getDocument(module[activeDoc]).then(result => {
-      if (!cancelled) setContent(result);
+      if (!cancelled) setContent(result === null ? null : prepareMarkdown(result));
     });
     return () => {
       cancelled = true;

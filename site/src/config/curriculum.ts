@@ -3,6 +3,7 @@ export interface CurriculumModule {
   number: number;
   title: string;
   summary: string;
+  section: string;
   lesson: string;
   workbook: string;
   answer: string;
@@ -62,6 +63,7 @@ function buildModule(raw: RawModule, number: number): CurriculumModule {
     number,
     title: raw.title,
     summary: raw.summary,
+    section: raw.recordPrefix === 'plain' ? 'Identity, Access, and Agent Governance' : 'Operationalizing AI Governance',
     lesson: `${raw.dir}/${raw.lessonFile}`,
     workbook: `${raw.dir}/exercises/${workbookIndex}_Module_${localPadded}_Participant_Workbook.md`,
     answer: `${raw.dir}/exercises/${answerIndex}_Module_${localPadded}_Model_Answer_and_Review_Guide.md`,

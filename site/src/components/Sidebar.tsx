@@ -10,11 +10,17 @@ function SidebarContents({ path, onNavigate }: { path: string; onNavigate?: () =
         <strong className="mt-2 block font-serif text-xl font-normal leading-tight text-white">Enterprise AI Governance Learning</strong>
       </a>
       <ol className="flex-1 space-y-0.5 overflow-y-auto px-3 py-4">
-        {curriculum.map(module => {
+        {curriculum.map((module, moduleIndex) => {
           const href = `/${module.slug}`;
           const active = path === href;
+          const showSectionLabel = moduleIndex === 0 || curriculum[moduleIndex - 1].section !== module.section;
           return (
             <li key={module.slug}>
+              {showSectionLabel && (
+                <p className={'px-3 pb-1 text-[10px] font-semibold uppercase tracking-[.14em] text-white/40 ' + (moduleIndex === 0 ? '' : 'pt-4')}>
+                  {module.section}
+                </p>
+              )}
               <a
                 href={href}
                 onClick={onNavigate}

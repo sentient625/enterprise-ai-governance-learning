@@ -13,19 +13,28 @@ export function HomePage() {
       </p>
 
       <div className="mt-12 border-t border-[#d9cfb6]">
-        {curriculum.map(module => (
-          <a
-            key={module.slug}
-            href={`/${module.slug}`}
-            className="group grid gap-2 border-b border-[#d9cfb6] py-6 sm:grid-cols-[auto_1fr] sm:items-baseline sm:gap-6"
-          >
-            <span className="font-mono text-sm text-[#a15a1f]">{String(module.number).padStart(2, '0')}</span>
-            <div>
-              <h2 className="font-serif text-xl font-normal text-[#1c1a15] group-hover:text-[#a15a1f]">{module.title}</h2>
-              <p className="mt-2 text-sm leading-relaxed text-[#726c5d]">{module.summary}</p>
+        {curriculum.map((module, moduleIndex) => {
+          const showSectionLabel = moduleIndex === 0 || curriculum[moduleIndex - 1].section !== module.section;
+          return (
+            <div key={module.slug}>
+              {showSectionLabel && (
+                <p className={'text-xs font-semibold uppercase tracking-[.14em] text-[#a15a1f] ' + (moduleIndex === 0 ? 'pt-8' : 'pt-10')}>
+                  {module.section}
+                </p>
+              )}
+              <a
+                href={`/${module.slug}`}
+                className="group grid gap-2 border-b border-[#d9cfb6] py-6 sm:grid-cols-[auto_1fr] sm:items-baseline sm:gap-6"
+              >
+                <span className="font-mono text-sm text-[#a15a1f]">{String(module.number).padStart(2, '0')}</span>
+                <div>
+                  <h2 className="font-serif text-xl font-normal text-[#1c1a15] group-hover:text-[#a15a1f]">{module.title}</h2>
+                  <p className="mt-2 text-sm leading-relaxed text-[#726c5d]">{module.summary}</p>
+                </div>
+              </a>
             </div>
-          </a>
-        ))}
+          );
+        })}
       </div>
 
       <div className="mt-12 border border-[#d9cfb6] bg-[#f0e9d6] p-7">
