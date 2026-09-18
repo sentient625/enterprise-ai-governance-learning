@@ -2,10 +2,6 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { curriculum } from '../config/curriculum';
 
-function isActive(path: string, href: string) {
-  return path === href || (href !== '/' && path.startsWith(href));
-}
-
 function SidebarContents({ path, onNavigate }: { path: string; onNavigate?: () => void }) {
   return (
     <nav aria-label="Curriculum" className="flex h-full flex-col">
@@ -13,46 +9,30 @@ function SidebarContents({ path, onNavigate }: { path: string; onNavigate?: () =
         <span className="block text-[11px] font-semibold uppercase tracking-[.2em] text-[#e9c46a]">Free curriculum</span>
         <strong className="mt-2 block font-serif text-xl font-normal leading-tight text-white">Enterprise AI Governance Learning</strong>
       </a>
-      <div className="flex-1 overflow-y-auto px-3 py-4">
-        {curriculum.map(priority => (
-          <div key={priority.slug} className="mb-6">
-            <a
-              href={`/${priority.slug}`}
-              onClick={onNavigate}
-              className={
-                'block px-3 py-2 text-xs font-semibold uppercase tracking-[.12em] ' +
-                (isActive(path, `/${priority.slug}`) ? 'text-[#e9c46a]' : 'text-white/60 hover:text-white')
-              }
-            >
-              Priority {priority.number} · {priority.title}
-            </a>
-            <ol className="mt-1 space-y-0.5">
-              {priority.modules.map(module => {
-                const href = `/${priority.slug}/${module.slug}`;
-                const active = path === href;
-                return (
-                  <li key={module.slug}>
-                    <a
-                      href={href}
-                      onClick={onNavigate}
-                      aria-current={active ? 'page' : undefined}
-                      className={
-                        'flex items-baseline gap-3 rounded-sm px-3 py-2 text-sm leading-snug ' +
-                        (active ? 'bg-[#e9c46a] text-[#14211c] font-semibold' : 'text-white/80 hover:bg-white/5')
-                      }
-                    >
-                      <span className={'font-mono text-[11px] ' + (active ? 'text-[#14211c]' : 'text-[#e9c46a]')}>
-                        {String(module.number).padStart(2, '0')}
-                      </span>
-                      <span>{module.title}</span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ol>
-          </div>
-        ))}
-      </div>
+      <ol className="flex-1 space-y-0.5 overflow-y-auto px-3 py-4">
+        {curriculum.map(module => {
+          const href = `/${module.slug}`;
+          const active = path === href;
+          return (
+            <li key={module.slug}>
+              <a
+                href={href}
+                onClick={onNavigate}
+                aria-current={active ? 'page' : undefined}
+                className={
+                  'flex items-baseline gap-3 rounded-sm px-3 py-2 text-sm leading-snug ' +
+                  (active ? 'bg-[#e9c46a] text-[#14211c] font-semibold' : 'text-white/80 hover:bg-white/5')
+                }
+              >
+                <span className={'font-mono text-[11px] ' + (active ? 'text-[#14211c]' : 'text-[#e9c46a]')}>
+                  {String(module.number).padStart(2, '0')}
+                </span>
+                <span>{module.title}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
       <div className="border-t border-white/10 px-6 py-5 text-xs leading-relaxed text-white/50">
         CC BY 4.0 · Michael Kaplan
         <br />

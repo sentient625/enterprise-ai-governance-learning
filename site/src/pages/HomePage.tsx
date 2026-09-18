@@ -11,22 +11,19 @@ export function HomePage() {
         A free, source-grounded curriculum for senior program leaders, IAM/PAM and cybersecurity program managers, and AI
         governance, risk, and assurance professionals working in regulated or high-consequence environments.
       </p>
-      <p className="mt-4 max-w-2xl text-base leading-relaxed text-[#726c5d]">
-        Status: in progress, published in stages. Priority 1 is complete across all ten modules. Priority 2 has six of ten
-        modules accepted for public learning use. Priority 3 is planned.
-      </p>
 
-      <div className="mt-12 space-y-8">
-        {curriculum.map(priority => (
+      <div className="mt-12 border-t border-[#d9cfb6]">
+        {curriculum.map(module => (
           <a
-            key={priority.slug}
-            href={`/${priority.slug}`}
-            className="group block border border-[#d9cfb6] bg-white/50 p-7 transition-colors hover:border-[#a15a1f]"
+            key={module.slug}
+            href={`/${module.slug}`}
+            className="group grid gap-2 border-b border-[#d9cfb6] py-6 sm:grid-cols-[auto_1fr] sm:items-baseline sm:gap-6"
           >
-            <span className="text-xs font-semibold uppercase tracking-[.14em] text-[#a15a1f]">Priority {priority.number}</span>
-            <h2 className="mt-2 font-serif text-2xl font-normal text-[#1c1a15] group-hover:text-[#a15a1f]">{priority.title}</h2>
-            <p className="mt-3 text-sm leading-relaxed text-[#726c5d]">{priority.intro}</p>
-            <p className="mt-4 text-xs uppercase tracking-[.1em] text-[#8a836f]">{priority.status}</p>
+            <span className="font-mono text-sm text-[#a15a1f]">{String(module.number).padStart(2, '0')}</span>
+            <div>
+              <h2 className="font-serif text-xl font-normal text-[#1c1a15] group-hover:text-[#a15a1f]">{module.title}</h2>
+              <p className="mt-2 text-sm leading-relaxed text-[#726c5d]">{module.summary}</p>
+            </div>
           </a>
         ))}
       </div>

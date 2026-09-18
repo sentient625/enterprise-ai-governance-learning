@@ -1,22 +1,17 @@
 import { Sidebar } from './components/Sidebar';
 import { HomePage } from './pages/HomePage';
-import { PriorityPage } from './pages/PriorityPage';
 import { ModulePage } from './pages/ModulePage';
-import { findModule, findPriority } from './config/curriculum';
+import { findModule } from './config/curriculum';
 
 const path = window.location.pathname.replace(/\/+$/, '') || '/';
 
 function Content() {
   if (path === '/') return <HomePage />;
 
-  const segments = path.slice(1).split('/').filter(Boolean);
-  if (segments.length === 1) {
-    const priority = findPriority(segments[0]);
-    if (priority) return <PriorityPage priority={priority} />;
-  }
-  if (segments.length === 2) {
-    const match = findModule(segments[0], segments[1]);
-    if (match) return <ModulePage priority={match.priority} module={match.module} />;
+  const slug = path.slice(1);
+  if (!slug.includes('/')) {
+    const module = findModule(slug);
+    if (module) return <ModulePage module={module} />;
   }
 
   return (
