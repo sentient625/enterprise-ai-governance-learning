@@ -1,8 +1,8 @@
 # Enterprise AI Governance Learning
 
-Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
+Source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–6 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment; Testing, Evaluation, Verification, and Validation; Monitoring and Change Governance; Vendor and Supply-Chain Governance) accepted for public learning use; Modules 7–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** The curriculum is a single numbered sequence, organized under two areas so far. Identity, Access, and Agent Governance (Modules 1–10) is fully published — see [Published learning package](#published-learning-package) below. Operationalizing AI Governance (Modules 11–16: AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment; Testing, Evaluation, Verification, and Validation; Monitoring and Change Governance; Vendor and Supply-Chain Governance) has begun, with four more modules in this area still planned. A third area, financial decision fluency, is also planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Read the curriculum online
 
@@ -40,17 +40,17 @@ This curriculum develops that executive and program-level fluency. It does not a
 
 ## Published learning package
 
-All ten Priority 1 modules (AI-agent identity, security, and governance) and six of ten Priority 2 modules (Operationalizing AI Governance) are accepted for public learning use, version 1.0. Each module ships as four documents, read in this order: the lesson, the participant workbook, the model answer and review guide, and the public-release record. Read them at the [companion site](https://learn.enterpriseaigov.com/) — the easiest way to work through the curriculum in order — or directly under [`01_AI_AGENT_IDENTITY_GOVERNANCE/`](./01_AI_AGENT_IDENTITY_GOVERNANCE/) and [`02_OPERATIONAL_AI_GOVERNANCE/`](./02_OPERATIONAL_AI_GOVERNANCE/).
+Modules 1–16 — all ten Identity, Access, and Agent Governance modules and six of ten planned Operationalizing AI Governance modules — are accepted for public learning use, version 1.0. Each module ships as four documents, read in this order: the lesson, the participant workbook, the model answer and review guide, and the public-release record. Read them at the [companion site](https://learn.enterpriseaigov.com/) — the easiest way to work through the curriculum in order — or directly under [`01_AI_AGENT_IDENTITY_GOVERNANCE/`](./01_AI_AGENT_IDENTITY_GOVERNANCE/) and [`02_OPERATIONAL_AI_GOVERNANCE/`](./02_OPERATIONAL_AI_GOVERNANCE/).
 
-Publication of a module does not establish any learner's completion: that requires an original artifact and a defensible explanation. Priority 2's six modules relied on independent web search for source verification rather than a direct publisher-page fetch; each module's public-release record flags that as pending further review. Priority 2 Modules 7–10 and all of Priority 3 remain planned — see the roadmap below.
+Publication of a module does not establish any learner's completion: that requires an original artifact and a defensible explanation. Modules 11–16 relied on independent web search for source verification rather than a direct publisher-page fetch; each module's public-release record flags that as pending further review. Four further Operationalizing AI Governance modules and the entire financial-decision-fluency area remain planned — see the roadmap below.
 
 ## Curriculum roadmap
 
-| Priority | Area | Status |
-|---|---|---|
-| 1 | AI-agent identity, security, and governance | Modules 1–10 accepted; learner completion requires artifacts and defense |
-| 2 | Operationalizing AI governance | Modules 1–6 accepted; Modules 7–10 planned |
-| 3 | Financial decision fluency | Planned |
+| Area | Status |
+|---|---|
+| Identity, Access, and Agent Governance | Modules 1–10 accepted; learner completion requires artifacts and defense |
+| Operationalizing AI Governance | Modules 11–16 accepted; four further modules in this area planned |
+| Financial decision fluency | Planned |
 
 The [Learning Roadmap](./00_LEARNING_CONTROL/01_Learning_Roadmap.md) and [Content Build Register](./00_LEARNING_CONTROL/05_Content_Build_Register.md) show the planned sequence and current status.
 
