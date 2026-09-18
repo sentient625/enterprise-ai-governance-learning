@@ -279,6 +279,7 @@ The [Learning Roadmap](./00_LEARNING_CONTROL/01_Learning_Roadmap.md) and [Conten
 | `04_CASE_STUDIES/` | Cross-domain cases |
 | `05_PORTFOLIO_ARTIFACTS/` | Reviewed demonstrations |
 | `06_TRAINING_PRODUCTS/` | Future workshop and facilitator materials |
+| `site/` | A standalone reading app that renders this curriculum as its own website. See [`site/README.md`](./site/README.md). |
 
 ## Evidence standard
 

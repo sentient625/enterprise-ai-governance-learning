@@ -1,0 +1,107 @@
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
+import { curriculum } from '../config/curriculum';
+
+function isActive(path: string, href: string) {
+  return path === href || (href !== '/' && path.startsWith(href));
+}
+
+function SidebarContents({ path, onNavigate }: { path: string; onNavigate?: () => void }) {
+  return (
+    <nav aria-label="Curriculum" className="flex h-full flex-col">
+      <a href="/" onClick={onNavigate} className="block border-b border-white/10 px-6 py-6">
+        <span className="block text-[11px] font-semibold uppercase tracking-[.2em] text-[#e9c46a]">Free curriculum</span>
+        <strong className="mt-2 block font-serif text-xl font-normal leading-tight text-white">Enterprise AI Governance Learning</strong>
+      </a>
+      <div className="flex-1 overflow-y-auto px-3 py-4">
+        {curriculum.map(priority => (
+          <div key={priority.slug} className="mb-6">
+            <a
+              href={`/${priority.slug}`}
+              onClick={onNavigate}
+              className={
+                'block px-3 py-2 text-xs font-semibold uppercase tracking-[.12em] ' +
+                (isActive(path, `/${priority.slug}`) ? 'text-[#e9c46a]' : 'text-white/60 hover:text-white')
+              }
+            >
+              Priority {priority.number} · {priority.title}
+            </a>
+            <ol className="mt-1 space-y-0.5">
+              {priority.modules.map(module => {
+                const href = `/${priority.slug}/${module.slug}`;
+                const active = path === href;
+                return (
+                  <li key={module.slug}>
+                    <a
+                      href={href}
+                      onClick={onNavigate}
+                      aria-current={active ? 'page' : undefined}
+                      className={
+                        'flex items-baseline gap-3 rounded-sm px-3 py-2 text-sm leading-snug ' +
+                        (active ? 'bg-[#e9c46a] text-[#14211c] font-semibold' : 'text-white/80 hover:bg-white/5')
+                      }
+                    >
+                      <span className={'font-mono text-[11px] ' + (active ? 'text-[#14211c]' : 'text-[#e9c46a]')}>
+                        {String(module.number).padStart(2, '0')}
+                      </span>
+                      <span>{module.title}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        ))}
+      </div>
+      <div className="border-t border-white/10 px-6 py-5 text-xs leading-relaxed text-white/50">
+        CC BY 4.0 · Michael Kaplan
+        <br />
+        <a href="https://forensicgovernance.com" className="text-[#e9c46a] hover:underline">forensicgovernance.com →</a>
+      </div>
+    </nav>
+  );
+}
+
+export function Sidebar({ path }: { path: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <>
+      <div className="sticky top-0 z-30 flex items-center justify-between border-b border-black/10 bg-[#14211c] px-4 py-3 text-white lg:hidden">
+        <a href="/" className="font-serif text-base font-normal">Enterprise AI Governance Learning</a>
+        <button
+          type="button"
+          onClick={() => setIsOpen(true)}
+          aria-label="Open curriculum menu"
+          aria-expanded={isOpen}
+          className="p-2"
+        >
+          <Menu size={22} />
+        </button>
+      </div>
+
+      <aside className="hidden w-[320px] shrink-0 bg-[#14211c] lg:block">
+        <div className="sticky top-0 h-screen">
+          <SidebarContents path={path} />
+        </div>
+      </aside>
+
+      {isOpen && (
+        <div className="fixed inset-0 z-40 lg:hidden">
+          <div className="absolute inset-0 bg-black/50" onClick={() => setIsOpen(false)} />
+          <div className="absolute inset-y-0 left-0 w-[85%] max-w-sm bg-[#14211c]">
+            <button
+              type="button"
+              onClick={() => setIsOpen(false)}
+              aria-label="Close curriculum menu"
+              className="absolute right-3 top-3 p-2 text-white"
+            >
+              <X size={22} />
+            </button>
+            <SidebarContents path={path} onNavigate={() => setIsOpen(false)} />
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
