@@ -130,9 +130,15 @@ body {
   border-top: 1px solid #d9cfb6;
 }
 
+.table-scroll {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
 .prose-doc table {
   width: 100%;
-  margin: 1.5rem 0;
+  min-width: max-content;
+  margin: 0;
   border-collapse: collapse;
   font-size: 0.9375rem;
 }
@@ -163,7 +169,8 @@ body {
   .response-print, .print-only { display: block !important; }
   .response-print { border: 1px solid #aaa; padding: 8pt; }
   .prose-doc { font-size: 10pt; line-height: 1.45; }
-  .prose-doc table { table-layout: fixed; font-size: 9pt; }
+  .table-scroll { overflow-x: visible !important; }
+  .prose-doc table { table-layout: fixed; min-width: 0; font-size: 9pt; }
   .prose-doc th, .prose-doc td { min-width: 0 !important; padding: 4pt; overflow-wrap: anywhere; }
   .prose-doc thead { display: table-header-group; }
   .prose-doc h1, .prose-doc h2, .prose-doc h3, .prose-doc h4 { break-after: avoid; }
