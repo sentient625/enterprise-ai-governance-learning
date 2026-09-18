@@ -1,3 +1,4 @@
+import { LicenseFooter } from './components/LicenseFooter';
 import { Sidebar } from './components/Sidebar';
 import { HomePage } from './pages/HomePage';
 import { ModulePage } from './pages/ModulePage';
@@ -29,6 +30,7 @@ export default function App() {
       <Sidebar path={path} />
       <main className="flex-1">
         <Content />
+        <LicenseFooter />
       </main>
     </div>
   );

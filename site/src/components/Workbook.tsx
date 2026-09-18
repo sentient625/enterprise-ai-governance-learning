@@ -17,8 +17,10 @@ function ResponseBox({ moduleSlug, sectionId }: { moduleSlug: string; sectionId:
         }}
         rows={5}
         placeholder="Write your answer here."
-        className="w-full resize-y border border-[#d9cfb6] bg-white p-3 text-base leading-relaxed text-[#1c1a15] focus:border-[#a15a1f] focus:outline-none"
+        aria-label={`Response to section ${sectionId}`}
+        className="screen-answer w-full resize-y border border-[#d9cfb6] bg-white p-3 text-base leading-relaxed text-[#1c1a15] focus:border-[#a15a1f] focus:outline-none"
       />
+      <div className="print-answer response-print">{value || "—"}</div>
     </div>
   );
 }
@@ -27,7 +29,7 @@ export function Workbook({ moduleSlug, content }: { moduleSlug: string; content:
   const { markdown: processedContent, blankIds } = useMemo(() => injectBlanks(content), [content]);
   const sections = useMemo(() => splitWorkbookSections(processedContent), [processedContent]);
   const [generation, setGeneration] = useState(0);
-  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'empty'>('idle');
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'empty' | 'error'>('idle');
 
   const handleClear = () => {
     if (!window.confirm('Clear all your saved answers for this workbook? This cannot be undone.')) return;
@@ -46,15 +48,17 @@ export function Workbook({ moduleSlug, content }: { moduleSlug: string; content:
       await navigator.clipboard.writeText(text);
       setCopyStatus('copied');
     } catch {
-      setCopyStatus('empty');
+      setCopyStatus('error');
     }
   };
 
   return (
     <div>
-      <div className="mb-8 flex flex-wrap items-center justify-between gap-3 border border-[#d9cfb6] bg-[#f0e9d6] p-4 text-sm">
+      <div className="workbook-toolbar mb-8 flex flex-wrap items-center justify-between gap-3 border border-[#d9cfb6] bg-[#f0e9d6] p-4 text-sm">
         <p className="text-[#3c392f]">Your responses save automatically in this browser, on this device only.</p>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
+          <button type="button" onClick={() => window.print()} className="border border-[#a15a1f] px-3 py-1.5 text-xs font-semibold text-[#a15a1f]">Print / Save as PDF</button>
+          {copyStatus === 'error' && <span role="status">Copy failed. Use Print / Save as PDF instead.</span>}
           {copyStatus === 'copied' && <span className="text-xs text-[#3c392f]">Copied</span>}
           {copyStatus === 'empty' && <span className="text-xs text-[#3c392f]">Nothing to copy yet</span>}
           <button
@@ -73,6 +77,8 @@ export function Workbook({ moduleSlug, content }: { moduleSlug: string; content:
           </button>
         </div>
       </div>
+
+      <p className="print-help mb-6 text-sm text-[#726c5d]">To export a completed workbook, choose Print / Save as PDF, then select Save as PDF in your browser’s print dialog. All answer fields are included.</p>
 
       {sections.map(section => (
         <div key={`${section.id}-${generation}`}>

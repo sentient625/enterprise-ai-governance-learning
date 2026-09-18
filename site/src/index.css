@@ -150,3 +150,23 @@ body {
   font-weight: 600;
   color: #1c1a15;
 }
+
+/* Print plain text mirrors of controlled fields so long answers cannot be clipped. */
+.print-answer, .print-only { display: none; }
+@media print {
+  @page { margin: 15mm; }
+  html, body, #root, main { background: white !important; color: black !important; }
+  aside, nav, .lg\:hidden, .workbook-toolbar, .print-help, .screen-answer { display: none !important; }
+  #root > div, main { display: block !important; width: 100% !important; min-height: 0 !important; }
+  header, article, .document-tools, .license-footer { max-width: none !important; padding: 8pt 0 !important; }
+  .print-answer { display: inline !important; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .response-print, .print-only { display: block !important; }
+  .response-print { border: 1px solid #aaa; padding: 8pt; }
+  .prose-doc { font-size: 10pt; line-height: 1.45; }
+  .prose-doc table { table-layout: fixed; font-size: 9pt; }
+  .prose-doc th, .prose-doc td { min-width: 0 !important; padding: 4pt; overflow-wrap: anywhere; }
+  .prose-doc thead { display: table-header-group; }
+  .prose-doc h1, .prose-doc h2, .prose-doc h3, .prose-doc h4 { break-after: avoid; }
+  .prose-doc pre { white-space: pre-wrap; overflow-wrap: anywhere; background: white; color: black; }
+  .license-footer { margin-top: 16pt; font-size: 9pt; }
+}
