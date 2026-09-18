@@ -25,7 +25,7 @@ A blank approval reference is evidence of a control/record gap; it does not by i
 
 ## 2. Reconstruction
 
-A-2048 precedes the authorized window, but its exact decision time is not provided. J-81 acceptance is recorded at 14:02. The target records a restart at 14:02:30. ORION claims success at 14:03. J-82 submission occurs at 14:04. These times suggest a possible relationship between J-81 and the target, but missing mappings and unprovided clock accuracy prevent conclusive attribution.
+A-2048 defines the authorized window, but its decision time is not provided; its timing relative to execution must be verified. J-81 acceptance is recorded at 14:02. The target records a restart at 14:02:30. ORION claims success at 14:03. J-82 submission occurs at 14:04. These times suggest a possible relationship between J-81 and the target, but missing mappings and unprovided clock accuracy prevent conclusive attribution.
 
 Collection times, parent event IDs, exact workload identity, and the retry's target outcome remain unknown. The collector delay means event time and arrival time must be separated. Do not rewrite missing records or merge the jobs into one event. Seek target operation IDs, scheduler records, grant use, service state, and the shared account's other activity through authorized operations/security staff.
 
