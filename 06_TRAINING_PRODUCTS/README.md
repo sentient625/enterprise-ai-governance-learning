@@ -13,7 +13,7 @@ Potential outputs include:
 
 ## Published (drafting)
 
-- [Facilitator Guide — Modules 1–5](./01_Facilitator_Guide_Modules_1-5.md) — group-delivery sequencing, timing, and discussion prompts for the accepted Priority 1 modules. Status: Drafting; has not yet passed the gate below.
+- [Facilitator Guide — Modules 1–10](./01_Facilitator_Guide_Modules_1-10.md) — group-delivery sequencing, timing, and discussion prompts for the full accepted ten-module Priority 1 sequence. Status: Drafting; has not yet passed the gate below.
 
 ## Gate
 

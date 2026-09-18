@@ -176,7 +176,7 @@ Module 10 integrates the preceding modules into an ORION decision dossier, one-p
 3. [Review the model answer and scoring rubric](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/20_Module_10_Model_Answer_and_Review_Guide.md).
 4. [Read the public-release record](./00_LEARNING_CONTROL/15_Module_10_Public_Release_Record.md).
 
-All ten Priority 1 instructional packages are now available. Demonstrated learning still requires original artifacts and a reviewed defense. Priorities 2 and 3 remain planned; the Modules 1–5 facilitator guide remains a draft. A formal GitHub Release is a separate versioned snapshot.
+All ten Priority 1 instructional packages are now available. Demonstrated learning still requires original artifacts and a reviewed defense. Priorities 2 and 3 remain planned; the [facilitator guide covering Modules 1–10](./06_TRAINING_PRODUCTS/01_Facilitator_Guide_Modules_1-10.md) remains a draft. A formal GitHub Release is a separate versioned snapshot.
 
 ## Curriculum roadmap
 

@@ -242,7 +242,7 @@ Priority 3 must teach executive fluency without implying accounting, valuation, 
 | PORT-03 | Executive operating-model one-pager | Demonstrated Priority 2 | Backlog |
 | PORT-04 | Investment continuation decision case | Demonstrated Priority 3 | Backlog |
 | TRAIN-01 | Executive briefing deck | Portfolio review complete | Backlog |
-| TRAIN-02 | [Facilitator guide — Modules 1–5](../06_TRAINING_PRODUCTS/01_Facilitator_Guide_Modules_1-5.md) | Demonstrated content and license review | Drafting; sequences accepted Modules 1–5, not yet passed the Training Products gate |
+| TRAIN-02 | [Facilitator guide — Modules 1–10](../06_TRAINING_PRODUCTS/01_Facilitator_Guide_Modules_1-10.md) | Demonstrated content and license review | Drafting; extended to sequence all ten accepted modules, not yet passed the Training Products gate |
 | TRAIN-03 | Participant workbook | Demonstrated content and license review | Backlog |
 | TRAIN-04 | Agent suspension tabletop | P1-M08 accepted and demonstrated | Backlog |
 
@@ -262,7 +262,7 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 8 | P1-A06 | Complete the Module 8 participant workbook and defense | Create and defend the suspension, fallback, and recovery tabletop; do not submit the model answer as completed work |
 | 9 | P1-A02I | Complete the Module 9 participant workbook and defense | Create and defend the inventory and lifecycle gate review; do not submit the model answer as completed work |
 | 10 | P1-A08–P1-A10 | Complete and defend the original Module 10 capstone after the underlying exercises | Original lifecycle and case response, memorandum, evidence appendix, briefing, defense and reviewed revisions; publication alone does not complete learning |
-| 11 | TRAIN-02 | Extend the facilitator/timing guide from Modules 1–5 to cover Modules 6–10 | One-page-per-module facilitator guide with timing, discussion prompts, and scoring guidance for the full ten-module sequence; does not replace individual completion evidence |
+| 11 | TRAIN-02 | Extend the facilitator/timing guide from Modules 1–5 to cover Modules 6–10 | Done — [Facilitator Guide — Modules 1–10](../06_TRAINING_PRODUCTS/01_Facilitator_Guide_Modules_1-10.md) now sequences all ten modules with timing, discussion prompts, and scoring guidance; still Drafting until the Training Products gate review occurs, and does not replace individual completion evidence |
 | 12 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 13 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 
