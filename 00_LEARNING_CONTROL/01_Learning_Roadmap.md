@@ -29,7 +29,7 @@ Required outputs:
 - 15-minute oral defense or written equivalent.
 - Interview-ready explanation.
 
-## Priority 2 — Active (Modules 1–2 accepted; Modules 3–10 planned)
+## Priority 2 — Active (Modules 1–3 accepted; Modules 4–10 planned)
 
 Primary capabilities:
 
