@@ -112,7 +112,7 @@ Complete the [Module 10 participant workbook](./exercises/19_Module_10_Participa
 
 Completion requires an original populated privileged-access lifecycle, completed ORION case response, evidence appendix, one-page memorandum, 90-second briefing, fifteen-minute oral or equivalent written defense, and revisions addressing review findings. Cite artifact versions and record reviewer feedback, unresolved issues, and reassessment. Self-review must be labeled as such. The rubric is an educational assessment, not independent certification.
 
-Update the Progress Record only after the learner's artifacts and defense exist and their quality has been reviewed. Reading, generating, or copying this package does not establish demonstrated learning. Portfolio promotion requires separate accuracy, confidentiality and positioning review. The Modules 1–5 facilitator guide remains a separate draft training product.
+Update the Progress Record only after the learner's artifacts and defense exist and their quality has been reviewed. Reading, generating, or copying this package does not establish demonstrated learning. Portfolio promotion requires separate accuracy, confidentiality and positioning review. The Modules 1–10 facilitator guide remains a separate draft training product.
 
 A credible interview explanation is: “I can lead the decision process for an agent program: define the business hypothesis, bring qualified owners together, require evidence of bounded authority and recoverability, and maintain explicit conditions for operation and expansion.” Present ORION as a fictional learning case. Claim real implementation outcomes only when independently supported by your actual work.
 
