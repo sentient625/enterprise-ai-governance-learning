@@ -319,3 +319,26 @@ Three separate control-assessment findings. A control can be adequately designed
 ### Assessor independence
 
 The requirement that a control or impact assessment be performed, or reviewed, by someone sufficiently separate from the use case's business or technical owner that the assessment's finding can be trusted — with the required degree of separation scaling to the use case's risk tier.
+
+
+## Priority 2, Module 4 additions
+
+### TEVV
+
+Test, evaluation, verification, and validation: four distinct questions treated together as a cross-cutting AI-lifecycle discipline — whether a system was built to specification (verification), whether it actually works for its intended use and population (validation), what happens when it is exercised including adversarially (testing), and whether measured performance meets a defined criterion (evaluation).
+
+### Verification (TEVV)
+
+The question of whether an AI system was built to its stated specification, independent of whether that specification is itself right for the actual intended use.
+
+### Validation (TEVV)
+
+The question of whether an AI system actually works for its intended use, population, and context, independent of whether it was built exactly to its stated specification.
+
+### Adversarial testing
+
+Testing that deliberately attempts to manipulate, bypass, or break an AI system's intended behavior or claimed safeguards, distinct from testing that only exercises the system under well-formed, intended input.
+
+### Claimed-safeguard test
+
+A test designed specifically to determine whether a control someone has claimed exists — such as a human-review step or a content filter — actually produces its intended effect under realistic conditions, rather than assuming the claim is accurate.
