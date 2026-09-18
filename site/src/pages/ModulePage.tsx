@@ -71,6 +71,11 @@ export function ModulePage({ module }: { module: CurriculumModule }) {
         </div>
       </nav>
 
+      <div className="document-tools mx-auto max-w-4xl px-6 pt-5 text-sm text-[#726c5d] md:px-12">
+        <a className="underline underline-offset-2" href={`https://github.com/sentient625/enterprise-ai-governance-learning/blob/main/${module[activeDoc]}`} target="_blank" rel="noreferrer">View source on GitHub</a>
+        <p className="print-only">{DOC_TABS.find(tab => tab.key === activeDoc)?.label}</p>
+      </div>
+
       <article className="mx-auto max-w-4xl px-6 py-12 md:px-12 md:py-16">
         {content === undefined ? (
           <p className="text-sm uppercase tracking-[.1em] text-[#8a836f]">Loading document…</p>

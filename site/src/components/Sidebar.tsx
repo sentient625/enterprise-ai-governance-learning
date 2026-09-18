@@ -40,7 +40,7 @@ function SidebarContents({ path, onNavigate }: { path: string; onNavigate?: () =
         })}
       </ol>
       <div className="border-t border-white/10 px-6 py-5 text-xs leading-relaxed text-white/50">
-        CC BY 4.0 · Michael Kaplan
+        <a href="https://creativecommons.org/licenses/by/4.0/" className="hover:underline">CC BY 4.0</a> · Michael Kaplan
         <br />
         <a href="https://forensicgovernance.com" className="text-[#e9c46a] hover:underline">forensicgovernance.com →</a>
       </div>
