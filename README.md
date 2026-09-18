@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–5 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment; Testing, Evaluation, Verification, and Validation; Monitoring and Change Governance) accepted for public learning use; Modules 6–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) has all ten instructional modules accepted for public learning use — see [Published learning package](#published-learning-package) below. Priority 2 (Operationalizing AI Governance) has begun, with Modules 1–6 (AI Inventory and Ownership; Use-Case Classification and Risk Tiers; Impact and Control Assessment; Testing, Evaluation, Verification, and Validation; Monitoring and Change Governance; Vendor and Supply-Chain Governance) accepted for public learning use; Modules 7–10 remain planned. Priority 3 (Financial Decision Fluency) is planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
@@ -243,14 +243,27 @@ Use the package in this order:
 3. [Review the model answer and review guide](./02_OPERATIONAL_AI_GOVERNANCE/exercises/10_Module_05_Model_Answer_and_Review_Guide.md).
 4. [Read the public-release record](./00_LEARNING_CONTROL/20_P2_Module_05_Public_Release_Record.md).
 
-All five Priority 2 modules' source verification relied on independent web search rather than a direct publisher-page fetch; each public-release record flags that as pending further independent review. Modules 6–10 of Priority 2 remain planned. Priority 3 remains planned and not yet built.
+### Priority 2, Module 6 — Vendor and Supply-Chain Governance
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 6 teaches learners to perform AI-specific vendor due diligence, request a concrete AI bill of materials rather than accepting a marketing claim, build a six-control contract-control checklist, treat vendor non-disclosure as a governed risk finding rather than a neutral unknown, and design ongoing vendor governance distinct from one-time onboarding due diligence.
+
+Use the package in this order:
+
+1. [Read the Module 6 lesson](./02_OPERATIONAL_AI_GOVERNANCE/06_Module_06_Vendor_and_Supply_Chain_Governance.md).
+2. [Complete the participant workbook](./02_OPERATIONAL_AI_GOVERNANCE/exercises/11_Module_06_Participant_Workbook.md).
+3. [Review the model answer and review guide](./02_OPERATIONAL_AI_GOVERNANCE/exercises/12_Module_06_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](./00_LEARNING_CONTROL/21_P2_Module_06_Public_Release_Record.md).
+
+All six Priority 2 modules' source verification relied on independent web search rather than a direct publisher-page fetch; each public-release record flags that as pending further independent review. Modules 7–10 of Priority 2 remain planned. Priority 3 remains planned and not yet built.
 
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
 | 1 | AI-agent identity, security, and governance | Modules 1–10 accepted; learner completion requires artifacts and defense |
-| 2 | Operationalizing AI governance | Modules 1–5 accepted; Modules 6–10 planned |
+| 2 | Operationalizing AI governance | Modules 1–6 accepted; Modules 7–10 planned |
 | 3 | Financial decision fluency | Planned |
 
 The [Learning Roadmap](./00_LEARNING_CONTROL/01_Learning_Roadmap.md) and [Content Build Register](./00_LEARNING_CONTROL/05_Content_Build_Register.md) show the planned sequence and current status.

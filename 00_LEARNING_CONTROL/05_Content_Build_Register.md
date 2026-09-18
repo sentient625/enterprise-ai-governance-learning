@@ -239,6 +239,15 @@ The build should follow the learning path:
 | P2-PUB19 | Module 5 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/10_Module_05_Model_Answer_and_Review_Guide.md) | Accepted |
 | P2-PUB20 | Module 5 public-release record | [Priority 2, Module 5 Public-Release Record](./20_P2_Module_05_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
 
+## Public-release package — Module 6
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P2-PUB21 | Module 6 lesson | [Vendor and Supply-Chain Governance](../02_OPERATIONAL_AI_GOVERNANCE/06_Module_06_Vendor_and_Supply_Chain_Governance.md) | Accepted |
+| P2-PUB22 | Module 6 participant workbook | [Vendor and Supply-Chain Governance Workbook](../02_OPERATIONAL_AI_GOVERNANCE/exercises/11_Module_06_Participant_Workbook.md) | Accepted |
+| P2-PUB23 | Module 6 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/12_Module_06_Model_Answer_and_Review_Guide.md) | Accepted |
+| P2-PUB24 | Module 6 public-release record | [Priority 2, Module 6 Public-Release Record](./21_P2_Module_06_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
+
 ## Planned instructional modules
 
 | ID | Module | Core output | Status |
@@ -248,7 +257,7 @@ The build should follow the learning path:
 | P2-M03 | Impact and control assessment | Assessment template and evidence requirements | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M04 | Testing, evaluation, verification, and validation | TEVV decision model | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M05 | Monitoring and change governance | Monitoring and material-change standard | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
-| P2-M06 | Vendor and supply-chain governance | Due-diligence and contract-control checklist | Backlog |
+| P2-M06 | Vendor and supply-chain governance | Due-diligence and contract-control checklist | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M07 | Incident response and decommissioning | Response and retirement lifecycle | Backlog |
 | P2-M08 | Evidence retention and defensibility | Evidence architecture and retention questions | Backlog |
 | P2-M09 | Framework-to-control crosswalk | NIST AI RMF, NIST CSF 2.0, ISO/IEC 42001, IAM/PAM, privacy, risk, and records map | Backlog |
@@ -315,7 +324,8 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 16 | P2-A03 | Complete the Priority 2, Module 3 participant workbook and defense | Create and defend the impact assessment, control assessment, assessor-independence justification, and governing response; do not submit the model answer as completed work |
 | 17 | P2-A04 | Complete the Priority 2, Module 4 participant workbook and defense | Create and defend the TEVV plan, pre-set pass/fail criteria, independence justification, and retest triggers; do not submit the model answer as completed work |
 | 18 | P2-A05 | Complete the Priority 2, Module 5 participant workbook and defense | Create and defend the monitoring plan, leading-indicator/incident routing, change envelope, and vendor-disclosure requirement; do not submit the model answer as completed work |
-| 19 | P2-M06 | Draft Priority 2, Module 6 (vendor and supply-chain governance) | Follow the standard module package; specify the due-diligence and contract-control checklist that Module 5's vendor-disclosure requirement pointed to but did not itself define; verify current NIST AI RMF, ISO/IEC 42001-family, and supply-chain-relevant source status before drafting rather than reusing Modules 1–5's citations unverified |
+| 19 | P2-A06 | Complete the Priority 2, Module 6 participant workbook and defense | Create and defend the retroactive due-diligence record, AI bill-of-materials request, contract-control checklist, and governing-response decision; do not submit the model answer as completed work |
+| 20 | P2-M07 | Draft Priority 2, Module 7 (incident response and decommissioning) | Follow the standard module package; specify the response and retirement lifecycle for an AI use case, connecting to Priority 1 Module 8's agent-level suspension/response work and this priority's own risk-tier and monitoring modules; verify current NIST AI RMF, NIST SP 800-61-family, and decommissioning-relevant source status before drafting rather than reusing Modules 1–6's citations unverified |
 
 ## Update rule
 

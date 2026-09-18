@@ -361,3 +361,22 @@ A defined, bounded set of changes an owner may make to an operating AI use case 
 ### Vendor change disclosure
 
 A specific, checkable contractual or vendor-management obligation requiring a vendor to notify the enterprise of a material change to a model or system the enterprise depends on but does not control, distinct from the enterprise's own monitoring, which can only detect such a change after it has already begun to have an effect.
+
+
+## Priority 2, Module 6 additions
+
+### AI bill of materials
+
+A structured, specific artifact describing what is actually inside an AI component an enterprise relies on — model identity and version, training and fine-tuning data provenance, sub-processor and infrastructure dependencies, and an update-cadence record — distinct from a vendor's marketing description of a feature as "AI-powered."
+
+### Sub-processor chain
+
+The set of further vendors, model providers, or infrastructure services a primary AI vendor itself depends on, whose risk is a risk to the enterprise even when the primary vendor does not disclose or the enterprise never asks about it.
+
+### Vendor non-disclosure (as a finding)
+
+A vendor's inability or refusal to answer a due-diligence question, treated as a specific risk finding requiring one of the four governing responses (proceed, remediate, documented risk acceptance, or hold) rather than as a neutral unknown that can be silently accepted.
+
+### Data-use restriction
+
+A contract term specifying whether and how an enterprise's own data may be used to train or improve a vendor's AI model, including whether that use extends to benefiting the vendor's other customers.
