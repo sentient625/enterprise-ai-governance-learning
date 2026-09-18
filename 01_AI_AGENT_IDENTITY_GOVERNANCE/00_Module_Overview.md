@@ -37,6 +37,9 @@ This priority does not attempt to make a learner an AI engineer, IAM architect, 
 19. [Module 6 — Human Authority and Separation of Duties](./09_Module_06_Human_Authority_and_Separation_of_Duties.md) — accepted for public learning use
 20. [Module 6 Participant Workbook](./exercises/11_Module_06_Participant_Workbook.md)
 21. [Module 6 Model Answer and Review Guide](./exercises/12_Module_06_Model_Answer_and_Review_Guide.md)
+22. [Module 7 — Evidence, Provenance, and Monitoring](./10_Module_07_Evidence_Provenance_and_Monitoring.md) — accepted for public learning use upon merge
+23. [Module 7 Participant Workbook](./exercises/13_Module_07_Participant_Workbook.md)
+24. [Module 7 Model Answer and Review Guide](./exercises/14_Module_07_Model_Answer_and_Review_Guide.md)
 
 ## Suggested working folders
 

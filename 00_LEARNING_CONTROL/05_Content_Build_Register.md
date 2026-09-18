@@ -2,7 +2,7 @@
 
 **Purpose:** Track what learning content must be created, reviewed, accepted, and later converted into portfolio or training material.
 
-**Last updated:** 2026-09-17
+**Last updated:** 2026-09-18
 
 ## Two tracking systems
 
@@ -63,7 +63,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-M04 | Credentials, secrets, and privileged access | Days 6–8 | Credential sharing, impersonation, static secrets, short-lived credentials, least privilege, least standing privilege, JIT access, tool permissions | Convert broad “admin” access into a bounded authority statement | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M05 | Agent chains, tools, memory, and context | Days 8–10 | Tool authority, agent-to-agent delegation, confused authority, context and memory poisoning, unauthorized tool discovery | Build a tool and downstream-authority matrix | Accepted | Maintain source status and incorporate substantiated reader feedback |
 | P1-M06 | Human authority and separation of duties | Day 11 | Human-in-the-loop, human-on-the-loop, consent fatigue, meaningful approval, prohibited activity, separation of duties | Classify actions as autonomous, monitored, prior approval, or prohibited | Accepted | Maintain source status and incorporate substantiated reader feedback |
-| P1-M07 | Evidence, provenance, and monitoring | Days 12–13 | Transaction correlation, identity and policy evidence, context references, log integrity, privacy/records limits, leading and incident indicators | Specify an agent transaction evidence record | Backlog | Draft evidence-chain lesson and monitoring worksheet |
+| P1-M07 | Evidence, provenance, and monitoring | Days 12–13 | Transaction correlation, identity and policy evidence, context references, log integrity, privacy/records limits, leading and incident indicators | Specify an agent transaction evidence record | Accepted upon merge | Maintain source status and incorporate substantiated reader feedback |
 | P1-M08 | Suspension, response, fallback, and recovery | Days 14–15 | Emergency authority, disabling identity, revoking credentials, containing queued work, preserving evidence, continuity, governed restoration | Conduct the unexpected-privileged-action tabletop | Backlog | Draft tabletop package and decision prompts |
 | P1-M09 | Inventory, lifecycle, and program governance | Days 16–18 | Inventory, ownership, lifecycle gates, change reauthorization, architecture-review leadership | Complete an agent inventory entry and lifecycle gate review | Backlog | Draft inventory and gate-review lesson |
 | P1-M10 | Executive decision and capstone defense | Days 19–20 | Executive briefing, decision memorandum, recommendation choices, residual uncertainty, next proof | Defend approve, constrain, pilot, or defer | Backlog | Build memorandum template, defense questions, and scoring rubric |
@@ -123,6 +123,15 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-PUB24 | Module 6 model answer and review guide | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/12_Module_06_Model_Answer_and_Review_Guide.md) | Accepted |
 | P1-PUB25 | Module 6 public-release record | [Module 6 Public-Release Record](./11_Module_06_Public_Release_Record.md) | Accepted |
 
+## Module 7 public-release package
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P1-PUB26 | Module 7 lesson | [Evidence, Provenance, and Monitoring](../01_AI_AGENT_IDENTITY_GOVERNANCE/10_Module_07_Evidence_Provenance_and_Monitoring.md) | Accepted upon merge |
+| P1-PUB27 | Module 7 participant workbook | [Evidence-record specification](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md) | Accepted upon merge |
+| P1-PUB28 | Module 7 model answer | [Model Answer and Review Guide](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/14_Module_07_Model_Answer_and_Review_Guide.md) | Accepted upon merge |
+| P1-PUB29 | Module 7 release record | [Public-Release Record](./12_Module_07_Public_Release_Record.md) | Accepted upon merge |
+
 ## Priority 1 exercises and completed-work artifacts
 
 | ID | Artifact | Purpose | Content status | Learning status |
@@ -136,7 +145,7 @@ These items establish the path and applied artifacts. They do not yet provide th
 | P1-A03 | Tool and target-system matrix | Expose authority across tools, agents, systems, and environments | Superseded by P1-A02E | Not started |
 | P1-A02F | Module 6 human-authority decision matrix | Classify actions and define meaningful approval, separation of duties, escalation, and restoration | Workbook accepted | Not started |
 | P1-A04 | Human-authority decision matrix | Separate autonomous, monitored, approval, and prohibited actions | Backlog | Not started |
-| P1-A05 | Evidence-record specification | Define decision-grade transaction evidence | Backlog | Not started |
+| P1-A05 | [Evidence-record specification](../01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/13_Module_07_Participant_Workbook.md) | Define decision-grade transaction evidence | Workbook accepted upon merge | Not started |
 | P1-A06 | Suspension and fallback runbook | Demonstrate interruptibility and continuity | Backlog | Not started |
 | P1-A07 | Completed ORION case workbook | Apply the full control model | Workbook accepted | Not started |
 | P1-A08 | One-page decision memorandum | Recommend approval, constraint, pilot, or deferral | Backlog | Not started |
@@ -221,7 +230,7 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 4 | P1-A02D | Complete the Module 4 participant workbook and defense | Create and defend the bounded privileged-authority analysis; do not submit the model answer as completed work |
 | 5 | P1-A02E | Complete the Module 5 participant workbook and defense | Create and defend the tool and downstream-authority matrix; do not submit the model answer as completed work |
 | 6 | P1-A02F | Complete the Module 6 participant workbook and defense | Create and defend the human-authority and separation-of-duties analysis; do not submit the model answer as completed work |
-| 7 | P1-M07 | Build “Evidence, Provenance, and Monitoring” | Complete lesson, participant workbook, model answer, source review, and release record |
+| 7 | P1-M08 | Build “Suspension, Response, Fallback, and Recovery” | Complete lesson, tabletop workbook, model answer, source review, and release record |
 | 8 | TRAIN-02 | Build a facilitator/timing guide for group delivery of Modules 1–5 | One-page-per-module facilitator guide with timing, discussion prompts, and scoring guidance; does not replace individual completion evidence |
 | 9 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 10 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
