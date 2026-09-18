@@ -113,12 +113,6 @@ export function HomePage() {
           conclusions belong to the appropriate professionals.
         </p>
       </div>
-
-      <p className="mt-8 text-sm text-[#726c5d]">
-        Except where otherwise noted, this curriculum is licensed under CC BY 4.0 by Michael Kaplan. You may share and adapt
-        it, including commercially, with attribution. Related essays and books:{' '}
-        <a href="https://forensicgovernance.com" className="text-[#a15a1f] underline underline-offset-2">forensicgovernance.com</a>.
-      </p>
     </div>
   );
 }
