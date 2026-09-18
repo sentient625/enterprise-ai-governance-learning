@@ -1,6 +1,6 @@
 # Priority 2 — Operationalizing AI Governance
 
-**Status:** Active — build started. Modules 1–5 are accepted for public learning use; Modules 6–10 remain planned.
+**Status:** Active — build started. Modules 1–6 are accepted for public learning use; Modules 7–10 remain planned.
 
 This priority translates governance frameworks into an enterprise operating model.
 
@@ -81,9 +81,23 @@ Use the package in this order:
 
 Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Modules 1–4, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
 
+### Module 6 — Vendor and Supply-Chain Governance
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 6 teaches learners to perform AI-specific vendor due diligence, request a concrete AI bill of materials rather than accepting a marketing claim, build a six-control contract-control checklist, treat vendor non-disclosure as a governed risk finding rather than a neutral unknown, and design ongoing vendor governance distinct from one-time onboarding due diligence.
+
+Use the package in this order:
+
+1. [Read the Module 6 lesson](./06_Module_06_Vendor_and_Supply_Chain_Governance.md).
+2. [Complete the participant workbook](./exercises/11_Module_06_Participant_Workbook.md).
+3. [Review the model answer and review guide](./exercises/12_Module_06_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](../00_LEARNING_CONTROL/21_P2_Module_06_Public_Release_Record.md).
+
+Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Modules 1–5, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
+
 ## Planned capabilities
 
-- Vendor and supply-chain governance.
 - Incident response and decommissioning.
 - Evidence retention and regulatory defensibility.
 - Crosswalks among AI, cyber, privacy, records, and enterprise risk.
@@ -96,4 +110,4 @@ Completion requires an original artifact and a defense. Reading the lesson or th
 - Use-case intake and classification artifact.
 - Monitoring, incident, and decommissioning case.
 
-Build on Modules 6–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.
+Build on Modules 7–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.
