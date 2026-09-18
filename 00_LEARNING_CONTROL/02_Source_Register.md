@@ -1,6 +1,6 @@
 # Source Register
 
-**Last reviewed:** 2026-09-18 (Module 7 source subset; other entries retain their recorded review dates)
+**Last reviewed:** 2026-09-18 (Module 7 and Module 8 source subsets; other entries retain their recorded review dates)
 
 This register records the small primary source set used by the active learning priority. Status labels matter: draft material and project pages must not be described as final requirements.
 
@@ -32,6 +32,12 @@ This register records the small primary source set used by the active learning p
 | SRC-024 | [MCP Authorization Security Considerations, 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/security-considerations) | Model Context Protocol | Normative security requirements within the current MCP specification | Audience validation, confused-deputy risk, privilege restriction, and token-passthrough prohibition |
 | SRC-025 | [NIST AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | NIST | Final framework, January 2023; revision work noted by NIST at review | Governance, roles, accountability, human oversight, measurement, and risk-management outcomes |
 | SRC-026 | [W3C Trace Context Level 1](https://www.w3.org/TR/2021/REC-trace-context-1-20211123/) | W3C | Recommendation, 23 November 2021; checked 2026-09-18 | Distributed correlation, privacy, and security; does not establish identity or authority |
+| SRC-027 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | NIST | Final, April 2025; supersedes Rev. 2; checked 2026-09-18 | Incident response and recovery in cybersecurity risk management |
+| SRC-028 | [RFC 7009 — OAuth 2.0 Token Revocation](https://datatracker.ietf.org/doc/html/rfc7009) | IETF | Standards Track RFC / Proposed Standard, August 2013; checked 2026-09-18 | Revocation semantics, related-token scope, propagation and response limits |
+
+## Module 8 source review — 2026-09-18
+
+Publisher pages for SRC-027, SRC-028 and SRC-019 were read. SRC-027 is final and supersedes SP 800-61 Rev. 2. SRC-028 Sections 2.1–2.2 and 3 inform the revocation boundary; no universal job/session cancellation is implied. SRC-019 is cited as the published September 2023 final revision; its publisher notes potential updates, not official changes. Module 8's response model and tabletop are educational synthesis. This is an authoring source check, not independent peer review or a compliance assessment.
 
 ## Module 7 source review — 2026-09-18
 
