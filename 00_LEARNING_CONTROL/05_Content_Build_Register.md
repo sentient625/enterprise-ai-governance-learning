@@ -194,11 +194,20 @@ The build should follow the learning path:
 
 # Priority 2 — Operationalizing AI Governance
 
+## Public-release package — Module 1
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P2-PUB01 | Module 1 lesson | [AI Inventory and Ownership](../02_OPERATIONAL_AI_GOVERNANCE/01_Module_01_AI_Inventory_and_Ownership.md) | Accepted |
+| P2-PUB02 | Module 1 participant workbook | [Enterprise AI Inventory and Ownership Workbook](../02_OPERATIONAL_AI_GOVERNANCE/exercises/01_Module_01_Participant_Workbook.md) | Accepted |
+| P2-PUB03 | Module 1 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/02_Module_01_Model_Answer_and_Review_Guide.md) | Accepted |
+| P2-PUB04 | Module 1 public-release record | [Priority 2, Module 1 Public-Release Record](./16_P2_Module_01_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
+
 ## Planned instructional modules
 
 | ID | Module | Core output | Status |
 |---|---|---|---|
-| P2-M01 | AI inventory and ownership | Inventory schema and owner model | Backlog |
+| P2-M01 | AI inventory and ownership | Inventory schema and owner model | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M02 | Use-case classification and risk tiers | Classification and approval matrix | Backlog |
 | P2-M03 | Impact and control assessment | Assessment template and evidence requirements | Backlog |
 | P2-M04 | Testing, evaluation, verification, and validation | TEVV decision model | Backlog |
@@ -265,6 +274,8 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 11 | TRAIN-02 | Extend the facilitator/timing guide from Modules 1–5 to cover Modules 6–10 | Done — [Facilitator Guide — Modules 1–10](../06_TRAINING_PRODUCTS/01_Facilitator_Guide_Modules_1-10.md) now sequences all ten modules with timing, discussion prompts, and scoring guidance; still Drafting until the Training Products gate review occurs, and does not replace individual completion evidence |
 | 12 | P1-A01 | Promote the reviewed identity map after learner defense | Completed artifact stored under Priority 1 completed work; learning status updated only after defense |
 | 13 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
+| 14 | P2-A01 | Complete the Priority 2, Module 1 participant workbook and defense | Create and defend the enterprise AI inventory, ownership assignment, and detection/reconciliation plan; do not submit the model answer as completed work |
+| 15 | P2-M02 | Draft Priority 2, Module 2 (use-case classification and risk tiers) | Follow the standard module package; verify current NIST AI RMF, CSF 2.0, and ISO/IEC 42001 status before drafting rather than reusing Module 1's citations unverified |
 
 ## Update rule
 

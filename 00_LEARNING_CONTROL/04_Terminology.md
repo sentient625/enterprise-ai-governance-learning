@@ -262,3 +262,22 @@ A condition type that remains monitored during authorized operation, with a defi
 ### Expansion gate
 
 A condition type defining the proof needed before additional tools, environments, autonomy, volume, or duration may be added to an already-authorized agent's operation.
+
+
+## Priority 2, Module 1 additions
+
+### AI use case
+
+A named business purpose served by one or more AI components in a specific context. A single use case can be served by more than one deployed instance over time, and a single model or platform can serve more than one use case with different risk profiles.
+
+### Shadow AI
+
+AI use adopted or operated without going through the enterprise's procurement, security, or governance review — for example, an unofficially adopted consumer AI tool. Its absence from self-attestation does not mean it does not exist.
+
+### Embedded vendor AI
+
+AI functionality added to an already-purchased product or platform, often through a routine vendor update, without a separate enterprise decision to adopt it. Contract and release-note review, not only self-attestation, is needed to detect it.
+
+### Record steward
+
+The role accountable for maintaining the inventory registry itself, resolving conflicting entries, and tracking reconciliation — distinct from ownership of any individual AI use case.
