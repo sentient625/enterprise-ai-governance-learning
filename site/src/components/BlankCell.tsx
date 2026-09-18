@@ -10,8 +10,9 @@ export function BlankCell({ moduleSlug, blankId }: { moduleSlug: string; blankId
         setValue(event.target.value);
         setAnswer(moduleSlug, blankId, event.target.value);
       }}
-      rows={2}
-      className="block w-full min-w-[8rem] resize-y border-b-2 border-[#a15a1f] bg-transparent p-1 text-inherit focus:outline-none"
+      rows={3}
+      spellCheck={false}
+      className="block min-h-[4.5rem] w-full min-w-[8rem] resize-y border-b-2 border-[#a15a1f] bg-transparent p-1 text-inherit focus:outline-none"
     />
   );
 }
