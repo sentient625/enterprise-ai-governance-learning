@@ -300,3 +300,22 @@ A risk tier assigned with named missing information still outstanding. A provisi
 ### Reclassification trigger
 
 A defined event — such as population expansion, a new data class, reduced human review, repurposing, volume growth past a threshold, or an incident — that requires a use case's risk tier to be reviewed again, rather than left to informal judgment.
+
+
+## Priority 2, Module 3 additions
+
+### Impact assessment
+
+An assessment of who could be affected by an AI use case's output, how, and how severely — covering benefit, harm categories, transparency expectation, and proposed mitigation — distinct from a risk tier, which only sets the level of governance attention, and distinct from a control assessment, which verifies that a proposed mitigation actually exists and works.
+
+### Control assessment
+
+An assessment that a specific control is designed, implemented, and operating effectively, using methods such as examination, interview, and testing, and producing evidence-based findings for each of those three separately rather than a single pass/fail judgment.
+
+### Designed / implemented / operating effectively
+
+Three separate control-assessment findings. A control can be adequately designed without being implemented in the actual deployed configuration, and can be implemented without actually producing its intended effect when exercised.
+
+### Assessor independence
+
+The requirement that a control or impact assessment be performed, or reviewed, by someone sufficiently separate from the use case's business or technical owner that the assessment's finding can be trusted — with the required degree of separation scaling to the use case's risk tier.

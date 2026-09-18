@@ -1,6 +1,6 @@
 # Priority 2 — Operationalizing AI Governance
 
-**Status:** Active — build started. Modules 1–2 are accepted for public learning use; Modules 3–10 remain planned.
+**Status:** Active — build started. Modules 1–3 are accepted for public learning use; Modules 4–10 remain planned.
 
 This priority translates governance frameworks into an enterprise operating model.
 
@@ -36,9 +36,23 @@ Use the package in this order:
 
 Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Module 1, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
 
+### Module 3 — Impact and Control Assessment
+
+**Status:** Accepted for public learning use, version 1.0.
+
+Module 3 teaches learners to specify an impact assessment and a control assessment as two distinct artifacts, distinguish designed/implemented/operating-effectively control findings, scale assessor independence to a use case's risk tier, and decide a real governing response — proceed, remediate, accept, or hold — when an assessment finds a gap. It defines what Module 2's elevated and high-impact tiers point to but do not themselves specify.
+
+Use the package in this order:
+
+1. [Read the Module 3 lesson](./03_Module_03_Impact_and_Control_Assessment.md).
+2. [Complete the participant workbook](./exercises/05_Module_03_Participant_Workbook.md).
+3. [Review the model answer and review guide](./exercises/06_Module_03_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](../00_LEARNING_CONTROL/18_P2_Module_03_Public_Release_Record.md).
+
+Completion requires an original artifact and a defense. Reading the lesson or the model answer is not completion. As with Modules 1–2, source verification for this module relied on independent web search rather than a direct publisher-page fetch.
+
 ## Planned capabilities
 
-- Impact and control assessments.
 - Testing, evaluation, verification, and validation.
 - Model and agent monitoring.
 - Vendor and supply-chain governance.
@@ -54,4 +68,4 @@ Completion requires an original artifact and a defense. Reading the lesson or th
 - Use-case intake and classification artifact.
 - Monitoring, incident, and decommissioning case.
 
-Build on Modules 3–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.
+Build on Modules 4–10 continues now that Priority 1 has all ten modules accepted and Michael has explicitly reprioritized the roadmap to begin Priority 2 content build.

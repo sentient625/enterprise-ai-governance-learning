@@ -212,13 +212,22 @@ The build should follow the learning path:
 | P2-PUB07 | Module 2 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/04_Module_02_Model_Answer_and_Review_Guide.md) | Accepted |
 | P2-PUB08 | Module 2 public-release record | [Priority 2, Module 2 Public-Release Record](./17_P2_Module_02_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
 
+## Public-release package — Module 3
+
+| ID | Public material | Location | Status |
+|---|---|---|---|
+| P2-PUB09 | Module 3 lesson | [Impact and Control Assessment](../02_OPERATIONAL_AI_GOVERNANCE/03_Module_03_Impact_and_Control_Assessment.md) | Accepted |
+| P2-PUB10 | Module 3 participant workbook | [Impact and Control Assessment Workbook](../02_OPERATIONAL_AI_GOVERNANCE/exercises/05_Module_03_Participant_Workbook.md) | Accepted |
+| P2-PUB11 | Module 3 model answer and review guide | [Model Answer and Review Guide](../02_OPERATIONAL_AI_GOVERNANCE/exercises/06_Module_03_Model_Answer_and_Review_Guide.md) | Accepted |
+| P2-PUB12 | Module 3 public-release record | [Priority 2, Module 3 Public-Release Record](./18_P2_Module_03_Public_Release_Record.md) | Accepted, pending independent review per the record's own limitations note |
+
 ## Planned instructional modules
 
 | ID | Module | Core output | Status |
 |---|---|---|---|
 | P2-M01 | AI inventory and ownership | Inventory schema and owner model | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M02 | Use-case classification and risk tiers | Classification and approval matrix | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
-| P2-M03 | Impact and control assessment | Assessment template and evidence requirements | Backlog |
+| P2-M03 | Impact and control assessment | Assessment template and evidence requirements | Accepted — see public-release package above; next action is independent review of source citations, then reader-feedback maintenance |
 | P2-M04 | Testing, evaluation, verification, and validation | TEVV decision model | Backlog |
 | P2-M05 | Monitoring and change governance | Monitoring and material-change standard | Backlog |
 | P2-M06 | Vendor and supply-chain governance | Due-diligence and contract-control checklist | Backlog |
@@ -285,7 +294,8 @@ Only one item should be actively drafted at a time unless there is a clear indep
 | 13 | Progress | Record Week 1 evidence | Progress Record updated only after the exercise and defense exist |
 | 14 | P2-A01 | Complete the Priority 2, Module 1 participant workbook and defense | Create and defend the enterprise AI inventory, ownership assignment, and detection/reconciliation plan; do not submit the model answer as completed work |
 | 15 | P2-A02 | Complete the Priority 2, Module 2 participant workbook and defense | Create and defend the risk-tier model, case classification, intake design, and reclassification triggers; do not submit the model answer as completed work |
-| 16 | P2-M03 | Draft Priority 2, Module 3 (impact and control assessment) | Follow the standard module package; specify the impact-assessment method that Module 2's elevated and high-impact tiers point to but do not themselves define; verify current NIST AI RMF, CSF 2.0, and ISO/IEC 42001 status before drafting rather than reusing Modules 1–2's citations unverified |
+| 16 | P2-A03 | Complete the Priority 2, Module 3 participant workbook and defense | Create and defend the impact assessment, control assessment, assessor-independence justification, and governing response; do not submit the model answer as completed work |
+| 17 | P2-M04 | Draft Priority 2, Module 4 (testing, evaluation, verification, and validation) | Follow the standard module package; specify the pre-deployment testing obligation that Modules 2–3 point to but do not themselves define; verify current NIST AI RMF, ISO/IEC 42001-family, and TEVV-relevant source status before drafting rather than reusing Modules 1–3's citations unverified |
 
 ## Update rule
 
