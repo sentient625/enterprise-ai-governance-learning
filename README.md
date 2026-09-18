@@ -8,9 +8,9 @@ Free, source-grounded learning materials for leaders responsible for AI-agent id
 
 **The easiest way to use this curriculum is the companion website, not this repository's raw files:**
 
-### 👉 [enterprise-ai-governance-learning.pages.dev](https://enterprise-ai-governance-learning.pages.dev/)
+### 👉 [learn.forensicgovernance.com](https://learn.forensicgovernance.com/)
 
-[![Enterprise AI Governance Learning — site preview](docs/site-preview.png)](https://enterprise-ai-governance-learning.pages.dev/)
+[![Enterprise AI Governance Learning — site preview](docs/site-preview.png)](https://learn.forensicgovernance.com/)
 
 It renders every module's lesson, participant workbook, model answer & review guide, and public release record from this repository's own markdown, with fillable workbook fields (saved automatically in your browser) and a navigable module list — no GitHub folder-clicking required. The source in `site/` builds it directly from whatever is on `main`, so it always reflects the current state of this repository. See [Progress: curriculum now has a live reading website](https://github.com/sentient625/enterprise-ai-governance-learning/issues/30) for more.
 
@@ -40,7 +40,7 @@ This curriculum develops that executive and program-level fluency. It does not a
 
 ## Published learning package
 
-All ten Priority 1 modules (AI-agent identity, security, and governance) and six of ten Priority 2 modules (Operationalizing AI Governance) are accepted for public learning use, version 1.0. Each module ships as four documents, read in this order: the lesson, the participant workbook, the model answer and review guide, and the public-release record. Read them at the [companion site](https://enterprise-ai-governance-learning.pages.dev/) — the easiest way to work through the curriculum in order — or directly under [`01_AI_AGENT_IDENTITY_GOVERNANCE/`](./01_AI_AGENT_IDENTITY_GOVERNANCE/) and [`02_OPERATIONAL_AI_GOVERNANCE/`](./02_OPERATIONAL_AI_GOVERNANCE/).
+All ten Priority 1 modules (AI-agent identity, security, and governance) and six of ten Priority 2 modules (Operationalizing AI Governance) are accepted for public learning use, version 1.0. Each module ships as four documents, read in this order: the lesson, the participant workbook, the model answer and review guide, and the public-release record. Read them at the [companion site](https://learn.forensicgovernance.com/) — the easiest way to work through the curriculum in order — or directly under [`01_AI_AGENT_IDENTITY_GOVERNANCE/`](./01_AI_AGENT_IDENTITY_GOVERNANCE/) and [`02_OPERATIONAL_AI_GOVERNANCE/`](./02_OPERATIONAL_AI_GOVERNANCE/).
 
 Publication of a module does not establish any learner's completion: that requires an original artifact and a defensible explanation. Priority 2's six modules relied on independent web search for source verification rather than a direct publisher-page fetch; each module's public-release record flags that as pending further review. Priority 2 Modules 7–10 and all of Priority 3 remain planned — see the roadmap below.
 
