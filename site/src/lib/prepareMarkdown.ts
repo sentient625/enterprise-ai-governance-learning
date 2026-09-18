@@ -52,11 +52,14 @@ export function prepareMarkdown(raw: string): string {
     if (!match) break;
     const label = match[1].trim().toLowerCase();
     if (!REDUNDANT_LABELS.has(label)) {
-      kept.push(line.replace(/\s*\\$/, '').replace(/\s{2,}$/, ''));
+      // Source lines end in a markdown hard-break (two trailing spaces or a
+      // backslash); strip that so kept lines don't inherit a dangling break, then
+      // join with blank lines so each field still renders as its own line.
+      kept.push(trimmed.replace(/\s*\\$/, '').replace(/\s+$/, ''));
     }
     index += 1;
   }
 
   const rest = lines.slice(index).join('\n').replace(/^\n+/, '');
-  return kept.length > 0 ? `${kept.join('\n')}\n\n${rest}` : rest;
+  return kept.length > 0 ? `${kept.join('\n\n')}\n\n${rest}` : rest;
 }
