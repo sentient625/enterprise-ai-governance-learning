@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 8 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 9 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
@@ -150,11 +150,26 @@ Use the package in this order:
 
 The module develops program-level response and recovery judgment. A tabletop does not prove production controls, and publication does not establish learner completion.
 
+### Module 9 — Inventory, Lifecycle, and Program Governance
+
+**Status:** Accepted for public learning use, version 1.0, upon reviewed merge.
+
+Module 9 teaches learners to define governed deployments, assign accountable owners, specify an agent inventory, lead lifecycle gate reviews, assess material changes, verify operational handover, and govern retirement.
+
+Use the package in this order:
+
+1. [Read the Module 9 lesson](./01_AI_AGENT_IDENTITY_GOVERNANCE/12_Module_09_Inventory_Lifecycle_and_Program_Governance.md).
+2. [Complete the participant workbook](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/17_Module_09_Participant_Workbook.md).
+3. [Review the model answer and review guide](./01_AI_AGENT_IDENTITY_GOVERNANCE/exercises/18_Module_09_Model_Answer_and_Review_Guide.md).
+4. [Read the public-release record](./00_LEARNING_CONTROL/14_Module_09_Public_Release_Record.md).
+
+The module develops program-lead governance judgment. Inventory registration is not authorization, and publication does not establish learner completion.
+
 ## Curriculum roadmap
 
 | Priority | Area | Status |
 |---|---|---|
-| 1 | AI-agent identity, security, and governance | Active; Modules 1–8 accepted |
+| 1 | AI-agent identity, security, and governance | Active; Modules 1–9 accepted |
 | 2 | Operationalizing AI governance | Planned |
 | 3 | Financial decision fluency | Planned |
 

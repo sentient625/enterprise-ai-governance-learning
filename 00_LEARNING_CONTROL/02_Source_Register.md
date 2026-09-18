@@ -1,6 +1,6 @@
 # Source Register
 
-**Last reviewed:** 2026-09-18 (Module 7 and Module 8 source subsets; other entries retain their recorded review dates)
+**Last reviewed:** 2026-09-18 (Modules 7–9 source subsets; other entries retain their recorded review dates)
 
 This register records the small primary source set used by the active learning priority. Status labels matter: draft material and project pages must not be described as final requirements.
 
@@ -34,6 +34,11 @@ This register records the small primary source set used by the active learning p
 | SRC-026 | [W3C Trace Context Level 1](https://www.w3.org/TR/2021/REC-trace-context-1-20211123/) | W3C | Recommendation, 23 November 2021; checked 2026-09-18 | Distributed correlation, privacy, and security; does not establish identity or authority |
 | SRC-027 | [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) | NIST | Final, April 2025; supersedes Rev. 2; checked 2026-09-18 | Incident response and recovery in cybersecurity risk management |
 | SRC-028 | [RFC 7009 — OAuth 2.0 Token Revocation](https://datatracker.ietf.org/doc/html/rfc7009) | IETF | Standards Track RFC / Proposed Standard, August 2013; checked 2026-09-18 | Revocation semantics, related-token scope, propagation and response limits |
+| SRC-029 | [NIST Cybersecurity Framework 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf) | NIST | Published framework, February 26, 2024; checked 2026-09-18 | Governance roles/oversight, asset lifecycle, changes/exceptions, and supplier dependencies |
+
+## Module 9 source review — 2026-09-18
+
+Publisher material for SRC-025, SRC-017 and SRC-029 was checked. Module 9 uses the published January 2023 AI RMF 1.0, February 2024 CSF 2.0, and SP 800-53 Rev. 5 with the publisher's Release 5.2.0 note. Focused references include AI RMF GOVERN 1.5–1.7 and GOVERN 2; CSF GV.RR, GV.OV, ID.AM, ID.RA-07 and GV.SC; and SP 800-53 CM-3, CM-8 and AC-2 vocabulary. The inventory and eleven-gate model are educational synthesis, not a standardized agent schema or compliance mapping. This is an authoring source check, not independent peer review.
 
 ## Module 8 source review — 2026-09-18
 
