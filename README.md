@@ -2,7 +2,7 @@
 
 Free, source-grounded learning materials for leaders responsible for AI-agent identity, privileged access, operational governance, and accountable enterprise adoption.
 
-> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 5 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
+> **Status: in progress, published in stages.** Priority 1 (AI-agent identity, security, and governance) is complete through Module 6 of an eventual ten and is accepted for public learning use — see [Published learning package](#published-learning-package) below. Priorities 2 (Operationalizing AI Governance) and 3 (Financial Decision Fluency) are planned and not yet built — see [Curriculum roadmap](#curriculum-roadmap). This is not a completed end-to-end curriculum.
 
 ## Why this repository exists
 
