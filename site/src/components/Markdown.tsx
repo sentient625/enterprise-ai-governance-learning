@@ -8,8 +8,15 @@ export function Markdown({ content, moduleSlug }: { content: string; moduleSlug?
     <div className="prose-doc">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
-        components={
-          moduleSlug
+        components={{
+          // Some tables run to 8-12 columns; without a scrollable wrapper they force
+          // the whole page wider than the viewport instead of scrolling internally.
+          table: ({ children }) => (
+            <div className="table-scroll">
+              <table>{children}</table>
+            </div>
+          ),
+          ...(moduleSlug
             ? {
                 img: ({ src, alt }) => {
                   if (typeof src === 'string' && src.startsWith('blank-cell-')) {
@@ -22,8 +29,8 @@ export function Markdown({ content, moduleSlug }: { content: string; moduleSlug?
                   return <img src={src} alt={alt} />;
                 },
               }
-            : undefined
-        }
+            : {}),
+        }}
       >
         {content}
       </ReactMarkdown>
