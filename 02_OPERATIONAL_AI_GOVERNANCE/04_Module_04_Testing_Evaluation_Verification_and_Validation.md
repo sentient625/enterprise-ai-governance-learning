@@ -1,10 +1,10 @@
-# Priority 2, Module 4 — Testing, Evaluation, Verification, and Validation
+# Module 14 — Testing, Evaluation, Verification, and Validation
 
 **Status:** Accepted for public learning use
 
 **Version:** 1.0
 
-**Guide coverage:** Priority 2, Days 10–12
+**Guide coverage:** Days 10–12
 
 **Estimated study time:** 60–90 minutes plus exercise
 
@@ -44,7 +44,7 @@ A system can be verified (built exactly as specified) and still fail validation 
 
 A functional accuracy score alone tests only how the system behaves under intended, well-formed input. It does not test:
 
-- what happens when a user or an attacker deliberately tries to manipulate the system's output, including the prompt-injection patterns developed in Priority 1, Module 5;
+- what happens when a user or an attacker deliberately tries to manipulate the system's output, including the prompt-injection patterns developed in Module 5;
 - what happens under data poisoning, model extraction, or other attacks specific to the system's architecture;
 - what happens when input is malformed, out of distribution, or from a population the training or tuning data underrepresented;
 - what happens when the system is used at a volume, speed, or duration the original testing did not anticipate;
@@ -144,7 +144,7 @@ Reconstructing what TEVV should have covered before this use case went live:
 
 ## 10. Exercise and completion evidence
 
-Complete the [Priority 2, Module 4 Participant Workbook](./exercises/07_Module_04_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/08_Module_04_Model_Answer_and_Review_Guide.md).
+Complete the [Module 14 Participant Workbook](./exercises/07_Module_04_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/08_Module_04_Model_Answer_and_Review_Guide.md).
 
 Completion requires:
 

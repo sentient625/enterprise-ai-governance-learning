@@ -1,10 +1,10 @@
-# Priority 2, Module 6 — Vendor and Supply-Chain Governance
+# Module 16 — Vendor and Supply-Chain Governance
 
 **Status:** Accepted for public learning use
 
 **Version:** 1.0
 
-**Guide coverage:** Priority 2, Days 16–18
+**Guide coverage:** Days 16–18
 
 **Estimated study time:** 60–90 minutes plus exercise
 
@@ -67,7 +67,7 @@ This module does not require an enterprise to adopt that guidance's exact format
 |---|---|---|
 | Change disclosure | Advance notice of a material model or system change, with enough detail to assess against Module 5's material-change categories | Module 5's monitoring and change governance |
 | Data-use restriction | The enterprise's data will not train the vendor's model for other customers' benefit without separate, explicit agreement | Module 3's privacy harm category |
-| Incident disclosure | Notification of a confirmed security or safety incident involving this model, at this enterprise or elsewhere, within a defined window | Module 8's suspension and response process (Priority 1) |
+| Incident disclosure | Notification of a confirmed security or safety incident involving this model, at this enterprise or elsewhere, within a defined window | Module 8's suspension and response process |
 | Audit/inspection rights | The enterprise, or an independent assessor it designates, may request evidence supporting the vendor's disclosures | Module 3's assessor-independence requirement |
 | Sub-processor disclosure and flow-down | The vendor must disclose its own AI-relevant sub-processors and flow down equivalent obligations to them | Section 1's sub-processor risk |
 | Exit and portability | A defined, tested process for extracting data and replicating or transitioning the use case | Module 3's "hold" governing response remaining actually achievable |
@@ -96,10 +96,10 @@ Due diligence performed once at signing goes stale. Maintain:
 
 ## 7. Relationship to the rest of the curriculum
 
-- **Priority 2, Module 1** identified embedded vendor AI as a blind spot; this module gives the enterprise the due-diligence and contract tools to catch it before signing, not only after discovering it already in production.
-- **Priority 2, Module 5** required a change-disclosure contract term as one illustration; this module builds that term into a complete contract-control checklist and treats the disclosure failure already dramatized in Module 5's case as a predictable outcome of inadequate due diligence at signing, not a one-off surprise.
-- **Priority 2, Module 3** assigns a governing response to a risk finding; this module applies the same four responses to vendor non-disclosure specifically.
-- **Priority 1, Module 8** governs suspension and response once an incident is confirmed; this module's incident-disclosure term is what gets a vendor-side incident into that process at all.
+- **Module 11** identified embedded vendor AI as a blind spot; this module gives the enterprise the due-diligence and contract tools to catch it before signing, not only after discovering it already in production.
+- **Module 15** required a change-disclosure contract term as one illustration; this module builds that term into a complete contract-control checklist and treats the disclosure failure already dramatized in Module 5's case as a predictable outcome of inadequate due diligence at signing, not a one-off surprise.
+- **Module 13** assigns a governing response to a risk finding; this module applies the same four responses to vendor non-disclosure specifically.
+- **Module 8** governs suspension and response once an incident is confirmed; this module's incident-disclosure term is what gets a vendor-side incident into that process at all.
 
 ## 8. Applied case — what should have happened before the benefits-eligibility contract was signed
 
@@ -151,7 +151,7 @@ Continuing the fictional case, reconstruct the due-diligence review the enterpri
 
 ## 11. Exercise and completion evidence
 
-Complete the [Priority 2, Module 6 Participant Workbook](./exercises/11_Module_06_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/12_Module_06_Model_Answer_and_Review_Guide.md).
+Complete the [Module 16 Participant Workbook](./exercises/11_Module_06_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/12_Module_06_Model_Answer_and_Review_Guide.md).
 
 Completion requires:
 

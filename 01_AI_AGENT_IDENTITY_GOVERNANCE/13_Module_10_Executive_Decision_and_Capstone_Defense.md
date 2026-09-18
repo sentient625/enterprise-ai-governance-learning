@@ -14,7 +14,7 @@ An executive decision must say what may happen, who may authorize it, what evide
 
 This capstone turns the preceding modules into an actionable recommendation. The learner prepares a one-page decision memorandum, a 90-second executive briefing, an evidence appendix, and a fifteen-minute defense. The audience is a decision-making group, not a protocol examination panel.
 
-The memorandum, exercise, thresholds, and rubric are original educational synthesis. They are not NIST-prescribed approval forms or a professional certification. Publishing this module completes the ten-module Priority 1 instructional sequence; it does not establish learner completion or complete Priorities 2 and 3.
+The memorandum, exercise, thresholds, and rubric are original educational synthesis. They are not NIST-prescribed approval forms or a professional certification. Publishing this module completes Modules 1–10 of the instructional sequence; it does not establish learner completion or complete Modules 11–16 and the planned third area.
 
 ## Learning objectives
 

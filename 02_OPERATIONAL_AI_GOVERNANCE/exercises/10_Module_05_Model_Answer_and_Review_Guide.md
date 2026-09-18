@@ -1,4 +1,4 @@
-# Priority 2, Module 5 Model Answer and Review Guide — Monitoring and Change Governance
+# Module 15 Model Answer and Review Guide — Monitoring and Change Governance
 
 This is a model answer for calibration, not a substitute for your own completed [participant workbook](./09_Module_05_Participant_Workbook.md). A strong response will differ in wording and may reasonably differ in some judgment calls; what matters is whether the reasoning holds up under challenge.
 
@@ -15,7 +15,7 @@ This is a model answer for calibration, not a substitute for your own completed 
 
 **Scenario A (override rate):** The override rate slowly climbs over three months without any single dramatic event. This is a leading indicator — no specific wrongful outcome has been confirmed, but the drift suggests either automation bias returning or a genuine change in claim mix. The benefits operations lead investigates within the deadline; if the cause is unclear after investigation, it escalates to the independent governance owner.
 
-**Scenario B (appeal-overturn rate):** A specific pattern emerges where claims from one demographic group are overturned on appeal at a rate well above the threshold, and a sampled review confirms the original recommendations were systematically wrong for that group. This is a confirmed incident — a specific, verified disparate outcome — and routes immediately to Priority 1, Module 8's suspension and response process rather than sitting in ordinary monitoring review.
+**Scenario B (appeal-overturn rate):** A specific pattern emerges where claims from one demographic group are overturned on appeal at a rate well above the threshold, and a sampled review confirms the original recommendations were systematically wrong for that group. This is a confirmed incident — a specific, verified disparate outcome — and routes immediately to Module 8's suspension and response process rather than sitting in ordinary monitoring review.
 
 ## Part 3 — Change envelope (illustrative)
 
@@ -35,7 +35,7 @@ The vendor model-version indicator (a detection-based signal, since disclosure f
 
 ## Part 6 — Linking outward (illustrative)
 
-Module 4's TEVV plan produces a result at a point in time, under conditions the tester controlled, before or immediately after a change; this module's monitoring plan watches continuously, under conditions no one controls, for drift that only emerges over time. A leading indicator from this module (such as the slowly climbing override rate in Part 2) should trigger investigation under this module's own deadline; if that investigation confirms a specific wrongful outcome, it should immediately hand off to Priority 1, Module 8's suspension and response process rather than continuing to sit in ordinary monitoring review — the moment a leading indicator becomes a confirmed incident is the moment this module's job ends and Module 8's begins.
+Module 4's TEVV plan produces a result at a point in time, under conditions the tester controlled, before or immediately after a change; this module's monitoring plan watches continuously, under conditions no one controls, for drift that only emerges over time. A leading indicator from this module (such as the slowly climbing override rate in Part 2) should trigger investigation under this module's own deadline; if that investigation confirms a specific wrongful outcome, it should immediately hand off to Module 8's suspension and response process rather than continuing to sit in ordinary monitoring review — the moment a leading indicator becomes a confirmed incident is the moment this module's job ends and Module 8's begins.
 
 ## Part 7 — Executive summary (illustrative, ~180 words)
 

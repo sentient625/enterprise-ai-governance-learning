@@ -1,16 +1,16 @@
-# Priority 2, Module 1 — AI Inventory and Ownership
+# Module 11 — AI Inventory and Ownership
 
 **Status:** Accepted for public learning use
 
 **Version:** 1.0
 
-**Guide coverage:** Priority 2, Days 1–3
+**Guide coverage:** Days 1–3
 
 **Estimated study time:** 60–90 minutes plus exercise
 
 ## Purpose
 
-Module 9 of Priority 1 governed one already-identified agent, ORION, once someone had decided to track it. This module addresses the problem that comes before that: most organizations do not have a single reliable list of everywhere AI is actually running, and a list that exists is not the same thing as an owned, governed inventory.
+Module 9 governed one already-identified agent, ORION, once someone had decided to track it. This module addresses the problem that comes before that: most organizations do not have a single reliable list of everywhere AI is actually running, and a list that exists is not the same thing as an owned, governed inventory.
 
 A spreadsheet a business unit maintains for its own use, a vendor contract that mentions "AI-enabled features," a data-science notebook someone promoted to production, and a chatbot embedded in a SaaS renewal are all AI use, and none of them automatically appears in a security or IT asset register. An enterprise cannot classify risk, assign approval boundaries, require testing, or respond to an incident for a use case it has not found and does not own.
 
@@ -28,7 +28,7 @@ A learner should be able to:
 - Assign accountable business, technical, and governance ownership, and distinguish ownership from mere participation.
 - Identify common blind spots — shadow AI, embedded vendor AI, and legacy models — and design detection approaches for each.
 - Reconcile a stated inventory against observed use without claiming false completeness.
-- Connect an enterprise-wide inventory to the agent-specific inventory and lifecycle work developed in Priority 1, Module 9, without duplicating it.
+- Connect an enterprise-wide inventory to the agent-specific inventory and lifecycle work developed in Module 9, without duplicating it.
 - Explain the program-lead's inventory role without claiming data-science, procurement, or legal authority.
 
 ## 1. Why a general IT asset inventory is not enough
@@ -55,7 +55,7 @@ Track three linked levels:
 | Deployed instance | The specific configuration, environment, and version in operation | Screening tool v3.2, production, North America requisitions |
 | Component | The underlying model, provider, or engine and its version | Vendor-hosted classifier, model version dated this quarter |
 
-A change at any level can change the risk of the others. Choose inventory granularity by what differs in purpose, population, data, or control — not by product marketing names. Record why entries are split or merged. This mirrors the granularity discipline in Priority 1, Module 9, but here the scope is every AI use case in the enterprise, not one already-identified privileged agent.
+A change at any level can change the risk of the others. Choose inventory granularity by what differs in purpose, population, data, or control — not by product marketing names. Record why entries are split or merged. This mirrors the granularity discipline in Module 9, but here the scope is every AI use case in the enterprise, not one already-identified privileged agent.
 
 ## 3. Minimum enterprise AI inventory specification
 
@@ -72,7 +72,7 @@ A change at any level can change the risk of the others. Choose inventory granul
 | Evidence | Links to risk classification, approval, testing, and monitoring records once they exist | What supports current permission to operate? |
 | Record quality | Source of each field, last verified date and verifier, known gaps | How reliable is this entry? |
 
-Later Priority 2 modules will build the risk-tiering, impact-assessment, and monitoring content that some fields point to. This module establishes the inventory those later decisions depend on; it does not itself assign a risk tier.
+Later modules will build the risk-tiering, impact-assessment, and monitoring content that some fields point to. This module establishes the inventory those later decisions depend on; it does not itself assign a risk tier.
 
 ## 4. Ownership means accountability, not attendance
 
@@ -96,7 +96,7 @@ An inventory built only from a survey or self-attestation will systematically mi
 | Embedded vendor AI | A purchased platform adds AI-enabled features through a routine update | Review vendor release notes and renewal terms; require vendors to disclose AI features as a contract term going forward |
 | Legacy models | A model deployed before an AI governance program existed is still running and was never registered | Reconcile against production deployment records, scheduled jobs, and system inventories, not only against people's memory |
 | Personal or team-level use | An individual uses a general-purpose AI tool for a business task without it being called a "deployment" | Define the threshold at which repeated individual use becomes a governed use case, and communicate it, rather than treating all such use as unreportable |
-| Research or pilot carryover | A pilot quietly continues serving real business decisions after the project closed | Apply Priority 1, Module 9's lifecycle discipline: closeout is not the same as authorized continued operation |
+| Research or pilot carryover | A pilot quietly continues serving real business decisions after the project closed | Apply Module 9's lifecycle discipline: closeout is not the same as authorized continued operation |
 
 Self-attestation is a useful starting signal, not a completeness proof. State explicitly what population the inventory covers and what it does not yet cover, rather than claiming full coverage prematurely.
 
@@ -110,11 +110,11 @@ Maintaining an inventory is not a one-time survey. Reconcile the registry regula
 - security and network telemetry showing traffic to known AI service endpoints;
 - business-unit attestation, refreshed on a defined cadence.
 
-Each source has blind spots of its own; use more than one. Track unmatched deployments, ownerless entries, and use cases whose classification evidence has expired, the same way Priority 1, Module 9 tracks unmatched agent deployments and expired approvals. An entry found in telemetry but absent from the registry is a discrepancy to investigate, not proof of malicious intent. Assign a cadence based on how quickly the organization's AI use actually changes, plus event-driven triggers such as a new vendor contract or a reported incident elsewhere in the industry.
+Each source has blind spots of its own; use more than one. Track unmatched deployments, ownerless entries, and use cases whose classification evidence has expired, the same way Module 9 tracks unmatched agent deployments and expired approvals. An entry found in telemetry but absent from the registry is a discrepancy to investigate, not proof of malicious intent. Assign a cadence based on how quickly the organization's AI use actually changes, plus event-driven triggers such as a new vendor contract or a reported incident elsewhere in the industry.
 
-## 7. Relationship to Priority 1
+## 7. Relationship to Module 9
 
-Priority 1, Module 9 governs the lifecycle of an already-identified, already-privileged agent such as ORION: its owners, its authorized scope, its gates, its retirement. This module governs the wider population that agent sits inside — every AI use case across the enterprise, most of which will never hold privileged, agentic authority at all. ORION should appear in this enterprise inventory as one entry among many, cross-referenced to its Module 9 lifecycle record rather than duplicating it. A program lead should be able to answer both "is ORION's specific authority still valid?" (Module 9) and "what AI is running across the enterprise, and does each entry have an owner?" (this module) without treating either question as a substitute for the other.
+Module 9 governs the lifecycle of an already-identified, already-privileged agent such as ORION: its owners, its authorized scope, its gates, its retirement. This module governs the wider population that agent sits inside — every AI use case across the enterprise, most of which will never hold privileged, agentic authority at all. ORION should appear in this enterprise inventory as one entry among many, cross-referenced to its Module 9 lifecycle record rather than duplicating it. A program lead should be able to answer both "is ORION's specific authority still valid?" (Module 9) and "what AI is running across the enterprise, and does each entry have an owner?" (this module) without treating either question as a substitute for the other.
 
 ## 8. Fictional case — the enterprise ORION sits inside
 
@@ -122,7 +122,7 @@ All names and facts are fictional. The enterprise that sponsors ORION also has, 
 
 Early findings include:
 
-- ORION is well documented under Priority 1's lifecycle record, but is not yet cross-referenced in any enterprise-wide AI list;
+- ORION is well documented under Module 9's lifecycle record, but is not yet cross-referenced in any enterprise-wide AI list;
 - a regional sales team has been using a consumer generative-AI tool to draft customer proposals for eight months, funded through a personal expense account;
 - a benefits-administration vendor added an AI-driven eligibility-recommendation feature in a routine platform update six months ago; no one reviewed it;
 - a customer-service analytics pilot from two years ago never received a lifecycle closeout and still runs against live customer data;
@@ -158,7 +158,7 @@ The point of this table is not to reach zero unknowns immediately. It is to make
 4. How would the organization detect a consumer AI tool or an embedded vendor feature it did not procure?
 5. Is a completed pilot still running without a lifecycle decision?
 6. How often is the inventory reconciled against independent sources, and by whom?
-7. Are agent-specific lifecycle records (Priority 1, Module 9) linked to the enterprise inventory, or duplicated and drifting apart?
+7. Are agent-specific lifecycle records (Module 9) linked to the enterprise inventory, or duplicated and drifting apart?
 8. What happens to a use case discovered with no owner — does it get an owner, or does it get deleted from view?
 
 ## 11. Knowledge check
@@ -168,7 +168,7 @@ The point of this table is not to reach zero unknowns immediately. It is to make
 3. Why is "IT" not an acceptable owner entry?
 4. Give two examples of AI use that a self-attestation survey would likely miss.
 5. Why must reconciliation use more than one independent source?
-6. How does this module's inventory differ in scope from Priority 1, Module 9's agent lifecycle record?
+6. How does this module's inventory differ in scope from Module 9's agent lifecycle record?
 
 ### Answer guide
 
@@ -181,7 +181,7 @@ The point of this table is not to reach zero unknowns immediately. It is to make
 
 ## 12. Exercise and completion evidence
 
-Complete the [Priority 2, Module 1 Participant Workbook](./exercises/01_Module_01_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/02_Module_01_Model_Answer_and_Review_Guide.md).
+Complete the [Module 11 Participant Workbook](./exercises/01_Module_01_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/02_Module_01_Model_Answer_and_Review_Guide.md).
 
 Completion requires:
 

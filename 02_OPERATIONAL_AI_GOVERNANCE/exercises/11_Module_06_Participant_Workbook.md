@@ -1,4 +1,4 @@
-# Priority 2, Module 6 Participant Workbook — Vendor and Supply-Chain Governance
+# Module 16 Participant Workbook — Vendor and Supply-Chain Governance
 
 **Before you begin:** Complete this workbook using your own reasoning before reading the [Model Answer and Review Guide](./12_Module_06_Model_Answer_and_Review_Guide.md). Submitting the model answer as your own completed work does not satisfy the completion requirement in [Module 6's lesson](../06_Module_06_Vendor_and_Supply_Chain_Governance.md).
 

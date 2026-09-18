@@ -1,10 +1,10 @@
-# Priority 2, Module 3 — Impact and Control Assessment
+# Module 13 — Impact and Control Assessment
 
 **Status:** Accepted for public learning use
 
 **Version:** 1.0
 
-**Guide coverage:** Priority 2, Days 7–9
+**Guide coverage:** Days 7–9
 
 **Estimated study time:** 60–90 minutes plus exercise
 
@@ -26,14 +26,14 @@ A learner should be able to:
 - Require assessor independence proportional to a use case's tier, and recognize self-attestation as insufficient for an elevated or high-impact use case.
 - Distinguish "the control exists on paper" from "the control is implemented" from "the control is operating effectively," and require evidence for each separately.
 - Decide what should happen — proceed, restrict, remediate, or hold — when an assessment finds a gap, rather than treating any completed assessment as a pass.
-- Connect impact and control assessment forward to later Priority 2 testing and monitoring work without duplicating it.
+- Connect impact and control assessment forward to later testing and monitoring work without duplicating it.
 - Explain the program-lead's assessment role without claiming to personally perform a fairness, safety, security, or privacy determination.
 
 ## 1. Three different questions
 
 | Question | Answered by | What it does not answer |
 |---|---|---|
-| How much governance attention does this use case need? | The risk tier (Priority 2, Module 2) | Whether any specific harm is likely, or whether a specific control actually works |
+| How much governance attention does this use case need? | The risk tier (Module 12) | Whether any specific harm is likely, or whether a specific control actually works |
 | Who could be harmed, how, and how badly? | The impact assessment | Whether the mitigations anyone has proposed for that harm actually exist or function |
 | Is the control that is supposed to prevent that harm actually there and working? | The control assessment | Whether the control, even if working, is sufficient to address the full harm identified |
 
@@ -83,7 +83,7 @@ Adapted from the general discipline of security and privacy control assessment: 
 | Elevated | An assessor independent of the use case's business owner; technical owner may still perform the control test itself under that independent assessor's review |
 | High-impact | An assessor independent of both the business and technical owner, with findings reviewed by the same executive-level accountable decision-maker Module 2 requires for this tier |
 
-This mirrors Priority 1, Module 6's separation-of-duties logic, applied to assessment rather than to approval: the person who most wants a use case to pass its assessment should not be the sole judge of whether it does.
+This mirrors Module 6's separation-of-duties logic, applied to assessment rather than to approval: the person who most wants a use case to pass its assessment should not be the sole judge of whether it does.
 
 ## 5. What an assessment finding should trigger
 
@@ -100,10 +100,10 @@ A finding that goes unrecorded, or that is recorded but never leads to one of th
 
 ## 6. Relationship to the rest of the curriculum
 
-- **Priority 2, Module 2** assigns the tier that determines whether an impact and control assessment is required at all, and how independent the assessor must be.
-- **Priority 1, Module 4** already established that a short-lived credential or a vault does not by itself prove business authority; this module applies the same discipline to any proposed mitigation — existence of a control is not evidence that it works.
-- **Priority 1, Module 7** developed evidence and provenance for a transaction already in operation; this module produces the pre-deployment evidence that later operational evidence will be checked against.
-- **Later Priority 2 modules** (testing, evaluation, verification, and validation; monitoring and change governance) will build out the ongoing testing and monitoring that keeps an assessment's findings current after deployment. This module produces the pre-deployment and periodic assessment; it does not itself specify a continuous testing pipeline.
+- **Module 12** assigns the tier that determines whether an impact and control assessment is required at all, and how independent the assessor must be.
+- **Module 4** already established that a short-lived credential or a vault does not by itself prove business authority; this module applies the same discipline to any proposed mitigation — existence of a control is not evidence that it works.
+- **Module 7** developed evidence and provenance for a transaction already in operation; this module produces the pre-deployment evidence that later operational evidence will be checked against.
+- **Later modules** (testing, evaluation, verification, and validation; monitoring and change governance) will build out the ongoing testing and monitoring that keeps an assessment's findings current after deployment. This module produces the pre-deployment and periodic assessment; it does not itself specify a continuous testing pipeline.
 
 ## 7. Applied case — assessing the benefits-eligibility recommendation
 
@@ -119,7 +119,7 @@ The vendor's own documentation claims: "a human reviews every recommendation bef
 
 ### Governing diagnosis
 
-- The claimed control ("a human reviews every recommendation") is designed on paper but not operating effectively — the interface and workflow make acceptance the default and rejection costly, which is a classic automation-bias pattern from Priority 1, Module 6.
+- The claimed control ("a human reviews every recommendation") is designed on paper but not operating effectively — the interface and workflow make acceptance the default and rejection costly, which is a classic automation-bias pattern from Module 6.
 - No control assessment had actually tested this before now; the enterprise had been relying on the vendor's design claim alone.
 - The fairness/bias harm category has not been assessed at all, because the vendor has not disclosed the information needed to assess it.
 - The appeal path's existence has not been checked for whether it actually catches wrong recommendations, which would show whether the "residual risk is acceptable" claim has any support.
@@ -154,7 +154,7 @@ The vendor's own documentation claims: "a human reviews every recommendation bef
 
 ## 10. Exercise and completion evidence
 
-Complete the [Priority 2, Module 3 Participant Workbook](./exercises/05_Module_03_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/06_Module_03_Model_Answer_and_Review_Guide.md).
+Complete the [Module 13 Participant Workbook](./exercises/05_Module_03_Participant_Workbook.md) before reading the [Model Answer and Review Guide](./exercises/06_Module_03_Model_Answer_and_Review_Guide.md).
 
 Completion requires:
 

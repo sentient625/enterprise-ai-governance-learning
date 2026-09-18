@@ -1,4 +1,4 @@
-# Priority 2, Module 1 Model Answer and Review Guide — Enterprise AI Inventory and Ownership
+# Module 11 Model Answer and Review Guide — Enterprise AI Inventory and Ownership
 
 This is a model answer for calibration, not a substitute for your own completed [participant workbook](./01_Module_01_Participant_Workbook.md). A strong response will differ in wording and may reasonably differ in some judgment calls; what matters is whether the reasoning holds up under challenge.
 
@@ -8,7 +8,7 @@ This is a model answer for calibration, not a substitute for your own completed 
 - **Purpose:** Without it, risk classification has nothing to classify against — the same technical system can be low- or high-consequence depending on what it is used for.
 - **Population and data:** Without it, privacy, fairness, and data-rights exposure cannot be assessed at all.
 - **Ownership:** Without it, a classification or incident has no one accountable to respond.
-- **Human role:** Without it, an approval-design review (as in Priority 1, Module 6) cannot even begin.
+- **Human role:** Without it, an approval-design review (as in Module 6) cannot even begin.
 - **Acquisition path:** Without it, the organization does not know who controls the next version change.
 - **Dependency:** Without it, a change elsewhere (a data source, a shared platform) can silently change this use case's behavior with no warning.
 - **Lifecycle state:** Without it, a use case that should have been retired keeps being treated as live, or a live one is mistakenly ignored as closed.
@@ -30,7 +30,7 @@ This is a model answer for calibration, not a substitute for your own completed 
 | Evidence | Exists via Module 9 | None | None | Stale or absent | Unknown |
 | Record quality | High | Low | Low | Low | Low — internally conflicting |
 
-The pattern to notice: ORION is the only entry with real evidence, precisely because it already went through Priority 1's governance track. Everything else is "unknown" far more often than it is "known" — that is the accurate state of an inventory that has just started reconciliation, not a sign the exercise was done incorrectly.
+The pattern to notice: ORION is the only entry with real evidence, precisely because it already went through Module 9's governance track. Everything else is "unknown" far more often than it is "known" — that is the accurate state of an inventory that has just started reconciliation, not a sign the exercise was done incorrectly.
 
 ## Part 3 — Ownership assignment (illustrative)
 
@@ -50,7 +50,7 @@ The pattern to notice: ORION is the only entry with real evidence, precisely bec
 
 Tie cadence to how fast each source actually changes, not a single calendar default: business-unit attestation on a quarterly cycle (business use changes slowly enough that more frequent attestation mostly adds fatigue); procurement/contract review triggered at every new or renewing AI-relevant contract (event-driven, not calendar-driven); access/telemetry cross-check monthly (technical use can change faster than business attestation would catch); an immediate out-of-cycle review whenever an industry incident or a new regulatory requirement makes a category of use newly material.
 
-## Part 6 — Linking to Priority 1, Module 9
+## Part 6 — Linking to Module 9
 
 The enterprise inventory entry for ORION should contain only what is needed to place it correctly in the enterprise-wide list: its use-case name, its business purpose, top-level ownership, and a reference link to the Module 9 lifecycle record. It should not duplicate ORION's full authority envelope, approval design, or evidence specification — those live in, and are maintained by, the Module 9 record, and duplicating them creates two sources of truth that can drift apart. The enterprise inventory's job is to make sure ORION is not invisible in the enterprise-wide view and that a person looking at the whole AI portfolio can find its detailed governance record; Module 9's job is to actually govern ORION's operation.
 

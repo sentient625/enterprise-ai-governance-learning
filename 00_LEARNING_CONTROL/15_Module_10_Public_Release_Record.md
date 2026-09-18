@@ -16,7 +16,7 @@
 
 The package includes a lesson, participant workbook with one-page memorandum template and timed defense, model answer and scoring rubric, source-register update, and navigation/content-register changes. It integrates Modules 1–9 through the original fictional ORION case.
 
-This completes the ten Priority 1 instructional module packages. It does not establish learner completion, production readiness, professional certification, or completion of the broader curriculum. Priorities 2 and 3 remain planned. The Modules 1–10 facilitator guide remains a separate draft.
+This completes Modules 1–10 of the instructional sequence. It does not establish learner completion, production readiness, professional certification, or completion of the broader curriculum. Modules 11–16 are published, and a planned third area remains ahead. The Modules 1–10 facilitator guide remains a separate draft.
 
 ## Source treatment
 
